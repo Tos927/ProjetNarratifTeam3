@@ -7,20 +7,10 @@ public class DialogConfig : MonoBehaviour
     [System.Serializable]
     public struct SpeakerConfig
     {
-        public enum POSITION
-        {
-            LEFT,
-            MIDDLE,
-            RIGHT
-        }
-        public POSITION position;
+
         public SpeakerDatabase speakerDatabase;
         public SpeakerData speakerData;
 
-        public void SetPosition(POSITION newPosition)
-        {
-            this.position = newPosition;
-        }
     }
 
     public List<SpeakerConfig> speakers = new();
@@ -36,5 +26,4 @@ public class DialogConfig : MonoBehaviour
 
     [Header("SENTENCES")]
     public List<SentenceConfig> sentenceConfig = new();
-
 }

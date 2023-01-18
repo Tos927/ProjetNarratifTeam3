@@ -152,7 +152,6 @@ public class DialogConfigEditor : Editor
                         config.speakerData = config.speakerDatabase.speakerDatas[idData];
                     }
 
-                    config.position = (SpeakerConfig.POSITION)EditorGUILayout.EnumPopup(config.position);
 
                     if (GUILayout.Button(new GUIContent("X", "Remove speeker"), GUILayout.Width(30)))
                     {

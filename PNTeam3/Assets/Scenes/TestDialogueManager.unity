@@ -482,37 +482,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cc1942cb6164f04198a279d10b86c59, type: 3}
---- !u!1 &1783436470 stripped
+--- !u!1 &1576840243
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1815504291740876295, guid: 7cc1942cb6164f04198a279d10b86c59,
-    type: 3}
-  m_PrefabInstance: {fileID: 823729597}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1783436477
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1576840245}
+  - component: {fileID: 1576840244}
+  m_Layer: 0
+  m_Name: jdhfjd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1576840244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783436470}
+  m_GameObject: {fileID: 1576840243}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18c2079b594028a499277668bd7b4c3c, type: 3}
+  m_Script: {fileID: 11500000, guid: ceb196f062c3ad1469076fefc211e6fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speakers:
-  - position: 2
-    speakerDatabase: {fileID: 11400000, guid: 613db0b35996ca2449a5b58eee5308f7, type: 2}
-    speakerData:
-      id: BAD_NIC_01
-      label: Nicolas
-      statuses:
-      - emotion: 0
-        icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
-        audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
-      - emotion: 1
-        icon: {fileID: 21300000, guid: 10f72847d7af62443afce9a74bb3b9ee, type: 3}
-        audioClip: {fileID: 8300000, guid: 0431a82b20e6ca24295d18c2e1cf7f35, type: 3}
-  speakerDatabases:
-  - {fileID: 11400000, guid: 613db0b35996ca2449a5b58eee5308f7, type: 2}
-  sentenceConfig: []
+  csv: {fileID: 4900000, guid: c3508121a355b3e4d8e6b33396de656d, type: 3}
+--- !u!4 &1576840245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576840243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 711.53406, y: 2679.4382, z: 0.0012501066}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
