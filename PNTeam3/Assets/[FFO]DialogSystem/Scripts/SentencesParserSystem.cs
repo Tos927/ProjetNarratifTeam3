@@ -11,7 +11,7 @@ public class SentencesParserSystem
 		public string KEY;
 		public string FR;
 		public string EN;
-		public string SP;
+		public string VALUEWAR;
 
 	}
 
@@ -39,7 +39,7 @@ public class SentencesParserSystem
 			row.KEY = grid[i][1];
 			row.FR = grid[i][2];
 			row.EN = grid[i][3];
-			row.SP = grid[i][4];
+			row.VALUEWAR = grid[i][4];
 
 			rowList.Add(row);
 		}
@@ -92,11 +92,11 @@ public class SentencesParserSystem
 	}
 	public Row Find_SP(string find)
 	{
-		return rowList.Find(x => x.SP == find);
+		return rowList.Find(x => x.VALUEWAR == find);
 	}
 	public List<Row> FindAll_SP(string find)
 	{
-		return rowList.FindAll(x => x.SP == find);
+		return rowList.FindAll(x => x.VALUEWAR == find);
 	}
 
 }

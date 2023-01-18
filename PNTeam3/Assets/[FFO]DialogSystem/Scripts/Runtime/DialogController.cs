@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogController : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class DialogController : MonoBehaviour
     public Text txtNameRight;
     public Image imgSpriteRight;
 
-    public Text txtSentence;
+    public TextMeshProUGUI txtSentence;
 
     private DialogConfig _dialog;
     private int _idCurrentSentence = 0;
@@ -42,26 +43,26 @@ public class DialogController : MonoBehaviour
     {
         DialogConfig.SentenceConfig sentence = _dialog.sentenceConfig[_idCurrentSentence];
 
-        DialogConfig.SpeakerConfig speaker = _dialog.speakers[0];
+        //DialogConfig.SpeakerConfig speaker = _dialog.speakers[0];
 
-        switch (speaker.position)
-        {
-            case DialogConfig.SpeakerConfig.POSITION.LEFT:
-                txtNameLeft.color = Color.black;
-                txtNameRight.color = Color.clear;
+        //switch (speaker.position)
+        //{
+        //    case DialogConfig.SpeakerConfig.POSITION.LEFT:
+        //        txtNameLeft.color = Color.black;
+        //        txtNameRight.color = Color.clear;
                 
-                imgSpriteLeft.color = Color.white;
-                imgSpriteRight.color = Color.gray;
-                break;
+        //        imgSpriteLeft.color = Color.white;
+        //        imgSpriteRight.color = Color.gray;
+        //        break;
 
-            case DialogConfig.SpeakerConfig.POSITION.RIGHT:
-                txtNameLeft.color = Color.clear;
-                txtNameRight.color = Color.black;
+        //    case DialogConfig.SpeakerConfig.POSITION.RIGHT:
+        //        txtNameLeft.color = Color.clear;
+        //        txtNameRight.color = Color.black;
 
-                imgSpriteLeft.color = Color.gray;
-                imgSpriteRight.color = Color.white;
-                break;
-        }
+        //        imgSpriteLeft.color = Color.gray;
+        //        imgSpriteRight.color = Color.white;
+        //        break;
+        //}
 
         txtSentence.text = sentence.sentence;
 
@@ -71,9 +72,9 @@ public class DialogController : MonoBehaviour
         _audioSource.Play();
     }
 
-    public void NextSentence()
+    public void NextSentence(int idValue = 1)
     {
-        _idCurrentSentence++;
+        _idCurrentSentence+= idValue;
 
         if (_idCurrentSentence < _dialog.sentenceConfig.Count) 
             RefreshBox();
