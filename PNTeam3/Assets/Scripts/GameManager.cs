@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject letterPanel, consequencesVisualPanel, consequencesTextPanel;
+    public void Consequences()
     {
-        
+        StartCoroutine(StartConsequences());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator StartConsequences() 
     {
-        
+        consequencesVisualPanel.SetActive(true);
+        yield return new WaitForSeconds(2);
+        consequencesTextPanel.SetActive(true);
+        consequencesVisualPanel.SetActive(false);
     }
+
 }
