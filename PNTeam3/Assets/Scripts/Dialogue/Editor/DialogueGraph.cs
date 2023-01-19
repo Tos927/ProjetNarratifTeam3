@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
 using UnityEditor;
+using UnityEditor.Experimental.GraphView;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -24,7 +25,9 @@ public class DialogueGraph : EditorWindow
     {
         ConstructGraphView();
         GenerateToolBar();
+        GenerateMinimap();
     }
+
 
     private void OnDisable()
     {
@@ -54,8 +57,9 @@ public class DialogueGraph : EditorWindow
         fileNametextField.RegisterValueChangedCallback(evt => _fileName = evt.newValue);
         toolbar.Add(fileNametextField);
 
-        toolbar.Add(new Button(() => RequestDataOperation(true)){text = "Save Data"});
         toolbar.Add(new Button(() => RequestDataOperation(false)){text = "Load Data"});
+        toolbar.Add(new Button(() => RequestDataOperation(true)) { text = "Save Data" });
+
 
         var nodeCreateButton = new Button(() => { _graphView.CreateNode("Dialogue Node"); });
         nodeCreateButton.text = "Create Node";
@@ -79,4 +83,15 @@ public class DialogueGraph : EditorWindow
         else 
             saveUtility.LoadGraph(_fileName);
     }
+
+    private void GenerateMinimap()
+    {
+        var miniMap = new MiniMap
+        {
+            anchored = true,
+        };
+        miniMap.SetPosition(new Rect(10f, 30f, 200f, 140f));
+        _graphView.Add(miniMap);
+    }
+
 }

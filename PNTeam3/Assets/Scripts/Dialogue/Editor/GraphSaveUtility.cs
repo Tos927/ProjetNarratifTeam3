@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class GraphSaveUtility
 {
@@ -79,7 +80,7 @@ public class GraphSaveUtility
 
         foreach (var node in nodes)
         {
-            if (node.entryPoint) return;
+            if (node.entryPoint) continue;
             Edges.Where(x => x.input.node == node).ToList().ForEach(edge => _targetGraphView.RemoveElement(edge));
 
             _targetGraphView.RemoveElement(node);
@@ -102,7 +103,29 @@ public class GraphSaveUtility
     }
     private void ConnectNodes()
     {
-        throw new NotImplementedException();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            var connections = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodes[i].GUID).ToList();
+            for (int j = 0; j < connections.Count; j++)
+            {
+                var targetNodeGuid = connections[j].TargetNodeGuid;
+                var targetNode = nodes.First(x => x.GUID == targetNodeGuid);
+                linkeNodes(nodes[i].outputContainer[j].Q<Port>(), (Port)targetNode.inputContainer[0]);
+
+                targetNode.SetPosition(new Rect(_containerCache.dialogueNodeDatas.First(x=>x.Guid == targetNodeGuid).Position, _targetGraphView.defaultNodeSize));
+            }
+        }
     }
 
+    private void linkeNodes(Port output, Port input)
+    {
+        var tempEdge = new Edge
+        {
+            output = output,
+            input = input,
+        };
+        tempEdge?.input.Connect(tempEdge);
+        tempEdge?.output.Connect(tempEdge);
+        _targetGraphView.Add(tempEdge);
+    }
 }
