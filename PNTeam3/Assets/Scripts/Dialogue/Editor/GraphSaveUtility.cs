@@ -1,0 +1,108 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
+using UnityEditor.Experimental.GraphView;
+using UnityEngine;
+
+public class GraphSaveUtility
+{
+    private DialogueGraphView _targetGraphView;
+    private DialogueContainer _containerCache;
+
+    private List<Edge> Edges => _targetGraphView.edges.ToList();
+    private List<DialogueNode> nodes => _targetGraphView.nodes.ToList().Cast<DialogueNode>().ToList();
+    public static GraphSaveUtility instance(DialogueGraphView targetGraphView) {
+
+        return new GraphSaveUtility
+        {
+
+            _targetGraphView = targetGraphView
+        };
+    }
+
+    public void SaveGraph(string filename)
+    {
+        if (!Edges.Any()) return;
+
+        var dialogueContainer = ScriptableObject.CreateInstance<DialogueContainer>();
+
+        var connectedPort = Edges.Where(x => x.input.node != null).ToArray();
+        for (int i = 0; i < connectedPort.Length; i++)
+        {
+            var outputNode = connectedPort[i].output.node as DialogueNode;
+            var inputNode = connectedPort[i].input.node as DialogueNode;
+
+            dialogueContainer.nodeLinks.Add(new NodeLinkData
+            {
+                baseNodeGuid = outputNode.GUID,
+                PortName = connectedPort[i].output.portName,
+                TargetNodeGuid= inputNode.GUID,
+            }); 
+        }
+
+        foreach (var dialogueNode in nodes.Where(Node => !Node.entryPoint))
+        {
+            dialogueContainer.dialogueNodeDatas.Add(new DialogueNodeData
+            {
+                Guid = dialogueNode.GUID,
+                DialogueText= dialogueNode.dialogueText,
+                Position= dialogueNode.GetPosition().position,
+            });
+        }
+        //Autocreate folder
+        if (!AssetDatabase.IsValidFolder($"Assets/Resources"))
+        {
+            AssetDatabase.CreateFolder("Assets", "Resources");
+        }
+
+        AssetDatabase.CreateAsset(dialogueContainer, $"Assets/Resources/{filename}.asset");
+        AssetDatabase.SaveAssets();
+    }   
+    public void LoadGraph(string filename)
+    {
+        _containerCache =  Resources.Load<DialogueContainer>(filename);
+        if (_containerCache == null)
+        {
+            EditorUtility.DisplayDialog("File Not Found", "Target dialogue graph does not exists!", "OK");
+            return;
+        }
+
+        ClearGraph();
+        CreateNodes();
+        ConnectNodes();
+    }
+
+    private void ClearGraph()
+    {
+        nodes.Find(x => x.entryPoint).GUID = _containerCache.nodeLinks[0].baseNodeGuid;
+
+        foreach (var node in nodes)
+        {
+            if (node.entryPoint) return;
+            Edges.Where(x => x.input.node == node).ToList().ForEach(edge => _targetGraphView.RemoveElement(edge));
+
+            _targetGraphView.RemoveElement(node);
+        }
+
+    }
+
+    private void CreateNodes()
+    {
+        foreach (var nodeData in _containerCache.dialogueNodeDatas)
+        {
+
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText);
+            tempNode.GUID = nodeData.Guid;
+            _targetGraphView.AddElement(tempNode);
+
+            var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
+            nodePorts.ForEach(x=> _targetGraphView.AddChoicePort(tempNode, x.PortName));
+        }
+    }
+    private void ConnectNodes()
+    {
+        throw new NotImplementedException();
+    }
+
+}
