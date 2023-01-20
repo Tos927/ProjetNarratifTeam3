@@ -49,7 +49,8 @@ public class GraphSaveUtility
                 Guid = dialogueNode.GUID,
                 DialogueText= dialogueNode.dialogueText,
                 Position= dialogueNode.GetPosition().position,
-            });
+                State = dialogueNode.state
+            });;
         }
         //Autocreate folder
         if (!AssetDatabase.IsValidFolder($"Assets/Resources"))

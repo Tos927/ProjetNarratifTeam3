@@ -80,6 +80,13 @@ public class DialogueGraphView : GraphView
 
         //dialogueNode.styleSheets.Add(Resources.Load<StyleSheet>("Node"));
 
+        //CONTEXT MENU A FINIR
+        //var contextMenu = new ContextMenu(string.Empty)
+        //{
+            
+        //};
+        //contextMenu.
+
         var button = new Button(() => { AddChoicePort(dialogueNode); });
         button.text = "NewChoice";
         dialogueNode.titleContainer.Add(button);

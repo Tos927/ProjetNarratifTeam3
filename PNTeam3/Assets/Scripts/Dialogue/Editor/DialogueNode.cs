@@ -10,5 +10,9 @@ public class DialogueNode : Node
 
     public string dialogueText;
 
+    public DialogueNodeData.ImageSignature state;
+
     public bool entryPoint = false;
+
+    
 }
