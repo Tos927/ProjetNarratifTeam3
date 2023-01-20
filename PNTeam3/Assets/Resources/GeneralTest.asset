@@ -16,15 +16,27 @@ MonoBehaviour:
   - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
     PortName: Next
     TargetNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+  - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+    PortName: "Fr\xE8re"
+    TargetNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+  - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+    PortName: Ami
+    TargetNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
   dialogueNodeDatas:
   - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
     DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
-      de transmission. Vous serez en charge des communications avec le 14e r\xE9giment
-      d'infanterie mais aussi de celles de l\u2019escouade d\u2019espionnage Berthe.
-      Votre r\xF4le sera d\u2019assurer et de d\xE9crypter les \xE9changes que vous
-      aurez avec les forces sur les diff\xE9rents fronts afin d\u2019aider aux prises
-      de d\xE9cisions de l\u2019\xE9tat major, gr\xE2ce \xE0 l\u2019aide de notre
-      d\xE9codeur. Vous serez bient\xF4t initi\xE9 \xE0 son fonctionnement. Une fois
-      votre entra\xEEnement termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons
-      sur vous tout au long du conflit. Vive la R\xE9publique. Vive la France."
-    Position: {x: 408.80002, y: 180.8}
+      de transmission.\r\nVous serez en charge des communications avec le 14e r\xE9giment
+      d'infanterie mais aussi de celles de l\u2019escouade d\u2019espionnage Berthe.\r\nVotre
+      r\xF4le sera d\u2019assurer et de d\xE9crypter les \xE9changes que vous aurez
+      avec les forces sur les diff\xE9rents fronts afin d\u2019aider aux prises de
+      d\xE9cisions de l\u2019\xE9tat major, gr\xE2ce \xE0 l\u2019aide de notre d\xE9codeur.\r\nVous
+      serez bient\xF4t initi\xE9 \xE0 son fonctionnement.\r\nUne fois votre entra\xEEnement
+      termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
+      au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
+    Position: {x: 381.6, y: 136.8}
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: Dialogue Node
+    Position: {x: 1864, y: 104}
+  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
+    DialogueText: Dialogue Node
+    Position: {x: 1864, y: 237.59999}
