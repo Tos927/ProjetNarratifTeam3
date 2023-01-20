@@ -5,6 +5,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Management.Instrumentation;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -12,7 +13,7 @@ using UnityEngine.UIElements;
 
 public class DialogueGraphView : GraphView
 {
-    public readonly Vector2 defaultNodeSize = new Vector2(150f, 200f);
+    public readonly Vector2 defaultNodeSize = new Vector2(200f, 200f);
 
     public DialogueGraphView() {
         styleSheets.Add(Resources.Load<StyleSheet>("DialogueGraph"));
@@ -77,7 +78,7 @@ public class DialogueGraphView : GraphView
         inputPort.name= "Input";
         dialogueNode.inputContainer.Add(inputPort);
 
-        dialogueNode.styleSheets.Add(Resources.Load<StyleSheet>("Node"));
+        //dialogueNode.styleSheets.Add(Resources.Load<StyleSheet>("Node"));
 
         var button = new Button(() => { AddChoicePort(dialogueNode); });
         button.text = "NewChoice";
@@ -136,12 +137,13 @@ public class DialogueGraphView : GraphView
     {
         var targetEdge = edges.ToList().Where(x => x.output.portName == generatedPort.portName && x.output.node == generatedPort.node);
 
-        if (!targetEdge.Any()) return;
+        if (targetEdge.Any())
+        {
+            var edge = targetEdge.First();
+            edge.input.Disconnect(edge);
 
-        var edge = targetEdge.First();
-        edge.input.Disconnect(edge);
-
-        RemoveElement(targetEdge.First());
+            RemoveElement(targetEdge.First());
+        }
 
         dialogueNode.outputContainer.Remove(generatedPort);
         dialogueNode.RefreshPorts();

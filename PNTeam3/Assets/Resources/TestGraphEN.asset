@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e2daeab3f7b544cb173c49d8fc4a67, type: 3}
+  m_Name: TestGraphEN
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
+    PortName: Next
+    TargetNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice1
+    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice2
+    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice3
+    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice4
+    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice1
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice2
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice3
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+    PortName: Choice1
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+    PortName: Choice2
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+  dialogueNodeDatas:
+  - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    DialogueText: First Dialogue
+    Position: {x: 239.2, y: 157.59999}
+  - Guid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    DialogueText: Third Dialogue
+    Position: {x: 638.4, y: 236.8}
+  - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
+    DialogueText: Second Dialogue
+    Position: {x: 638.4, y: -60}
+  - Guid: 676e635a-9edf-49f6-8217-327cbbb3c426
+    DialogueText: Second Dialogue (second)
+    Position: {x: 996.8, y: 236.8}
+  - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
+    DialogueText: Third Dialogue (second)
+    Position: {x: 1020.8, y: -60}
