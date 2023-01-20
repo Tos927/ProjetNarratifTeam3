@@ -84,9 +84,10 @@ public class DialogueGraphView : GraphView
         button.text = "NewChoice";
         dialogueNode.titleContainer.Add(button);
 
-        var textField = new TextField(string.Empty);
+        var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
         {
+            
             dialogueNode.dialogueText = evt.newValue;
             dialogueNode.title = evt.newValue;
         });
