@@ -39,6 +39,7 @@ public class GraphSaveUtility
                 baseNodeGuid = outputNode.GUID,
                 PortName = connectedPort[i].output.portName,
                 TargetNodeGuid= inputNode.GUID,
+                
             }); 
         }
 
@@ -47,10 +48,10 @@ public class GraphSaveUtility
             dialogueContainer.dialogueNodeDatas.Add(new DialogueNodeData
             {
                 Guid = dialogueNode.GUID,
-                DialogueText= dialogueNode.dialogueText,
-                Position= dialogueNode.GetPosition().position,
-                State = dialogueNode.state
-            });;
+                DialogueText = dialogueNode.dialogueText,
+                State = dialogueNode.state,
+                Position = dialogueNode.GetPosition().position,
+            }) ;
         }
         //Autocreate folder
         if (!AssetDatabase.IsValidFolder($"Assets/Resources"))
@@ -86,15 +87,13 @@ public class GraphSaveUtility
 
             _targetGraphView.RemoveElement(node);
         }
-
     }
 
     private void CreateNodes()
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State);
             tempNode.GUID = nodeData.Guid;
             _targetGraphView.AddElement(tempNode);
 

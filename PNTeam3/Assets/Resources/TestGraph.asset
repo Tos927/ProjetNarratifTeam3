@@ -16,6 +16,18 @@ MonoBehaviour:
   - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
     PortName: Next
     TargetNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice1
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice2
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice3
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+    PortName: Choice1
+    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
   - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     PortName: Choice1
     TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
@@ -28,43 +40,51 @@ MonoBehaviour:
   - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     PortName: Choice4
     TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice1
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice2
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice3
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-    PortName: Choice1
-    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
-  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-    PortName: Choice2
-    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
   - baseNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
     PortName: Choice1
     TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
-  - baseNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
     PortName: Choice1
-    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+    PortName: Choice2
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+    PortName: Choice1
+    TargetNodeGuid: 0277d11d-29f9-4900-b868-c231b6e8c070
+  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+    PortName: Choice2
+    TargetNodeGuid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
   dialogueNodeDatas:
-  - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    DialogueText: Premier dialogue
-    Position: {x: 239.2, y: 157.59999}
   - Guid: 41b806b8-420b-455f-9ca2-704d7865c58a
     DialogueText: troisieme Dialogue
+    State: 6
     Position: {x: 638.4, y: 236.8}
-  - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
-    DialogueText: deuxieme Dialogue
-    Position: {x: 638.4, y: -60}
   - Guid: 676e635a-9edf-49f6-8217-327cbbb3c426
     DialogueText: deuxieme Dialogue (second)
+    State: 0
     Position: {x: 996.8, y: 236.8}
+  - Guid: 0277d11d-29f9-4900-b868-c231b6e8c070
+    DialogueText: Dialogue Node
+    State: 5
+    Position: {x: 1798.3999, y: 40}
+  - Guid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
+    DialogueText: Dialogue Node
+    State: 5
+    Position: {x: 1644, y: 284.8}
+  - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    DialogueText: Premier dialogue
+    State: 4
+    Position: {x: 268, y: 106.399994}
   - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
     DialogueText: troisieme Dialogue (second)
-    Position: {x: 996.8, y: -36}
+    State: 0
+    Position: {x: 954.4, y: -8.000001}
+  - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
+    DialogueText: deuxieme Dialogue
+    State: 0
+    Position: {x: 596, y: -32}
   - Guid: 90a3a836-f46a-4cd5-a660-3817dc485363
     DialogueText: quatrieme dialogue
-    Position: {x: 1448, y: 40}
+    State: 0
+    Position: {x: 1405.6, y: 68}
