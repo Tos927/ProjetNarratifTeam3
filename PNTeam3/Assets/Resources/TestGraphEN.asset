@@ -46,16 +46,21 @@ MonoBehaviour:
   dialogueNodeDatas:
   - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     DialogueText: First Dialogue
+    State: 0
     Position: {x: 239.2, y: 157.59999}
   - Guid: 41b806b8-420b-455f-9ca2-704d7865c58a
     DialogueText: Third Dialogue
+    State: 0
     Position: {x: 638.4, y: 236.8}
   - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
     DialogueText: Second Dialogue
+    State: 0
     Position: {x: 638.4, y: -60}
   - Guid: 676e635a-9edf-49f6-8217-327cbbb3c426
     DialogueText: Second Dialogue (second)
+    State: 0
     Position: {x: 996.8, y: 236.8}
   - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
     DialogueText: Third Dialogue (second)
+    State: 0
     Position: {x: 1020.8, y: -60}
