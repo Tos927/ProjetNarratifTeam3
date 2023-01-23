@@ -75,12 +75,14 @@ public class DialogueGraphView : GraphView
     public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT)
     {
         var dialogueNode = new DialogueNode {
-
-            title = state.ToString() + " Dialogue",
+            
             dialogueText = nodeName,
+            title = nodeName,
             GUID = Guid.NewGuid().ToString(),
             state = state,
         };
+
+        
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
         inputPort.name= "Input";
@@ -97,7 +99,7 @@ public class DialogueGraphView : GraphView
         dropDownMenu.RegisterValueChangedCallback(evt =>
         {
             dialogueNode.state = (ImageSignature)evt.newValue;
-            dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
+            //dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
         });
         dialogueNode.inputContainer.Add(dropDownMenu);
 
@@ -186,7 +188,6 @@ public class DialogueGraphView : GraphView
     {
         foreach (DialogueNode node in elements.ToList())
         {
-
             DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state);
 
             copynode.RefreshPorts();

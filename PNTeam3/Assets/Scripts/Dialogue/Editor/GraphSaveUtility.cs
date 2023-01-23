@@ -51,7 +51,7 @@ public class GraphSaveUtility
                 DialogueText = dialogueNode.dialogueText,
                 State = dialogueNode.state,
                 Position = dialogueNode.GetPosition().position,
-            }) ;
+            });
         }
         //Autocreate folder
         if (!AssetDatabase.IsValidFolder($"Assets/Resources"))
@@ -95,6 +95,7 @@ public class GraphSaveUtility
         {
             var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State);
             tempNode.GUID = nodeData.Guid;
+            tempNode.title = tempNode.state.ToString() + " Dialogue Node";
             _targetGraphView.AddElement(tempNode);
 
             var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
