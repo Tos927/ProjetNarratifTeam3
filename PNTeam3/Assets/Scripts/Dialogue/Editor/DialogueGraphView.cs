@@ -8,8 +8,10 @@ using System.Management.Instrumentation;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static DialogueNodeData;
 
 public class DialogueGraphView : GraphView
 {
@@ -65,13 +67,14 @@ public class DialogueGraphView : GraphView
         AddElement(CreateDialogueNode(nodeName));
     }
 
-    public DialogueNode CreateDialogueNode(string nodeName)
+    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT)
     {
-        var dialogueNode = new DialogueNode { 
-            
+        var dialogueNode = new DialogueNode {
+
             title = nodeName,
-            dialogueText  = nodeName,
-            GUID = Guid.NewGuid().ToString()
+            dialogueText = nodeName,
+            GUID = Guid.NewGuid().ToString(),
+            state = state,
         };
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
@@ -84,10 +87,17 @@ public class DialogueGraphView : GraphView
         button.text = "NewChoice";
         dialogueNode.titleContainer.Add(button);
 
+        var dropDownMenu = new EnumField(ImageSignature.DEFAULT);
+        dropDownMenu.value = state;
+        dropDownMenu.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.state = (ImageSignature)evt.newValue;
+        });
+        dialogueNode.contentContainer.Add(dropDownMenu);
+
         var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
         {
-            
             dialogueNode.dialogueText = evt.newValue;
             dialogueNode.title = evt.newValue;
         });
