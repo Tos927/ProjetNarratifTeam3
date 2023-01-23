@@ -13,38 +13,25 @@ MonoBehaviour:
   m_Name: TestEnum
   m_EditorClassIdentifier: 
   nodeLinks:
-  - baseNodeGuid: 2b713de7-40f9-485a-8ee3-a4151ae8b42c
+  - baseNodeGuid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
     PortName: Next
-    TargetNodeGuid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
-  - baseNodeGuid: 7947da05-812e-4f8b-99cd-1f01a072d545
-    PortName: Choice1
-    TargetNodeGuid: a487ff7a-a9e9-4615-8f93-05dbb03f7167
+    TargetNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
   - baseNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
     PortName: Choice1
-    TargetNodeGuid: 7947da05-812e-4f8b-99cd-1f01a072d545
+    TargetNodeGuid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
   - baseNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
     PortName: Choice2
-    TargetNodeGuid: 7947da05-812e-4f8b-99cd-1f01a072d545
-  - baseNodeGuid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
-    PortName: Choice1
-    TargetNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
-  - baseNodeGuid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
-    PortName: Choice2
-    TargetNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+    TargetNodeGuid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
   dialogueNodeDatas:
-  - Guid: 7947da05-812e-4f8b-99cd-1f01a072d545
-    DialogueText: Dialogue Node
-    State: 8
-    Position: {x: 946.4, y: 120.8}
   - Guid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
-    DialogueText: Dialogue Node
+    DialogueText: dksnfk,flkqjsvksdkcjqc
     State: 3
-    Position: {x: 583.2, y: 165.6}
-  - Guid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
-    DialogueText: jdcjxjkbwjcbjwcn
-    State: 6
-    Position: {x: 249.59999, y: 143.2}
-  - Guid: a487ff7a-a9e9-4615-8f93-05dbb03f7167
-    DialogueText: Dialogue Node
-    State: 6
-    Position: {x: 1200.7999, y: 108}
+    Position: {x: 229.59999, y: 162.40001}
+  - Guid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
+    DialogueText: dddd
+    State: 1
+    Position: {x: 651.2, y: 85.600006}
+  - Guid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
+    DialogueText: ddddqqqq
+    State: 3
+    Position: {x: 683.2, y: 250.40001}

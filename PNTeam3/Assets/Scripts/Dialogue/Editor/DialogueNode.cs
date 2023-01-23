@@ -7,7 +7,6 @@ public class DialogueNode : Node
 {
     public string GUID;
     public string dialogueText;
-    //public string statestring;
     public DialogueNodeData.ImageSignature state;
     public bool entryPoint = false;
 }
