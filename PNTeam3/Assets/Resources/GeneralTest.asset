@@ -16,36 +16,12 @@ MonoBehaviour:
   - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
     PortName: Next
     TargetNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
-  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-    PortName: gentil
-    TargetNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
-  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-    PortName: mechant
-    TargetNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
   - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
-    PortName: "Fr\xE8re"
+    PortName: "Lettre Fr\xE8re"
     TargetNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
   - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
-    PortName: Ami
+    PortName: Lettre Ami
     TargetNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
-  - baseNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
-    PortName: Choice1
-    TargetNodeGuid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
-  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
-    PortName: Choice1
-    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
-  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
-    PortName: Choice2
-    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
-  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
-    PortName: Choice3
-    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
-  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
-    PortName: Choice4
-    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
-  - baseNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
-    PortName: Choice1
-    TargetNodeGuid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
   - baseNodeGuid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
     PortName: Choice1
     TargetNodeGuid: 5ce3b19a-dce7-480d-9352-3968606891ac
@@ -214,12 +190,6 @@ MonoBehaviour:
   - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
     PortName: Choice4
     TargetNodeGuid: bb616fea-ba65-4c28-a878-1045215fb419
-  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    PortName: Mechant
-    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    PortName: Gentil
-    TargetNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
   - baseNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
     PortName: gentil
     TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
@@ -562,30 +532,6 @@ MonoBehaviour:
   - baseNodeGuid: 1ad56711-8f41-4975-9b63-752dd4743680
     PortName: Choice4
     TargetNodeGuid: d180df2d-0c46-40c8-b027-94809aa22db4
-  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
-    PortName: Choice2
-    TargetNodeGuid: 48479ca1-3a06-4dc5-b175-356d6ed5c29c
-  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
-    PortName: Choice1
-    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
-  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
-    PortName: Choice3
-    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
-  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
-    PortName: Choice4
-    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
-  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
-    PortName: Choice1
-    TargetNodeGuid: 7078f544-7ece-4ed8-8482-3f196743a55a
-  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
-    PortName: Choice2
-    TargetNodeGuid: 7078f544-7ece-4ed8-8482-3f196743a55a
-  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
-    PortName: Choice3
-    TargetNodeGuid: 08bc7df2-3ac3-4e2d-aaa5-60d5e36da066
-  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
-    PortName: Choice4
-    TargetNodeGuid: 08bc7df2-3ac3-4e2d-aaa5-60d5e36da066
   - baseNodeGuid: a34fc433-d9f0-45b5-8eae-bf3f3a10799a
     PortName: Choice1
     TargetNodeGuid: b0368926-8cb6-4f20-bfc5-fcd41e20ff7f
@@ -694,15 +640,9 @@ MonoBehaviour:
   - baseNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
     PortName: Choice4
     TargetNodeGuid: a3848b3b-9717-4b87-acd3-1e253a5fa296
-  - baseNodeGuid: f54194e0-30c7-40f4-a3c6-3b16b3cb6a6e
-    PortName: Choice1
-    TargetNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
   - baseNodeGuid: a3848b3b-9717-4b87-acd3-1e253a5fa296
     PortName: Choice1
     TargetNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
-  - baseNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
@@ -838,6 +778,9 @@ MonoBehaviour:
   - baseNodeGuid: 2c78f99d-08c4-49e7-82ed-753cf62cfaea
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 7b0e4ed2-d2b5-4069-b506-b8b8ca2b43b8
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 4c4207d8-5c83-4780-8d56-ceff61bb8910
     PortName: Choice1
     TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
@@ -859,96 +802,30 @@ MonoBehaviour:
   - baseNodeGuid: 658858b8-e36d-4951-bea1-f0449ed95c65
     PortName: Choice4
     TargetNodeGuid: 2734d3ee-9ba4-46c3-9819-72a0ee4211a7
-  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
-    PortName: Choice1
-    TargetNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
-  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
-    PortName: Choice2
-    TargetNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
-  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
-    PortName: Choice3
-    TargetNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
-  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
-    PortName: Choice4
-    TargetNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
-  - baseNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
-    PortName: Choice1
-    TargetNodeGuid: 572b79da-c745-439b-af9b-0de9af5a5458
-  - baseNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
-    PortName: Choice1
-    TargetNodeGuid: 80e13f01-49af-4db6-972d-ec64050b336b
-  - baseNodeGuid: 80e13f01-49af-4db6-972d-ec64050b336b
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 572b79da-c745-439b-af9b-0de9af5a5458
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: b46cddc1-1b0d-468d-88d9-7795335485e2
     PortName: Choice1
     TargetNodeGuid: 376fe34a-4009-442f-b871-9512e5a2a933
-  - baseNodeGuid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
-    PortName: Choice1
-    TargetNodeGuid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
-  - baseNodeGuid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
-    PortName: Choice1
-    TargetNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
   - baseNodeGuid: 376fe34a-4009-442f-b871-9512e5a2a933
     PortName: Choice1
     TargetNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
-  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
-    PortName: Choice1
-    TargetNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
-  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
-    PortName: Choice2
-    TargetNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
-  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
-    PortName: Choice3
-    TargetNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
-  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
-    PortName: Choice4
-    TargetNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
-  - baseNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
-    PortName: Choice1
-    TargetNodeGuid: 67ef6f90-9cb6-4478-8b49-7bf1a97ca172
-  - baseNodeGuid: 67ef6f90-9cb6-4478-8b49-7bf1a97ca172
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
-    PortName: Choice1
-    TargetNodeGuid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
-  - baseNodeGuid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 2c86b9ea-6e06-49e9-bd69-fa8e75ea7489
     PortName: Choice1
     TargetNodeGuid: 0e1c6dcd-7824-4147-9267-98e0ad79eeee
   - baseNodeGuid: 0e1c6dcd-7824-4147-9267-98e0ad79eeee
     PortName: Choice1
     TargetNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
-  - baseNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
-    PortName: Choice1
-    TargetNodeGuid: c5bae470-81ec-4867-b72b-eed8891ea34e
-  - baseNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
-    PortName: Choice1
-    TargetNodeGuid: a6ffd44d-da72-4616-8702-bbebcefd6bd7
-  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
-    PortName: Choice1
-    TargetNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
-  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
-    PortName: Choice2
-    TargetNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
-  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
-    PortName: Choice3
-    TargetNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
-  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
-    PortName: Choice4
-    TargetNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
   - baseNodeGuid: a3d5562b-3418-425c-8341-6290e87e7436
     PortName: Choice1
     TargetNodeGuid: 505595a8-c6e7-47c3-9ad6-948ca022a736
+  - baseNodeGuid: 505595a8-c6e7-47c3-9ad6-948ca022a736
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 5f0db72d-fffc-42e2-be66-17c0412363cb
     PortName: Choice1
     TargetNodeGuid: 17071af2-4ba7-4a50-9376-06f7d04914a8
+  - baseNodeGuid: 17071af2-4ba7-4a50-9376-06f7d04914a8
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: cca582bc-b252-43eb-8ffe-5f74aa549757
     PortName: Choice1
     TargetNodeGuid: a3d5562b-3418-425c-8341-6290e87e7436
@@ -973,27 +850,51 @@ MonoBehaviour:
   - baseNodeGuid: 118d5fe1-f5fe-4305-ac9a-32a20e26dd07
     PortName: Choice4
     TargetNodeGuid: 78d46166-7754-40e4-9ca5-eaff6d37db22
+  - baseNodeGuid: 4463072b-f02c-4c48-b3d9-c122d3f5674c
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: 63b34d5f-a411-4c19-a017-bab28c1cc1c8
     PortName: Choice1
     TargetNodeGuid: 4463072b-f02c-4c48-b3d9-c122d3f5674c
+  - baseNodeGuid: 3337af9d-2c3d-447c-a0fd-c8e6204be812
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 78d46166-7754-40e4-9ca5-eaff6d37db22
     PortName: Choice1
     TargetNodeGuid: 3337af9d-2c3d-447c-a0fd-c8e6204be812
+  - baseNodeGuid: 2a294572-268f-4916-9de5-480308e2295f
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 25b48dcd-6aca-4734-b444-c432f8a80ed8
     PortName: Choice1
     TargetNodeGuid: 2a294572-268f-4916-9de5-480308e2295f
   - baseNodeGuid: f6cb3d7f-43ac-4f74-8d70-78956a3d3f1e
     PortName: Choice1
     TargetNodeGuid: d82a6cfd-f99a-4292-a45b-ecf35ac057e0
+  - baseNodeGuid: d82a6cfd-f99a-4292-a45b-ecf35ac057e0
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: c957ad3f-b2f7-48bb-aa4e-24f7c721a9bc
     PortName: Choice1
     TargetNodeGuid: 9c331fcf-db03-4074-a481-0afc9826f690
   - baseNodeGuid: c7c4a376-3073-4e5e-9292-325cd58c4dec
     PortName: Choice1
     TargetNodeGuid: 86397f5b-f3d8-4e60-9a2e-051a40cbf101
+  - baseNodeGuid: 86397f5b-f3d8-4e60-9a2e-051a40cbf101
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 9c331fcf-db03-4074-a481-0afc9826f690
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: 0fb4b05c-2731-4c40-806e-9fcf1ad6ee34
     PortName: Choice1
     TargetNodeGuid: cc64d81c-67cf-4ccb-a9c4-aa470036df9a
+  - baseNodeGuid: cc64d81c-67cf-4ccb-a9c4-aa470036df9a
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: dd6b96b8-0d7d-494a-88b5-89c36b981a0a
     PortName: Choice1
     TargetNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
@@ -1006,84 +907,150 @@ MonoBehaviour:
   - baseNodeGuid: 9254a0a4-0d36-4da8-a38f-4e0f41d3815f
     PortName: Choice1
     TargetNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
+  - baseNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 693ddf00-863c-4ef3-a7df-e387e73bd948
     PortName: Choice1
     TargetNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
+  - baseNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
     PortName: Choice1
     TargetNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
+  - baseNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
     PortName: Choice1
     TargetNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
   - baseNodeGuid: fb0e2c96-16bf-43e7-986c-e0a3bca27e09
     PortName: Choice1
     TargetNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
+  - baseNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 63889bb9-4765-45cf-8e28-df3de3dd2675
     PortName: Choice1
     TargetNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
   - baseNodeGuid: 3e1c1f85-6a31-4ea4-ac6c-b90c4ad70eac
     PortName: Choice1
     TargetNodeGuid: 5949d50a-d3ac-443a-8856-5874c395246c
+  - baseNodeGuid: 5949d50a-d3ac-443a-8856-5874c395246c
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: ee361765-cc6a-40a9-ab8f-686bee39e0cb
     PortName: Choice1
     TargetNodeGuid: fedce001-d66f-4c6f-9394-b3b5f674bb27
+  - baseNodeGuid: fedce001-d66f-4c6f-9394-b3b5f674bb27
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 978a9ffd-08fa-459c-8360-bbba3c8ee374
     PortName: Choice1
     TargetNodeGuid: 2793963d-8fa5-4dd2-8df7-00d99ebf25a7
+  - baseNodeGuid: 2793963d-8fa5-4dd2-8df7-00d99ebf25a7
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 152ddd88-a30a-4250-8929-08376973ac29
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 75f55686-f66f-4627-abd0-d2d36f01d544
     PortName: Choice1
     TargetNodeGuid: 152ddd88-a30a-4250-8929-08376973ac29
+  - baseNodeGuid: 6ad031ab-caa0-4160-9ea9-6a6b1f3f8ebe
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: cda09054-4a3d-417c-af12-c55c983a8104
     PortName: Choice1
     TargetNodeGuid: b37da23c-ef67-4180-b159-32fca87702d3
+  - baseNodeGuid: b37da23c-ef67-4180-b159-32fca87702d3
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 562f6210-feb1-44ac-a784-ca6fd239073f
     PortName: Choice1
     TargetNodeGuid: 6ad031ab-caa0-4160-9ea9-6a6b1f3f8ebe
   - baseNodeGuid: e19c8907-1159-4728-b2f6-a8fd9305670e
     PortName: Choice1
     TargetNodeGuid: 75a92c10-29ef-4abd-8184-f03fca979602
-  - baseNodeGuid: ad95c222-a2e1-4386-9e42-4c9a94882e93
+  - baseNodeGuid: 75a92c10-29ef-4abd-8184-f03fca979602
     PortName: Choice1
-    TargetNodeGuid: c0b022ef-7365-4cd4-9318-847b3b3f4086
-  - baseNodeGuid: 780404e9-2d1a-4821-9c9c-fac912a54012
-    PortName: Choice1
-    TargetNodeGuid: f6687f0d-434b-43c0-99c9-5c738b3deece
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 3cb7f3fe-9ddb-496e-9a66-654a987d9734
     PortName: Choice1
     TargetNodeGuid: 8888cb80-96e2-4b2c-9da8-ff61d3bebb7e
+  - baseNodeGuid: 8888cb80-96e2-4b2c-9da8-ff61d3bebb7e
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: ae80384f-4981-4b73-a119-1deec3f611fc
     PortName: Choice1
     TargetNodeGuid: 2cc5ec78-630f-416d-b199-12a3b5cbc287
   - baseNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
     PortName: Choice1
     TargetNodeGuid: 590a92d0-fdb6-4f28-a410-88f833c134ad
+  - baseNodeGuid: 590a92d0-fdb6-4f28-a410-88f833c134ad
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 1633ef9b-a1ef-4c9f-9ea1-7a1e7f8974cc
     PortName: Choice1
     TargetNodeGuid: 9b12baa4-bb6c-43b3-a82f-012ca1ba0322
   - baseNodeGuid: 48479ca1-3a06-4dc5-b175-356d6ed5c29c
     PortName: Choice1
     TargetNodeGuid: 9acf61e9-3b65-424a-9894-35c902ff1b06
+  - baseNodeGuid: 9acf61e9-3b65-424a-9894-35c902ff1b06
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
     PortName: Choice1
     TargetNodeGuid: 21680273-e954-4b53-87f9-c02b6847f85f
+  - baseNodeGuid: 21680273-e954-4b53-87f9-c02b6847f85f
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 7078f544-7ece-4ed8-8482-3f196743a55a
     PortName: Choice1
     TargetNodeGuid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
+  - baseNodeGuid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 08bc7df2-3ac3-4e2d-aaa5-60d5e36da066
     PortName: Choice1
     TargetNodeGuid: dc0cec0d-e59b-43f1-b607-679183e2c4b5
+  - baseNodeGuid: dc0cec0d-e59b-43f1-b607-679183e2c4b5
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: f0ea3dbd-0386-4d04-8fc0-e52136d8fdf1
     PortName: Choice1
     TargetNodeGuid: 8303ea27-e0b0-4b3b-a4b2-7c51971b7278
+  - baseNodeGuid: 8303ea27-e0b0-4b3b-a4b2-7c51971b7278
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: c34cfcba-c8ce-4d9a-836b-46ca2048b9e2
     PortName: Choice1
     TargetNodeGuid: 2eb5fa1e-bc70-4501-9ecf-f31193b595df
+  - baseNodeGuid: 2eb5fa1e-bc70-4501-9ecf-f31193b595df
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 355a75d0-cc11-403d-b240-effa3bcc3483
     PortName: Choice1
     TargetNodeGuid: 9946de48-4b3c-4834-a886-c8eb11c185ed
+  - baseNodeGuid: 9946de48-4b3c-4834-a886-c8eb11c185ed
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 5cca19c8-5b26-45b3-a8bd-452593bc8f81
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: d180df2d-0c46-40c8-b027-94809aa22db4
     PortName: Choice1
     TargetNodeGuid: 5cca19c8-5b26-45b3-a8bd-452593bc8f81
+  - baseNodeGuid: 94497101-750f-4182-bea8-2bbe14c6b868
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 95b2c505-87ea-4eba-9864-903fda46d692
     PortName: Choice1
     TargetNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
@@ -1117,168 +1084,201 @@ MonoBehaviour:
   - baseNodeGuid: 608a09ee-e5b6-40cb-ac03-1c71608f0351
     PortName: Choice1
     TargetNodeGuid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
-  - baseNodeGuid: e361b964-71d1-4d4f-aa49-6f424be63732
-    PortName: Choice1
-    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
   - baseNodeGuid: fe8221ae-6773-4b9d-9318-dd8c251b64e0
     PortName: Choice1
     TargetNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
+  - baseNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 28d01d99-f186-4ea3-9913-e358db6cbaf0
     PortName: Choice1
     TargetNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
+  - baseNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: e486716e-74b7-4d5e-baa8-dfb26edc3eef
     PortName: Choice1
     TargetNodeGuid: 73bd5318-962f-4625-9cb7-cde5e43b0f9f
   - baseNodeGuid: da842426-6dd6-4b7b-af62-adc6b3f93751
     PortName: Choice1
     TargetNodeGuid: 8ef507b1-0fb2-43a3-8a7a-215aad541d72
+  - baseNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: gentil
+    TargetNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: mechant
+    TargetNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Etre r\xE9aliste"
+    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Rassur\xE9"
+    TargetNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
+  - baseNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
+    PortName: Choice1
+    TargetNodeGuid: c5bae470-81ec-4867-b72b-eed8891ea34e
+  - baseNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
+    PortName: Choice1
+    TargetNodeGuid: a6ffd44d-da72-4616-8702-bbebcefd6bd7
   - baseNodeGuid: c5bae470-81ec-4867-b72b-eed8891ea34e
     PortName: Choice1
     TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   - baseNodeGuid: a6ffd44d-da72-4616-8702-bbebcefd6bd7
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 505595a8-c6e7-47c3-9ad6-948ca022a736
+  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
     PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 17071af2-4ba7-4a50-9376-06f7d04914a8
+    TargetNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
+  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
+    PortName: Choice2
+    TargetNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
+  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
+    PortName: Choice3
+    TargetNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
+  - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
+    PortName: Choice4
+    TargetNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
+  - baseNodeGuid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
     PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 4463072b-f02c-4c48-b3d9-c122d3f5674c
+    TargetNodeGuid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
+  - baseNodeGuid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
     PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: 7b0e4ed2-d2b5-4069-b506-b8b8ca2b43b8
+    TargetNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
+  - baseNodeGuid: f54194e0-30c7-40f4-a3c6-3b16b3cb6a6e
     PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 3337af9d-2c3d-447c-a0fd-c8e6204be812
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 2a294572-268f-4916-9de5-480308e2295f
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: d82a6cfd-f99a-4292-a45b-ecf35ac057e0
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9c331fcf-db03-4074-a481-0afc9826f690
+    TargetNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
+  - baseNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
     PortName: Choice1
     TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: 86397f5b-f3d8-4e60-9a2e-051a40cbf101
+  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
+    PortName: Choice1
+    TargetNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
+  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
+    PortName: Choice2
+    TargetNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
+  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
+    PortName: Choice3
+    TargetNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
+  - baseNodeGuid: 78bf6663-e534-4c18-b2d7-339876293f86
+    PortName: Choice4
+    TargetNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
+  - baseNodeGuid: e1e604e8-7d32-4646-a465-fd646ecf74fc
+    PortName: Choice1
+    TargetNodeGuid: 67ef6f90-9cb6-4478-8b49-7bf1a97ca172
+  - baseNodeGuid: 67ef6f90-9cb6-4478-8b49-7bf1a97ca172
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: cc64d81c-67cf-4ccb-a9c4-aa470036df9a
+  - baseNodeGuid: fa334123-5097-42a2-9cad-1c7ad995d934
+    PortName: Choice1
+    TargetNodeGuid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
+  - baseNodeGuid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
+  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
+    PortName: Choice1
+    TargetNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
+  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
+    PortName: Choice2
+    TargetNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
+  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
+    PortName: Choice3
+    TargetNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
+  - baseNodeGuid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
+    PortName: Choice4
+    TargetNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
+  - baseNodeGuid: 2d3bf3b0-e661-4328-b1f6-fd5364b2dd14
+    PortName: Choice1
+    TargetNodeGuid: 572b79da-c745-439b-af9b-0de9af5a5458
+  - baseNodeGuid: 494eacf3-2556-4285-b0c8-da180f93eb7b
+    PortName: Choice1
+    TargetNodeGuid: 80e13f01-49af-4db6-972d-ec64050b336b
+  - baseNodeGuid: 80e13f01-49af-4db6-972d-ec64050b336b
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 5949d50a-d3ac-443a-8856-5874c395246c
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: fedce001-d66f-4c6f-9394-b3b5f674bb27
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 2793963d-8fa5-4dd2-8df7-00d99ebf25a7
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 152ddd88-a30a-4250-8929-08376973ac29
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 6ad031ab-caa0-4160-9ea9-6a6b1f3f8ebe
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: b37da23c-ef67-4180-b159-32fca87702d3
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 75a92c10-29ef-4abd-8184-f03fca979602
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: f6687f0d-434b-43c0-99c9-5c738b3deece
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8888cb80-96e2-4b2c-9da8-ff61d3bebb7e
+  - baseNodeGuid: 572b79da-c745-439b-af9b-0de9af5a5458
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 2cc5ec78-630f-416d-b199-12a3b5cbc287
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9b12baa4-bb6c-43b3-a82f-012ca1ba0322
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 590a92d0-fdb6-4f28-a410-88f833c134ad
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9acf61e9-3b65-424a-9894-35c902ff1b06
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: 21680273-e954-4b53-87f9-c02b6847f85f
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: dc0cec0d-e59b-43f1-b607-679183e2c4b5
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8303ea27-e0b0-4b3b-a4b2-7c51971b7278
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: 2eb5fa1e-bc70-4501-9ecf-f31193b595df
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9946de48-4b3c-4834-a886-c8eb11c185ed
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 5cca19c8-5b26-45b3-a8bd-452593bc8f81
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
-    PortName: Choice1
-    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
-  - baseNodeGuid: 94497101-750f-4182-bea8-2bbe14c6b868
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
-    PortName: Choice1
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 73bd5318-962f-4625-9cb7-cde5e43b0f9f
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 8ef507b1-0fb2-43a3-8a7a-215aad541d72
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 73bd5318-962f-4625-9cb7-cde5e43b0f9f
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: e361b964-71d1-4d4f-aa49-6f424be63732
+    PortName: Choice1
+    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
+  - baseNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 780404e9-2d1a-4821-9c9c-fac912a54012
+    PortName: Choice1
+    TargetNodeGuid: f6687f0d-434b-43c0-99c9-5c738b3deece
+  - baseNodeGuid: f6687f0d-434b-43c0-99c9-5c738b3deece
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 9b12baa4-bb6c-43b3-a82f-012ca1ba0322
+    PortName: Choice1
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+    PortName: Choice1
+    TargetNodeGuid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
+  - baseNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+    PortName: Choice1
+    TargetNodeGuid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice1
+    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice2
+    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice3
+    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice4
+    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+  - baseNodeGuid: ad95c222-a2e1-4386-9e42-4c9a94882e93
+    PortName: Choice1
+    TargetNodeGuid: c0b022ef-7365-4cd4-9318-847b3b3f4086
+  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
+    PortName: Choice2
+    TargetNodeGuid: 48479ca1-3a06-4dc5-b175-356d6ed5c29c
+  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
+    PortName: Choice1
+    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
+  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
+    PortName: Choice3
+    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
+  - baseNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
+    PortName: Choice4
+    TargetNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
+  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
+    PortName: Choice1
+    TargetNodeGuid: 7078f544-7ece-4ed8-8482-3f196743a55a
+  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
+    PortName: Choice2
+    TargetNodeGuid: 7078f544-7ece-4ed8-8482-3f196743a55a
+  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
+    PortName: Choice3
+    TargetNodeGuid: 08bc7df2-3ac3-4e2d-aaa5-60d5e36da066
+  - baseNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
+    PortName: Choice4
+    TargetNodeGuid: 08bc7df2-3ac3-4e2d-aaa5-60d5e36da066
+  - baseNodeGuid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
+    PortName: Choice1
+    TargetNodeGuid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
   dialogueNodeDatas:
   - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
     DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
@@ -1292,49 +1292,6 @@ MonoBehaviour:
       au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
     State: 1
     Position: {x: 525.60004, y: 188.8}
-  - Guid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5852.8003, y: 1268}
-  - Guid: d32f3726-e109-467a-b09c-3df9786b371e
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5852.8003, y: 1426.4}
-  - Guid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
-      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
-      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
-      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
-      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8res\r\nCharles \r\n"
-    State: 6
-    Position: {x: 4720.8003, y: 842.39996}
-  - Guid: 01ff3d81-5cdb-4cda-907a-cb83e0364189
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 824}
-  - Guid: 0e08c6b9-eac9-4b7c-bb80-b8c2755c6f58
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 970.39996}
-  - Guid: cbde9f7f-8e91-435b-a943-674a7f43e588
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6275.2, y: 824}
-  - Guid: 6b3923fe-3b59-4a90-8ec8-71f66fd1928f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6275.2, y: 990.39996}
-  - Guid: 5ce3b19a-dce7-480d-9352-3968606891ac
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6275.2, y: 1268}
-  - Guid: 57bec434-627c-4a73-8d57-f175da937ca9
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6275.2, y: 1426.4}
   - Guid: 095e199b-4147-4344-9a0e-f02686b62563
     DialogueText: Dialogue Node
     State: 0
@@ -1384,7 +1341,7 @@ MonoBehaviour:
       attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8res\r\nCharles \r\n"
-    State: 6
+    State: 3
     Position: {x: 4712.8003, y: -3695.2}
   - Guid: 6165affe-b980-4446-b303-969c3c2f20de
     DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
@@ -1442,7 +1399,7 @@ MonoBehaviour:
       de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
       tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
-    State: 6
+    State: 3
     Position: {x: 4720.8003, y: -2644.8}
   - Guid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
     DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
@@ -1466,25 +1423,6 @@ MonoBehaviour:
       guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
     State: 1
     Position: {x: 3828.8, y: -1404}
-  - Guid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
-      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
-      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
-      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
-      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8res\r\nCharles \r\n"
-    State: 6
-    Position: {x: 4780.8003, y: -1675.2}
-  - Guid: 0bcdca6a-764f-4199-88cb-e82579896d1f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5873.6, y: -1492}
-  - Guid: b547d551-90d4-440c-aa9a-d56569b8d926
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6290.4004, y: -1455.2}
   - Guid: a37012b6-9a0b-419c-9998-658e0f9e18f6
     DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
       fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
@@ -1499,22 +1437,6 @@ MonoBehaviour:
       ?\t\t\n\t\t\t\t\tJP"
     State: 2
     Position: {x: 4720.8003, y: -1164}
-  - Guid: 3a8f4005-ae1e-404e-a857-da92d54f10ed
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5837.6, y: -1140}
-  - Guid: 0d78e2eb-7173-4c0b-8034-77c7b17c7531
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5837.6, y: -1025.6}
-  - Guid: 3e93ec20-205d-46fd-865d-e94278d4db46
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6276, y: -1083.2}
-  - Guid: dd32646f-1a9c-4923-a999-65c3762de8e6
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6276, y: -924}
   - Guid: c4ecb37d-3395-4ef3-879f-dfac896247bc
     DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
       a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
@@ -1533,28 +1455,8 @@ MonoBehaviour:
       de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
       tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r"
-    State: 6
+    State: 3
     Position: {x: 4780.8003, y: -701.60004}
-  - Guid: c9340661-1c9f-4b48-9c0c-55705610c30a
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5873.6, y: -731.2}
-  - Guid: 486d01a0-00fc-4531-8bf2-926867c7cfc8
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5873.6, y: -616.8}
-  - Guid: b8654763-875e-4410-a6cd-652728ccc9e2
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312, y: -703.2}
-  - Guid: 764b6231-06dd-4e40-9cde-ede8db6b92fd
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312, y: -560}
-  - Guid: 892bb3be-a54f-481c-9cb3-4806ce0f6862
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5873.6, y: -260.80002}
   - Guid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
     DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
       r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
@@ -1569,76 +1471,6 @@ MonoBehaviour:
       ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
     State: 2
     Position: {x: 4780.8003, y: -203.2}
-  - Guid: c6c8998e-e492-4f55-b178-330986eefb29
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5848.8003, y: -88.8}
-  - Guid: a6f519ac-ddc8-466b-9f07-99a8955de423
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312, y: -242.4}
-  - Guid: e1bb8951-198b-44d1-bac8-255e3af47cba
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312, y: -88.8}
-  - Guid: a1fc91f5-a268-466f-a863-af77815438c1
-    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
-      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
-      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
-      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
-      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8re\r\nCharles \r"
-    State: 6
-    Position: {x: 4773.6, y: 4017.6}
-  - Guid: dfc2a16c-66d0-457c-8a01-6d10522e3645
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5850.4004, y: 3928}
-  - Guid: 01716186-f61a-4af1-9a95-8642c0ab9ec4
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5850.4004, y: 4042.4001}
-  - Guid: 1118e924-80e2-42d1-9247-696e64d692dd
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312.8003, y: 3928}
-  - Guid: efdbc588-3722-4c69-bce0-17a3a960cae1
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6312.8003, y: 4072.8}
-  - Guid: c1e5510d-6299-4091-ad37-5531695c0708
-    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
-      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
-      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
-      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
-      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
-      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
-      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
-      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
-      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
-      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
-      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
-    State: 2
-    Position: {x: 4704, y: 3423.2}
-  - Guid: 9f065808-d1fa-4ea0-b966-cb6e349f1937
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 3412.8}
-  - Guid: a9ee014b-aa5e-4774-90e8-09fe22bcc294
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 3527.2}
-  - Guid: 2a517418-6b8e-4ce7-bf02-c1c9545efbc1
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6243.2, y: 3423.2}
-  - Guid: 928c5a06-8670-4e03-80b9-9a1ba9d0145b
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6243.2, y: 3558.4001}
   - Guid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
     DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
       a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
@@ -1655,14 +1487,6 @@ MonoBehaviour:
       guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
     State: 1
     Position: {x: 3956, y: 2928}
-  - Guid: 7134372f-fa29-4b10-90b0-058d2fc31784
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 2878.4001}
-  - Guid: 8481ac34-4da8-41c9-8fa7-e665a535aa47
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5836, y: 2992.8}
   - Guid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
     DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
       fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
@@ -1672,16 +1496,8 @@ MonoBehaviour:
       attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8res\r\nCharles \r"
-    State: 6
+    State: 3
     Position: {x: 4704, y: 2992.8}
-  - Guid: 6795f5d7-2342-4dfa-aba8-7495e141ad78
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6243.2, y: 2881.6}
-  - Guid: 2bc2ddd1-e2ea-461a-90b8-39dedc1159e7
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6243.2, y: 3015.2}
   - Guid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
     DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
       fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
@@ -1696,22 +1512,6 @@ MonoBehaviour:
       ?\t\t\n\t\t\t\t\tJP"
     State: 2
     Position: {x: 4780.8003, y: 324.8}
-  - Guid: a8c9f608-8bcf-4c0c-a42b-9d5e668ce0c3
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5896, y: 406.4}
-  - Guid: 63bf8ab1-1de5-4ea0-a1c6-b272be66d27d
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5873.6, y: 267.19998}
-  - Guid: 7d50780c-af4c-4f85-9d31-a8790ae69c30
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6335.2, y: 249.59999}
-  - Guid: 896cad9f-a4b2-44e6-bcbd-a9d6c0fdfef1
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6335.2, y: 406.4}
   - Guid: 1eefa763-f614-494f-8fec-3de326c3367c
     DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
       a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
@@ -1760,7 +1560,7 @@ MonoBehaviour:
       que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
       \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
       te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
-    State: 6
+    State: 3
     Position: {x: 2857.5999, y: 760.8}
   - Guid: df8a1971-e60d-4b67-b205-3b495324e615
     DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
@@ -1778,7 +1578,7 @@ MonoBehaviour:
       que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
       \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
       te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
-    State: 6
+    State: 3
     Position: {x: 2763.2, y: 3280.8}
   - Guid: e2d4fef5-8492-475f-86d6-28a9ffa8c30c
     DialogueText: Dialogue Node
@@ -1796,22 +1596,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 6932, y: 3162.4001}
-  - Guid: a34fc433-d9f0-45b5-8eae-bf3f3a10799a
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5852.8003, y: 2340.8}
-  - Guid: 1c9b0294-2f98-4b09-be75-94748fca0685
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5829.6, y: 2484}
-  - Guid: b0368926-8cb6-4f20-bfc5-fcd41e20ff7f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6236.8003, y: 2340.8}
-  - Guid: b46f3adc-9bad-4fcb-a8a0-5c8139239b65
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6236.8003, y: 2455.2}
   - Guid: 4c06129e-ef50-4542-8de2-9ea418113780
     DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
       fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
@@ -1838,22 +1622,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 6896, y: 2040}
-  - Guid: 587ab2f1-ce16-493e-b1f5-5bf802fbc41d
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5829.6, y: 1844}
-  - Guid: f1ecece9-3c43-4345-b8f8-41989875f8f0
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5829.6, y: 2004.8}
-  - Guid: 729d8513-68ec-4d62-91c4-540e2584566e
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6228.8003, y: 1844}
-  - Guid: b61c6b84-b51e-406a-afd7-b066c203b1aa
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6246.4004, y: 2004.8}
   - Guid: 905e5925-e8d3-439a-84f8-af22deb8e16b
     DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
       t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
@@ -1864,7 +1632,7 @@ MonoBehaviour:
       de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
       tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r"
-    State: 6
+    State: 3
     Position: {x: 4660.8003, y: 1856}
   - Guid: 1133cc83-28f9-4676-9b95-ffdd82627eac
     DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
@@ -1880,10 +1648,6 @@ MonoBehaviour:
       ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
     State: 2
     Position: {x: 4651.2, y: 1252.8}
-  - Guid: ba2ec72c-4767-4a39-9c88-6767deb704d0
-    DialogueText: 
-    State: 2
-    Position: {x: 6995.2, y: -5169.6}
   - Guid: a3848b3b-9717-4b87-acd3-1e253a5fa296
     DialogueText: Dialogue Node
     State: 0
@@ -1920,14 +1684,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 5808.8003, y: -4853.6}
-  - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
-    DialogueText: Dialogue Node
-    State: 7
-    Position: {x: 6368.8003, y: -4853.6}
-  - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
-    DialogueText: Dialogue Node
-    State: 6
-    Position: {x: 6368.8003, y: -5144}
   - Guid: 03cea8e8-828b-4580-beac-a1a4326d94e7
     DialogueText: Dialogue Node
     State: 6
@@ -1956,14 +1712,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 5832.8003, y: -4058.4}
-  - Guid: f00a1899-7336-44c5-8b05-65795e43b95c
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6376.8003, y: -4058.4}
-  - Guid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6376.8003, y: -4273.6}
   - Guid: 7559a16e-408a-4c59-964b-fb0fb0e1704d
     DialogueText: Dialogue Node
     State: 0
@@ -1992,14 +1740,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 5846.4004, y: -3248}
-  - Guid: e2c39714-9842-4ad7-8737-b5550f328f17
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6406.4004, y: -3448}
-  - Guid: 7676d78e-cb15-4416-9091-30157b28bec7
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6406.4004, y: -3248}
   - Guid: 16a7ac54-2823-4dcc-b260-beff4fee0ea1
     DialogueText: Dialogue Node
     State: 0
@@ -2040,22 +1780,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 7009.6, y: -3325.5999}
-  - Guid: b46cddc1-1b0d-468d-88d9-7795335485e2
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5920.8003, y: -2469.5999}
-  - Guid: 376fe34a-4009-442f-b871-9512e5a2a933
-    DialogueText: Dialogue Node
-    State: 2
-    Position: {x: 6337.6, y: -2469.5999}
-  - Guid: 2c86b9ea-6e06-49e9-bd69-fa8e75ea7489
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5966.4004, y: -1854.3999}
-  - Guid: 0e1c6dcd-7824-4147-9267-98e0ad79eeee
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6383.2, y: -1840.7999}
   - Guid: a3d5562b-3418-425c-8341-6290e87e7436
     DialogueText: Dialogue Node
     State: 0
@@ -2412,24 +2136,6 @@ MonoBehaviour:
       avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
     State: 2
     Position: {x: 2888.8, y: -701.60004}
-  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
-    State: 6
-    Position: {x: 1765.6, y: -484}
   - Guid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
     DialogueText: Dialogue Node
     State: 0
@@ -2450,14 +2156,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 6981.6, y: -1508.7999}
-  - Guid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 5900, y: -2247.2}
-  - Guid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 6308, y: -2247.2}
   - Guid: f54194e0-30c7-40f4-a3c6-3b16b3cb6a6e
     DialogueText: Dialogue Node
     State: 0
@@ -2546,46 +2244,6 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 7673.6, y: 2651.2}
-  - Guid: 5b61c571-46f0-4c12-b009-d164363cfb3f
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 4730.4004, y: -4920.8003}
-  - Guid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 4730.4004, y: -4692}
-  - Guid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons pris
-      l\u2019ennemi par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi
-      a subi de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0
-      cela, le moral des troupes est au plus haut et la prochaine bataille sera plus
-      simple.\r\nNous continuerons de nous battre pour la France et je suis s\xFBr
-      que nous allons gagner.\r\nTon cher fr\xE8re \r\n"
-    State: 6
-    Position: {x: 5033.6, y: -4924}
-  - Guid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
-      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
-      on a repouss\xE9 la perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
-      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
-      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
-      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
-      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
-      pour la France.\r\nTon cher fr\xE8re \r\n"
-    State: 7
-    Position: {x: 5033.6, y: -4692}
-  - Guid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
-    DialogueText: Dialogue Node
-    State: 6
-    Position: {x: 4158.4004, y: -4812}
-  - Guid: c0b022ef-7365-4cd4-9318-847b3b3f4086
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 4774.4004, y: -5169.6}
-  - Guid: ad95c222-a2e1-4386-9e42-4c9a94882e93
-    DialogueText: Dialogue Node
-    State: 0
-    Position: {x: 4158.4004, y: -5112.8003}
   - Guid: 67034924-ffbc-40c0-8a5d-1bc322547015
     DialogueText: Dialogue Node
     State: 0
@@ -2602,19 +2260,601 @@ MonoBehaviour:
     DialogueText: Dialogue Node
     State: 0
     Position: {x: 10660.8, y: 296}
-  - Guid: 86d59420-f8e6-4482-8d91-1058b0a20eb4
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
+    State: 3
+    Position: {x: 1765.6, y: -484}
+  - Guid: 5b61c571-46f0-4c12-b009-d164363cfb3f
     DialogueText: Dialogue Node
     State: 0
-    Position: {x: 11252.8, y: -506.40002}
-  - Guid: 23dec881-e80c-4eee-a8d3-9707469eb272
+    Position: {x: 3312.8, y: -4682.4004}
+  - Guid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
     DialogueText: Dialogue Node
     State: 0
-    Position: {x: 11637.601, y: -604.8}
+    Position: {x: 3312.8, y: -4453.6}
+  - Guid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons pris
+      l\u2019ennemi par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi
+      a subi de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0
+      cela, le moral des troupes est au plus haut et la prochaine bataille sera plus
+      simple.\r\nNous continuerons de nous battre pour la France et je suis s\xFBr
+      que nous allons gagner.\r\nTon cher fr\xE8re \r\n"
+    State: 6
+    Position: {x: 3616, y: -4685.6}
+  - Guid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
+      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
+      on a repouss\xE9 la perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
+      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
+      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
+      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
+      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
+      pour la France.\r\nTon cher fr\xE8re \r\n"
+    State: 7
+    Position: {x: 3616, y: -4453.6}
+  - Guid: c0b022ef-7365-4cd4-9318-847b3b3f4086
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 3356.8, y: -4931.2}
   - Guid: 00b6e856-75a4-4862-bc34-406379a8b98b
     DialogueText: Dialogue Node
     State: 0
-    Position: {x: 11692, y: -656}
+    Position: {x: 2665.5999, y: -4893.6}
+  - Guid: 23dec881-e80c-4eee-a8d3-9707469eb272
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 2308.8, y: -4874.4004}
+  - Guid: ad95c222-a2e1-4386-9e42-4c9a94882e93
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 2072, y: -4722.4004}
+  - Guid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    DialogueText: Dialogue Node
+    State: 6
+    Position: {x: 2698.4, y: -4620}
+  - Guid: 86d59420-f8e6-4482-8d91-1058b0a20eb4
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 2372.8, y: -4608}
   - Guid: 37a30ca1-a813-426e-b57d-e8ea2d603dbc
     DialogueText: Dialogue Node
     State: 0
-    Position: {x: 10660.8, y: -917.60004}
+    Position: {x: 10624.8, y: -84}
+  - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6255.2, y: -4853.6}
+  - Guid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6194.4004, y: -4372.8003}
+  - Guid: f00a1899-7336-44c5-8b05-65795e43b95c
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6179.2, y: -4078.4}
+  - Guid: 2f59dc3b-7082-4dc8-8aa6-77692eea4d6e
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6108.8003, y: -2273.5999}
+  - Guid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5793.6, y: -2224}
+  - Guid: b46cddc1-1b0d-468d-88d9-7795335485e2
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5793.6, y: -2447.2}
+  - Guid: 376fe34a-4009-442f-b871-9512e5a2a933
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6108.8003, y: -2628.8}
+  - Guid: e2c39714-9842-4ad7-8737-b5550f328f17
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6193.6, y: -3561.5999}
+  - Guid: 7676d78e-cb15-4416-9091-30157b28bec7
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6179.2, y: -3248}
+  - Guid: 2c86b9ea-6e06-49e9-bd69-fa8e75ea7489
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5757.6, y: -1831.2}
+  - Guid: 0e1c6dcd-7824-4147-9267-98e0ad79eeee
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6089.6, y: -1847.2}
+  - Guid: 95418c21-1bb7-49c3-83d5-79c68615c097
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r\n"
+    State: 3
+    Position: {x: 4720.8003, y: -1617.6}
+  - Guid: 0bcdca6a-764f-4199-88cb-e82579896d1f
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5757.6, y: -1449.6}
+  - Guid: b547d551-90d4-440c-aa9a-d56569b8d926
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6089.6, y: -1449.6}
+  - Guid: 3e93ec20-205d-46fd-865d-e94278d4db46
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6089.6, y: -1164}
+  - Guid: 0d78e2eb-7173-4c0b-8034-77c7b17c7531
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5706.4004, y: -980.8}
+  - Guid: 3a8f4005-ae1e-404e-a857-da92d54f10ed
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5706.4004, y: -1183.2}
+  - Guid: dd32646f-1a9c-4923-a999-65c3762de8e6
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6110.4004, y: -988.8}
+  - Guid: a6f519ac-ddc8-466b-9f07-99a8955de423
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6040, y: -337.6}
+  - Guid: e1bb8951-198b-44d1-bac8-255e3af47cba
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6028, y: -120.8}
+  - Guid: c6c8998e-e492-4f55-b178-330986eefb29
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5730.4004, y: -83.2}
+  - Guid: 892bb3be-a54f-481c-9cb3-4806ce0f6862
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5730.4004, y: -284}
+  - Guid: b8654763-875e-4410-a6cd-652728ccc9e2
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6110.4004, y: -744.8}
+  - Guid: c9340661-1c9f-4b48-9c0c-55705610c30a
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5652, y: -788.8}
+  - Guid: 486d01a0-00fc-4531-8bf2-926867c7cfc8
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5652, y: -560}
+  - Guid: 764b6231-06dd-4e40-9cde-ede8db6b92fd
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6089.6, y: -596}
+  - Guid: 7d50780c-af4c-4f85-9d31-a8790ae69c30
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 6028, y: 152}
+  - Guid: 63bf8ab1-1de5-4ea0-a1c6-b272be66d27d
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5704, y: 210.40001}
+  - Guid: a8c9f608-8bcf-4c0c-a42b-9d5e668ce0c3
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5682.4004, y: 420}
+  - Guid: 896cad9f-a4b2-44e6-bcbd-a9d6c0fdfef1
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5989.6, y: 410.4}
+  - Guid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r\n"
+    State: 3
+    Position: {x: 4780.8003, y: 787.2}
+  - Guid: cbde9f7f-8e91-435b-a943-674a7f43e588
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6028, y: 726.39996}
+  - Guid: 6b3923fe-3b59-4a90-8ec8-71f66fd1928f
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6028, y: 984.8}
+  - Guid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5636, y: 1254.4}
+  - Guid: d32f3726-e109-467a-b09c-3df9786b371e
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5636, y: 1472}
+  - Guid: 5ce3b19a-dce7-480d-9352-3968606891ac
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5976, y: 1214.4}
+  - Guid: 57bec434-627c-4a73-8d57-f175da937ca9
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5976, y: 1480}
+  - Guid: 587ab2f1-ce16-493e-b1f5-5bf802fbc41d
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5592.8003, y: 1798.4}
+  - Guid: 729d8513-68ec-4d62-91c4-540e2584566e
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5976, y: 1746.4}
+  - Guid: f1ecece9-3c43-4345-b8f8-41989875f8f0
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5592.8003, y: 2039.2}
+  - Guid: b61c6b84-b51e-406a-afd7-b066c203b1aa
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5976, y: 2024}
+  - Guid: a34fc433-d9f0-45b5-8eae-bf3f3a10799a
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5557.6, y: 2340.8}
+  - Guid: 1c9b0294-2f98-4b09-be75-94748fca0685
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5557.6, y: 2512.8}
+  - Guid: b0368926-8cb6-4f20-bfc5-fcd41e20ff7f
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5908.8003, y: 2312.8}
+  - Guid: b46f3adc-9bad-4fcb-a8a0-5c8139239b65
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5908.8003, y: 2569.6}
+  - Guid: 8481ac34-4da8-41c9-8fa7-e665a535aa47
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5536, y: 3104.8}
+  - Guid: 7134372f-fa29-4b10-90b0-058d2fc31784
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5536, y: 2881.6}
+  - Guid: 6795f5d7-2342-4dfa-aba8-7495e141ad78
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5908.8003, y: 2846.4001}
+  - Guid: 2bc2ddd1-e2ea-461a-90b8-39dedc1159e7
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5908.8003, y: 3104.8}
+  - Guid: 01716186-f61a-4af1-9a95-8642c0ab9ec4
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5599.2, y: 4154.4}
+  - Guid: efdbc588-3722-4c69-bce0-17a3a960cae1
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5929.6, y: 4154.4}
+  - Guid: dfc2a16c-66d0-457c-8a01-6d10522e3645
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5599.2, y: 3950.4001}
+  - Guid: 1118e924-80e2-42d1-9247-696e64d692dd
+    DialogueText: "Cher fr\xE8re,\r\nMa blessure me d\xE9mange et me rappelle mes
+      compagnons morts. \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain temps.
+      \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense qu\u2019ils essayent
+      de rassembler des troupes.\r\nCela me rappelle les histoires que p\xE8re nous
+      racontait quand nous \xE9tions petits et \xE7a ne me rassure gu\xE8re.\r\nJe
+      ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue devons nous faire
+      ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5929.6, y: 3878.4001}
+  - Guid: 9f065808-d1fa-4ea0-b966-cb6e349f1937
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5641.6, y: 3385.6}
+  - Guid: a9ee014b-aa5e-4774-90e8-09fe22bcc294
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5641.6, y: 3558.4001}
+  - Guid: 2a517418-6b8e-4ce7-bf02-c1c9545efbc1
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
+      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
+      des informations, mais en tant que simple soldat, nous recevons uniquement
+      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
+      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
+      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
+      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
+      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
+      plaisante bien s\xFBr.\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5892, y: 3363.2}
+  - Guid: 928c5a06-8670-4e03-80b9-9a1ba9d0145b
+    DialogueText: "Salut camarade,\r\nOn a p\xE9n\xE9tr\xE9 Berlin mais malheureusement
+      2 d\xE8s n\xF4tres ont succomb\xE9.\r\nJe ne veux pas te rejeter la faute mais
+      j\u2019esp\xE8re que \xE7a ne va pas m\u2019handicaper pour la suite.\r\nJ\u2019ai
+      essay\xE9 de r\xE9colter des informations, mais en tant que simple soldat,
+      nous recevons uniquement des instructions sans plus de d\xE9tails.\r\nIl faudrait
+      que j\u2019obtienne une tenue de lieutenant SS pour recevoir de meilleures
+      informations. \r\nJ\u2019en ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer
+      de l'intercepter pour voler son costume mais je n\u2019ai aucune id\xE9e de
+      quoi en faire apr\xE8s.\r\nDonne-moi ton avis rapidement, mon ami, si tu veux
+      pas que j\u2019y perde un bras. \r\nJe plaisante bien s\xFBr.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 5908.8003, y: 3615.2}
+  - Guid: c1e5510d-6299-4091-ad37-5531695c0708
+    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
+      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
+      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
+      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
+      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
+      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
+      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
+      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
+      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
+      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
+      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4634.4004, y: 3452}
+  - Guid: a1fc91f5-a268-466f-a863-af77815438c1
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r"
+    State: 3
+    Position: {x: 4634.4004, y: 3971.2}
+  - Guid: 01ff3d81-5cdb-4cda-907a-cb83e0364189
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5636, y: 672.8}
+  - Guid: 0e08c6b9-eac9-4b7c-bb80-b8c2755c6f58
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 5682.4004, y: 912.8}
+  - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 toi, les ennemis ont \xE9t\xE9
+      vite repouss\xE9s mais ce n\u2019est pas fini.\r\nL'ennemi n'a pas attaqu\xE9
+      depuis un certain temps. \r\nIls doivent pr\xE9parer quelque chose.\r\nJe pense
+      qu\u2019ils essayent de rassembler des troupes.\r\nCela me rappelle les histoires
+      que p\xE8re nous racontait quand nous \xE9tions petits et \xE7a ne me rassure
+      gu\xE8re.\r\nJe ressens de l\u2019inqui\xE9tude dans le r\xE9giment.\r\nQue
+      devons nous faire ?\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6255.2, y: -5225.6}
+  - Guid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    DialogueText: 
+    State: 2
+    Position: {x: 7018.4004, y: -5197.6}
