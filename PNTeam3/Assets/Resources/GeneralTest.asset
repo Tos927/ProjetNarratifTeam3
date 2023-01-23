@@ -22,7 +22,375 @@ MonoBehaviour:
   - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
     PortName: Ami
     TargetNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: Mechant
+    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+  - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+    PortName: gentil
+    TargetNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: gentil
+    TargetNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice1
+    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+  - baseNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+    PortName: Choice1
+    TargetNodeGuid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice2
+    TargetNodeGuid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice3
+    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+  - baseNodeGuid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    PortName: Choice4
+    TargetNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+  - baseNodeGuid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+    PortName: Choice1
+    TargetNodeGuid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: Gentil
+    TargetNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
+  - baseNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
+    PortName: gentil
+    TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+  - baseNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
+    PortName: Mechant
+    TargetNodeGuid: 7d28f967-1362-4635-a624-4931b5722ca9
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: mechant
+    TargetNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
+  - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    PortName: gentil
+    TargetNodeGuid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
+  - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+    PortName: mechant
+    TargetNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
+  - baseNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
+    PortName: gentil
+    TargetNodeGuid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
+  - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    PortName: mechant
+    TargetNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
+  - baseNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
+    PortName: mechant
+    TargetNodeGuid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
+  - baseNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    PortName: Choice1
+    TargetNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+  - baseNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    PortName: Choice2
+    TargetNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+  - baseNodeGuid: 7d28f967-1362-4635-a624-4931b5722ca9
+    PortName: Choice1
+    TargetNodeGuid: a665a97e-3e15-4309-ab6a-705034775f66
+  - baseNodeGuid: 7d28f967-1362-4635-a624-4931b5722ca9
+    PortName: Choice2
+    TargetNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
+  - baseNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
+    PortName: Choice1
+    TargetNodeGuid: 95418c21-1bb7-49c3-83d5-79c68615c097
+  - baseNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
+    PortName: Choice2
+    TargetNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
+  - baseNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
+    PortName: Choice1
+    TargetNodeGuid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
+  - baseNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
+    PortName: Choice2
+    TargetNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
+  - baseNodeGuid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
+    PortName: Choice1
+    TargetNodeGuid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
+  - baseNodeGuid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
+    PortName: Choice2
+    TargetNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
+  - baseNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
+    PortName: Choice1
+    TargetNodeGuid: 1133cc83-28f9-4676-9b95-ffdd82627eac
+  - baseNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
+    PortName: Choice2
+    TargetNodeGuid: 905e5925-e8d3-439a-84f8-af22deb8e16b
+  - baseNodeGuid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
+    PortName: Choice1
+    TargetNodeGuid: 4c06129e-ef50-4542-8de2-9ea418113780
+  - baseNodeGuid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
+    PortName: Choice2
+    TargetNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
+  - baseNodeGuid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
+    PortName: Choice1
+    TargetNodeGuid: c1e5510d-6299-4091-ad37-5531695c0708
+  - baseNodeGuid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
+    PortName: Choice2
+    TargetNodeGuid: a1fc91f5-a268-466f-a863-af77815438c1
   dialogueNodeDatas:
+  - Guid: 0d81150f-0987-455d-862b-745610b495c5
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
+    State: 2
+    Position: {x: 2980, y: -232.8}
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
+    State: 6
+    Position: {x: 1779.2, y: -418.40002}
+  - Guid: 6165affe-b980-4446-b303-969c3c2f20de
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r"
+    State: 2
+    Position: {x: 2980, y: -668}
+  - Guid: c4ecb37d-3395-4ef3-879f-dfac896247bc
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 4026.4, y: -227.2}
+  - Guid: 376fe34a-4009-442f-b871-9512e5a2a933
+    DialogueText: Dialogue Node
+    State: 2
+    Position: {x: 7408, y: -179.2}
+  - Guid: 5b61c571-46f0-4c12-b009-d164363cfb3f
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 7811.2, y: -597.60004}
+  - Guid: 4a788916-4122-42a7-a02a-2a6036e4ccc6
+    DialogueText: Dialogue Node
+    State: 6
+    Position: {x: 7461.6, y: -567.2}
+  - Guid: 386be8f7-5771-4beb-ae7a-c74520a8c2e3
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 7811.2, y: -368.80002}
+  - Guid: 6ab7105a-0f2a-4ff3-b219-b93d91abb675
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons pris
+      l\u2019ennemi par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi
+      a subi de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0
+      cela, le moral des troupes est au plus haut et la prochaine bataille sera plus
+      simple.\r\nNous continuerons de nous battre pour la France et je suis s\xFBr
+      que nous allons gagner.\r\nTon cher fr\xE8re \r\n"
+    State: 6
+    Position: {x: 8114.4004, y: -600.8}
+  - Guid: 3148906d-be07-4309-aafc-a33ac0d7a5cf
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
+      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
+      on a repouss\xE9 la perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
+      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
+      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
+      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
+      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
+      pour la France.\r\nTon cher fr\xE8re \r\n"
+    State: 7
+    Position: {x: 8114.4004, y: -368.80002}
+  - Guid: 23dec881-e80c-4eee-a8d3-9707469eb272
+    DialogueText: Dialogue Node
+    State: 0
+    Position: {x: 9008.8, y: -484}
+  - Guid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
+    State: 1
+    Position: {x: 4026.4, y: -1764.7999}
+  - Guid: 7d28f967-1362-4635-a624-4931b5722ca9
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 4026.4, y: -1328}
+  - Guid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
+    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
+      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
+      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
+      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
+      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
+      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
+      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
+      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
+      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
+      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
+      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720.8003, y: -1328}
+  - Guid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
+    State: 1
+    Position: {x: 4026.4, y: -639.2}
+  - Guid: a665a97e-3e15-4309-ab6a-705034775f66
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r\n"
+    State: 6
+    Position: {x: 4720.8003, y: -1616.7999}
+  - Guid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
+      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
+      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
+      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
+      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
+      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
+      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
+      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
+      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
+      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
+      ?\t\t\n\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720.8003, y: -1923.2}
+  - Guid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r\n"
+    State: 6
+    Position: {x: 4720.8003, y: -2256}
+  - Guid: 95418c21-1bb7-49c3-83d5-79c68615c097
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r\n"
+    State: 6
+    Position: {x: 4720.8003, y: -940.8}
+  - Guid: a37012b6-9a0b-419c-9998-658e0f9e18f6
+    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
+      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
+      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
+      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
+      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
+      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
+      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
+      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
+      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
+      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
+      ?\t\t\n\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720.8003, y: -668}
+  - Guid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r"
+    State: 6
+    Position: {x: 4720.8003, y: -399.2}
+  - Guid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 4026.4, y: 355.19998}
+  - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    State: 6
+    Position: {x: 2889.5999, y: 510.39996}
+  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
+    State: 2
+    Position: {x: 1779.2, y: 774.39996}
+  - Guid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
+    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
+      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
+      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
+      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
+      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
+      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
+      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
+      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
+      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
+      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
+      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720.8003, y: -20.800001}
   - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
     DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
       de transmission.\r\nVous serez en charge des communications avec le 14e r\xE9giment
@@ -33,10 +401,157 @@ MonoBehaviour:
       serez bient\xF4t initi\xE9 \xE0 son fonctionnement.\r\nUne fois votre entra\xEEnement
       termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
       au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
-    Position: {x: 381.6, y: 136.8}
-  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    State: 1
+    Position: {x: 525.60004, y: 188.8}
+  - Guid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
+    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
+      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
+      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
+      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
+      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
+      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
+      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
+      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
+      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
+      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
+      ?\t\t\n\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720.8003, y: 280.8}
+  - Guid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r\n"
+    State: 6
+    Position: {x: 4720.8003, y: 561.6}
+  - Guid: 1eefa763-f614-494f-8fec-3de326c3367c
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 4049.5999, y: 876}
+  - Guid: 1133cc83-28f9-4676-9b95-ffdd82627eac
+    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
+      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
+      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
+      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
+      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
+      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
+      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
+      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
+      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
+      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
+      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4704, y: 832}
+  - Guid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 3932, y: 1720}
+  - Guid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    State: 1
+    Position: {x: 3932, y: 2022.4}
+  - Guid: df8a1971-e60d-4b67-b205-3b495324e615
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    State: 6
+    Position: {x: 2795.2, y: 1890.4}
+  - Guid: 905e5925-e8d3-439a-84f8-af22deb8e16b
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r"
+    State: 6
+    Position: {x: 4704, y: 1104.8}
+  - Guid: 4c06129e-ef50-4542-8de2-9ea418113780
+    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
+      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
+      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
+      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
+      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
+      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
+      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
+      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
+      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
+      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
+      ?\t\t\n\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4704, y: 1405.6001}
+  - Guid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8res\r\nCharles \r"
+    State: 6
+    Position: {x: 4704, y: 1671.2001}
+  - Guid: c1e5510d-6299-4091-ad37-5531695c0708
+    DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
+      r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
+      nos deux postes nous emp\xEAchent de nous voir ?\r\nBon, on va bient\xF4t p\xE9n\xE9trer
+      Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont pas d\xE9tecter notre subterfuge.
+      \r\nMais maintenant, les soldats ont l\u2019air bien plus vigilant. \r\nOn
+      a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais c\u2019est
+      tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air controller tous ceux qui rentrent/de
+      fouiller tous ceux qui rentrent, ces chiens. \r\nOu alors, on pourrait essayer
+      de voir s'il y a un autre chemin o\xF9 l\u2019on pourrait se faufiler, mais
+      on risque de perdre de pr\xE9cieuses heures. \r\nQuand penses-tu ?\r\n\xC0
+      ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire ?\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4704, y: 1964.8}
+  - Guid: a1fc91f5-a268-466f-a863-af77815438c1
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r"
+    State: 6
+    Position: {x: 4704, y: 2278.4001}
+  - Guid: 78bf6663-e534-4c18-b2d7-339876293f86
     DialogueText: Dialogue Node
-    Position: {x: 1864, y: 104}
-  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
+    State: 0
+    Position: {x: 6435.2, y: 832}
+  - Guid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
     DialogueText: Dialogue Node
-    Position: {x: 1864, y: 237.59999}
+    State: 0
+    Position: {x: 6435.2, y: 832}
