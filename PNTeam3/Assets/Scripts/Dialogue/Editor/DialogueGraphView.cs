@@ -94,7 +94,7 @@ public class DialogueGraphView : GraphView
             dialogueNode.state = (ImageSignature)evt.newValue;
             dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
         });
-        dialogueNode.contentContainer.Add(dropDownMenu);
+        dialogueNode.inputContainer.Add(dropDownMenu);
 
         var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
