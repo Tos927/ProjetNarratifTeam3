@@ -27,11 +27,11 @@ MonoBehaviour:
     DialogueText: dksnfk,flkqjsvksdkcjqc
     State: 3
     Position: {x: 229.59999, y: 162.40001}
-  - Guid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
-    DialogueText: dddd
-    State: 1
-    Position: {x: 651.2, y: 85.600006}
   - Guid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
     DialogueText: ddddqqqq
     State: 3
     Position: {x: 683.2, y: 250.40001}
+  - Guid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
+    DialogueText: dddd
+    State: 2
+    Position: {x: 651.2, y: 85.600006}
