@@ -1,3 +1,4 @@
+using Codice.Client.BaseCommands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,7 +52,8 @@ public class GraphSaveUtility
                 DialogueText = dialogueNode.dialogueText,
                 State = dialogueNode.state,
                 Position = dialogueNode.GetPosition().position,
-            }) ;
+                futureInt = dialogueNode.futureInt
+            });
         }
         //Autocreate folder
         if (!AssetDatabase.IsValidFolder($"Assets/Resources"))
@@ -93,7 +95,7 @@ public class GraphSaveUtility
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.futureInt);
             tempNode.GUID = nodeData.Guid;
             _targetGraphView.AddElement(tempNode);
 
