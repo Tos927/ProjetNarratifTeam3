@@ -1,12 +1,9 @@
-using PlasticPipe.PlasticProtocol.Messages;
+using DG.DemiEditor;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Management.Instrumentation;
-using Unity.VisualScripting;
-using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEditor.UIElements;
 using UnityEngine;
@@ -16,6 +13,9 @@ using static DialogueNodeData;
 public class DialogueGraphView : GraphView
 {
     public readonly Vector2 defaultNodeSize = new Vector2(200f, 200f);
+
+    private List<string> copyCacheData;
+    private List<DialogueNode> copyCacheDialogueNodes;
 
     public DialogueGraphView() {
         styleSheets.Add(Resources.Load<StyleSheet>("DialogueGraph"));
@@ -31,8 +31,11 @@ public class DialogueGraphView : GraphView
         grid.StretchToParentSize();
 
         AddElement(GenerateEntryPointNode());
-    }
 
+        serializeGraphElements += CutCopyOperation;
+        unserializeAndPaste += PasteOperation;
+        canPasteSerializedData += AllowPaste;
+    }
 
     private Port GeneratePort(DialogueNode node, Direction portDirection, Port.Capacity capacity = Port.Capacity.Single)
     {
@@ -55,6 +58,8 @@ public class DialogueGraphView : GraphView
 
         node.capabilities -= Capabilities.Movable;
         node.capabilities -= Capabilities.Deletable;
+        node.capabilities -= Capabilities.Copiable;
+
 
         node.RefreshExpandedState();
         node.RefreshPorts();
@@ -71,7 +76,7 @@ public class DialogueGraphView : GraphView
     {
         var dialogueNode = new DialogueNode {
 
-            title = nodeName,
+            title = state.ToString() + " Dialogue",
             dialogueText = nodeName,
             GUID = Guid.NewGuid().ToString(),
             state = state,
@@ -106,7 +111,7 @@ public class DialogueGraphView : GraphView
 
         dialogueNode.RefreshPorts();
         dialogueNode.RefreshExpandedState();
-        dialogueNode.SetPosition(new Rect(Vector2.zero,defaultNodeSize));
+        dialogueNode.SetPosition(new Rect(Vector2.zero, defaultNodeSize));
 
         return dialogueNode;
     }
@@ -175,5 +180,31 @@ public class DialogueGraphView : GraphView
         });
 
         return comptaiblePorts;
+    }
+
+    private string CutCopyOperation(IEnumerable<GraphElement> elements)
+    {
+        foreach (DialogueNode node in elements.ToList())
+        {
+
+            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state);
+
+            copynode.RefreshPorts();
+            copynode.RefreshExpandedState();
+            copynode.SetPosition(new Rect(node.GetPosition().position + new Vector2(50f, 50f), node.GetPosition().size));
+
+            AddElement(copynode);
+        }
+        return string.Empty;
+    }
+
+    private void PasteOperation(string a, string b)
+    {
+        //Debug.Log("paste");
+    }
+
+    private bool AllowPaste(string data)
+    {
+        return true;
     }
 }
