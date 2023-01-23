@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEditor.UIElements;
@@ -9,19 +10,21 @@ public class DialogueGraph : EditorWindow
     private DialogueGraphView _graphView;
     private string _fileName = "New Narrative";
 
+    private MiniMap minimap;
+    private bool minimapButtonBool = false;
+
     [MenuItem("Graph/Dialogue Graph")]
     public static void OpenGraphWindow()
     {
         var windows = GetWindow<DialogueGraph>();
         windows.titleContent = new GUIContent("Dialogue Graph");
-
     }
 
     private void OnEnable()
     {
         ConstructGraphView();
         GenerateToolBar();
-        //GenerateMinimap();
+        GenerateMinimap();
     }
 
     private void OnDisable()
@@ -53,12 +56,29 @@ public class DialogueGraph : EditorWindow
         toolbar.Add(new Button(() => RequestDataOperation(false)){text = "Load Data"});
         toolbar.Add(new Button(() => RequestDataOperation(true)) { text = "Save Data" });
 
+        var buttonMinimap = new Button(() => { ActivteMinimap(); });
+        buttonMinimap.text = "Show MiniMap";
+        toolbar.Add(buttonMinimap);
 
         var nodeCreateButton = new Button(() => { _graphView.CreateNode("Dialogue Node"); });
         nodeCreateButton.text = "Create Node";
         toolbar.Add(nodeCreateButton);
 
         rootVisualElement.Add(toolbar);
+    }
+
+    private void ActivteMinimap()
+    {
+        if (minimapButtonBool)
+        {
+            _graphView.Remove(minimap);
+            minimapButtonBool = false;
+        }
+        else
+        {
+            _graphView.Add(minimap);
+            minimapButtonBool = true;
+        }
     }
 
     private void RequestDataOperation(bool save)
@@ -78,12 +98,11 @@ public class DialogueGraph : EditorWindow
 
     private void GenerateMinimap()
     {
-        var miniMap = new MiniMap
+        minimap = new MiniMap
         {
             anchored = true,
         };
-        miniMap.SetPosition(new Rect(10f, 30f, 100f, 70f));
-        _graphView.Add(miniMap);
+        minimap.SetPosition(new Rect(10f, 30f, 200, 120));
+        minimapButtonBool = false;
     }
-
 }
