@@ -9,8 +9,8 @@ public delegate void notifAction();
 public class CodexRotation : MonoBehaviour
 {
     public RectTransform UI_Element;
-    public notifAction startCodex;
-    public notifAction endCodex;
+    public static notifAction startCodex;
+    public static notifAction endCodex;
 
     private RectTransform rectT;
     private Vector2 centerPoint;
