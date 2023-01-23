@@ -99,7 +99,7 @@ public class DialogueGraphView : GraphView
         dropDownMenu.RegisterValueChangedCallback(evt =>
         {
             dialogueNode.state = (ImageSignature)evt.newValue;
-            //dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
+            dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
         });
         dialogueNode.inputContainer.Add(dropDownMenu);
 

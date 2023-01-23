@@ -95,7 +95,7 @@ public class GraphSaveUtility
         {
             var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State);
             tempNode.GUID = nodeData.Guid;
-            tempNode.title = tempNode.state.ToString() + " Dialogue Node";
+            tempNode.title = tempNode.state.ToString() + " Dialogue";
             _targetGraphView.AddElement(tempNode);
 
             var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
