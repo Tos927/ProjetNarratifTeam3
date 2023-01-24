@@ -8,7 +8,7 @@ public class DialogueNodeData
     public string DialogueText;
     public ImageSignature State;
     public Vector2 Position;
-    public int futureInt = 0;
+    public int gaugeValue = 0;
 
     public enum ImageSignature
     {

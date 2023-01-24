@@ -81,7 +81,7 @@ public class DialogueGraphView : GraphView
             GUID = Guid.NewGuid().ToString(),
             state = state,
             title = state.ToString() + " Dialogue",
-            futureInt = futureInt,
+            gaugeValue = futureInt,
         };
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
@@ -105,12 +105,12 @@ public class DialogueGraphView : GraphView
 
 
         var gaugeValue = new IntegerField();
-        gaugeValue.value = dialogueNode.futureInt;
+        gaugeValue.value = dialogueNode.gaugeValue;
         gaugeValue.RegisterValueChangedCallback(evt =>
         {
-            dialogueNode.futureInt = evt.newValue;
+            dialogueNode.gaugeValue = evt.newValue;
         });
-        gaugeValue.SetValueWithoutNotify(dialogueNode.futureInt);
+        gaugeValue.SetValueWithoutNotify(dialogueNode.gaugeValue);
         dialogueNode.inputContainer.Add(gaugeValue);
 
         var textField = new TextField(string.Empty, -1, true, false, '*');
@@ -198,7 +198,7 @@ public class DialogueGraphView : GraphView
     {
         foreach (DialogueNode node in elements.ToList())
         {
-            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state, node.futureInt);
+            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state, node.gaugeValue);
 
             copynode.RefreshPorts();
             copynode.RefreshExpandedState();
