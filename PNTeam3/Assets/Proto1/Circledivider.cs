@@ -8,7 +8,6 @@ using UnityEngine.UI;
 public class Circledivider : MonoBehaviour
 {
     public int numberOfParts = 8;
-    public float radius = 1;
     public GameObject linePrefab;
     public GameObject textPrefab;
 

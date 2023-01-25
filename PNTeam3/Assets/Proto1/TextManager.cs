@@ -8,11 +8,8 @@ using DG.Tweening;
 
 public class TextManager : MonoBehaviour
 {
-    [SerializeField] private char[] lettersFirstSentence;
-    [SerializeField] private char[] lettersSecondSentence;
-    [SerializeField] private string firstSentence;
-    [SerializeField] private string secondSentence;
-    [SerializeField] private float animDuration; 
+
+    [SerializeField] private float animDuration;
     [SerializeField] private TextMeshProUGUI firstSentenceUI;
     [SerializeField] private TextMeshProUGUI secondSentenceUI;
 
@@ -70,19 +67,19 @@ public class TextManager : MonoBehaviour
 
     public void UncoverSentences()
     {
-        Tween a = firstSentenceUI.DOText(firstSentence, animDuration, true, ScrambleMode.Uppercase);
-        a.onComplete += () =>
-        { Tween b = secondSentenceUI.DOText(secondSentence, animDuration, true, ScrambleMode.Uppercase); };
+        //Tween a = firstSentenceUI.DOText(firstSentence, animDuration, true, ScrambleMode.Uppercase);
+        //a.onComplete += () =>
+        //{ Tween b = secondSentenceUI.DOText(secondSentence, animDuration, true, ScrambleMode.Uppercase); };
     }
 
     private void InitText()
     {
-        firstSentenceUI.text = stoc(firstSentence, lettersFirstSentence);
-        secondSentenceUI.text = stoc(secondSentence,lettersSecondSentence);
+        //firstSentenceUI.text = stoc(firstSentence, lettersFirstSentence);
+        //secondSentenceUI.text = stoc(secondSentence,lettersSecondSentence);
 
         firstAnswer = ParseText(firstSentenceUI.text);
         secondAnswer = ParseText(secondSentenceUI.text);
 
-        Debug.Log($"Les lettres a trouve sont : {firstAnswer} et {secondAnswer}");
+        Debug.Log($"Les lettres a trouver sont : {firstAnswer} et {secondAnswer}");
     }
 }

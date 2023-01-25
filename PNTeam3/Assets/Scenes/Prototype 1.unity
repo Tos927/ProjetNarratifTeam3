@@ -1426,7 +1426,7 @@ GameObject:
   - component: {fileID: 2147316405}
   - component: {fileID: 2147316408}
   m_Layer: 5
-  m_Name: Image
+  m_Name: cercle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1465,7 +1465,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberOfParts: 8
-  radius: 1
   linePrefab: {fileID: 7916751942060641721, guid: 1bfeac58d11dcaa4ab8827dbb4572189,
     type: 3}
   textPrefab: {fileID: 7828470619591492406, guid: c35e53aa1939fc443921f67d19242e3f,

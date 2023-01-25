@@ -15,8 +15,8 @@ public class CodexRotation : MonoBehaviour
     private RectTransform rectT;
     private Vector2 centerPoint;
 
-    private float angle = 0f;
-    private float prevAngle = 0f;
+    private float angle;
+    private float prevAngle;
 
     public float GetAngle()
     {
