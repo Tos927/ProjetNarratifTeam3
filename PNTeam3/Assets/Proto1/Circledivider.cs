@@ -59,12 +59,12 @@ namespace T3
 
         public void ClearCircle()
         {
-            for (int i = lineList.Count; i >= 0; --i)
+            for (int i = lineList.Count - 1; i >= 0; --i)
             {
                 Destroy(lineList[i]);
             }
 
-            for (int i = textList.Count; i >= 0; --i)
+            for (int i = textList.Count - 1; i >= 0; --i)
             {
                 Destroy(textList[i]);
             }

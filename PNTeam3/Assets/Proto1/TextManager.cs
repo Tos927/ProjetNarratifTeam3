@@ -9,8 +9,16 @@ using Unity.VisualScripting;
 
 namespace T3
 {
+    public delegate void TextEvent();
     public class TextManager : MonoBehaviour
     {
+        #region TEMPORARY
+
+        [SerializeField] private GameObject button;
+        #endregion
+
+        public static TextEvent cleanEvent;
+
         [SerializeField] private PuzzleCollectionSO puzzles;
         [SerializeField] private float animDuration;
         [SerializeField] private TextMeshProUGUI firstSentenceUI;
@@ -89,14 +97,27 @@ namespace T3
 
         public void UncoverSentences(int index)
         {
+            firstInput = -1;
+            secondInput = -1;
             Tween a = firstSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getFirstSentence, animDuration, true, ScrambleMode.Uppercase);
             a.onComplete += () =>
-            { Tween b = secondSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getSecondSentence, animDuration, true, ScrambleMode.Uppercase); };
+            {
+                Tween b = secondSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getSecondSentence, animDuration, true, ScrambleMode.Uppercase);
+                b.onComplete += () =>
+                {
+                    button.SetActive(true);
+                    button.GetComponent<CanvasGroup>().DOFade(1f, 2f);
+                };
+            };
+            
+
         }
 
         public void InitText(int index)
         {
             indexTrack = index;
+            button.SetActive(false); //TEMP
+            button.GetComponent<CanvasGroup>().alpha = 0; //TEMP
             firstSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getFirstSentence, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
             secondSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getSecondSentence, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
 
@@ -128,6 +149,12 @@ namespace T3
                 return;
             }
             Debug.Log("Incorrect");
+        }
+
+        //TEMP
+        public void Clean()
+        {
+            cleanEvent?.Invoke();
         }
     }
 }

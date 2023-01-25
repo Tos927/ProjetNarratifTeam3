@@ -5724,7 +5724,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2055449725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6252,6 +6252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b7697391de9c34fb8e412f5ce97a20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  button: {fileID: 7600562594000328468}
   puzzles: {fileID: 11400000, guid: 9f9ae99bdb7a9fc449e8090071fd6268, type: 2}
   animDuration: 5
   firstSentenceUI: {fileID: 7600562593230369697}
@@ -6892,6 +6893,7 @@ GameObject:
   - component: {fileID: 7600562594000328472}
   - component: {fileID: 7600562594000328473}
   - component: {fileID: 7600562594000328470}
+  - component: {fileID: 7600562594000328474}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6979,6 +6981,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7600562593144598647}
+        m_TargetAssemblyTypeName: T3.TextManager, Assembly-CSharp
+        m_MethodName: Clean
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &7600562594000328471
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7038,6 +7052,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &7600562594000328474
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7600562594000328468}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7600562594376301480
 GameObject:
   m_ObjectHideFlags: 0
