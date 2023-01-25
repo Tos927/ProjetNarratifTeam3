@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e2daeab3f7b544cb173c49d8fc4a67, type: 3}
+  m_Name: TestEnum
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - baseNodeGuid: 632e23e9-4642-4ec0-ade3-790d4b6651f5
+    PortName: Next
+    TargetNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+  - baseNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+    PortName: Choice1
+    TargetNodeGuid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
+  - baseNodeGuid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+    PortName: Choice2
+    TargetNodeGuid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
+  dialogueNodeDatas:
+  - Guid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
+    DialogueText: ddddqqqq
+    State: 3
+    Position: {x: 683.2, y: 250.40001}
+    futureInt: -25
+  - Guid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+    DialogueText: dksnfk,flkqjsvksdkcjqc
+    State: 3
+    Position: {x: 229.59999, y: 162.40001}
+    futureInt: 544
+  - Guid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
+    DialogueText: dddd
+    State: 2
+    Position: {x: 651.2, y: 85.600006}
+    futureInt: 777
