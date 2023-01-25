@@ -5,81 +5,127 @@ using System.Linq;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using Unity.VisualScripting;
 
-public class TextManager : MonoBehaviour
+namespace T3
 {
-
-    [SerializeField] private float animDuration;
-    [SerializeField] private TextMeshProUGUI firstSentenceUI;
-    [SerializeField] private TextMeshProUGUI secondSentenceUI;
-
-    private TextMeshProUGUI textUITest;
-    private char firstAnswer;
-    private char secondAnswer;
-
-    private void Start()
+    public class TextManager : MonoBehaviour
     {
-        InitText();
-    }
+        [SerializeField] private PuzzleCollectionSO puzzles;
+        [SerializeField] private float animDuration;
+        [SerializeField] private TextMeshProUGUI firstSentenceUI;
+        [SerializeField] private TextMeshProUGUI secondSentenceUI;
+        [SerializeField] private Circledivider[] circledividers;
+        public Circledivider[] getCircledivider => circledividers;
 
-    private char ParseText(string text)
-    {
-        var mostFrequent = text.Where(c => c != ' ')
-                                .GroupBy(c => c)
-                                .OrderByDescending(g => g.Count())
-                                .First()
-                                .Key;
-        return mostFrequent;
-    }
+        private TextMeshProUGUI textUITest;
+        private int firstAnswer;
+        private int secondAnswer;
+        private int firstInput = -1;
+        private int secondInput = -1;
 
-    private string RandomizeString(string text)
-    {
-        string[] words = text.Split(' ');
-        for (int i = 0; i < words.Length; ++i)
+        private void Start()
         {
-            char[] wordChars = words[i].ToCharArray();
-            for (int j = 0; j < wordChars.Length; ++j)
-            {
-                int k = UnityEngine.Random.Range(j, wordChars.Length);
-                (wordChars[j], wordChars[k]) = (wordChars[k], wordChars[j]);
-            }
-            words[i] = new string(wordChars);
+            circledividers[0].findPartEvent += x => { return firstInput = x; };
+            circledividers[0].findPartEvent += x => { CheckInput(); return x; };
+            circledividers[1].findPartEvent += x => { return secondInput = x; };
+            circledividers[1].findPartEvent += x => { CheckInput(); return x; };
+            InitText(0);
         }
-        string randomizedString = string.Join(" ", words);
-        return randomizedString;
-    }
 
-    private string stoc(string text, char[] letters)
-    {
-        string[] words = text.Split(' ');
-        for (int i = 0; i < words.Length; ++i)
+        private int ParseText(string text, char[] letters)
         {
-            char[] wordChars = words[i].ToCharArray();
-            for (int j = 0; j < wordChars.Length; ++j)
+            var mostFrequent = text.Where(c => c != ' ')
+                                    .GroupBy(c => c)
+                                    .OrderByDescending(g => g.Count())
+                                    .First()
+                                    .Key;
+            int answer = 0;
+            for (int i = 0; i < letters.Length; ++i)
             {
-                wordChars[j] = letters[wordChars[j] % letters.Length];
+                if (mostFrequent == letters[i])
+                {
+                    answer = i;
+                    Debug.Log($"La lettre a trouver est : {mostFrequent} ({answer})");
+                    return answer;
+                }
             }
-            words[i] = new string(wordChars);
+
+            return answer;
         }
-        string encodedString = string.Join(" ", words);
-        return encodedString;
-    }
 
-    public void UncoverSentences()
-    {
-        //Tween a = firstSentenceUI.DOText(firstSentence, animDuration, true, ScrambleMode.Uppercase);
-        //a.onComplete += () =>
-        //{ Tween b = secondSentenceUI.DOText(secondSentence, animDuration, true, ScrambleMode.Uppercase); };
-    }
+        private string RandomizeString(string text)
+        {
+            string[] words = text.Split(' ');
+            for (int i = 0; i < words.Length; ++i)
+            {
+                char[] wordChars = words[i].ToCharArray();
+                for (int j = 0; j < wordChars.Length; ++j)
+                {
+                    int k = UnityEngine.Random.Range(j, wordChars.Length);
+                    (wordChars[j], wordChars[k]) = (wordChars[k], wordChars[j]);
+                }
+                words[i] = new string(wordChars);
+            }
+            string randomizedString = string.Join(" ", words);
+            return randomizedString;
+        }
 
-    private void InitText()
-    {
-        //firstSentenceUI.text = stoc(firstSentence, lettersFirstSentence);
-        //secondSentenceUI.text = stoc(secondSentence,lettersSecondSentence);
+        private string stoc(string text, char[] letters)
+        {
+            string[] words = text.Split(' ');
+            for (int i = 0; i < words.Length; ++i)
+            {
+                char[] wordChars = words[i].ToCharArray();
+                for (int j = 0; j < wordChars.Length; ++j)
+                {
+                    wordChars[j] = letters[wordChars[j] % letters.Length];
+                }
+                words[i] = new string(wordChars);
+            }
+            string encodedString = string.Join(" ", words);
+            return encodedString;
+        }
 
-        firstAnswer = ParseText(firstSentenceUI.text);
-        secondAnswer = ParseText(secondSentenceUI.text);
+        public void UncoverSentences(int index)
+        {
+            Tween a = firstSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getFirstSentence, animDuration, true, ScrambleMode.Uppercase);
+            a.onComplete += () =>
+            { Tween b = secondSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getSecondSentence, animDuration, true, ScrambleMode.Uppercase); };
+        }
 
-        Debug.Log($"Les lettres a trouver sont : {firstAnswer} et {secondAnswer}");
+        private void InitText(int index)
+        {
+            firstSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getFirstSentence, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
+            secondSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getSecondSentence, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
+
+            firstAnswer = ParseText(firstSentenceUI.text, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
+            secondAnswer = ParseText(secondSentenceUI.text, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
+
+            circledividers[0].SetupCircle(puzzles.getPuzzleDataSOs[index].getLettersFirstSentence.Length, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
+            circledividers[1].SetupCircle(puzzles.getPuzzleDataSOs[index].getLettersSecondSentence.Length, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
+        }
+
+        private void CheckInput()
+        {
+            //if (firstAnswer != firstInput)
+            //{
+            //    Debug.Log("First answer incorrect");
+            //    return;
+            //}
+            //Debug.Log("first answer correct");
+            //if (secondAnswer != secondInput)
+            //{
+            //    Debug.Log("Second answer incorrect");
+            //    return;
+            //}
+            //Debug.Log("Second answer correct");
+            if (firstAnswer == firstInput && secondAnswer == secondInput)
+            {
+                Debug.Log("Correct");
+                return;
+            }
+            Debug.Log("Incorrect");
+        }
     }
 }
