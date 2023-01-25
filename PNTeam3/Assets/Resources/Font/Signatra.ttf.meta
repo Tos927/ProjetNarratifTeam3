@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2b96f434c82f3684eb57c702f2cdc89c
+guid: b3f76a084f12a8342b6467f3610b4537
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,9 +9,8 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cherolina
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 3684a4ebd3e4d5648832da76f95ea69c, type: 3}
+  - Signatra DEMO
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

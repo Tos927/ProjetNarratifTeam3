@@ -77,7 +77,7 @@ public class ParserDialogueGraph : MonoBehaviour
             case DialogueNodeData.ImageSignature.FRERE:
                 frereGauge += nodeData.gaugeValue;
                 charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
-                signatureText.font = Resources.Load<Font>("Font/Cherolina");
+                signatureText.font = Resources.Load<Font>("Font/Signatra");
                 signatureText.text = "Charles";
                 break;
 
