@@ -87,7 +87,6 @@ public class ParserDialogueGraph : MonoBehaviour
                 signatureText.text = "General Patin";
                 break;
         }
-
         //Debug.Log("BFF : " + bffGauge + "  Brother : " + frereGauge);
     }
 
