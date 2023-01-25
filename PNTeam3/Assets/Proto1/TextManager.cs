@@ -19,6 +19,7 @@ namespace T3
         public Circledivider[] getCircledivider => circledividers;
 
         private TextMeshProUGUI textUITest;
+        private int indexTrack;
         private int firstAnswer;
         private int secondAnswer;
         private int firstInput = -1;
@@ -96,6 +97,7 @@ namespace T3
 
         private void InitText(int index)
         {
+            indexTrack = index;
             firstSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getFirstSentence, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
             secondSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getSecondSentence, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
 
@@ -122,6 +124,7 @@ namespace T3
             //Debug.Log("Second answer correct");
             if (firstAnswer == firstInput && secondAnswer == secondInput)
             {
+                UncoverSentences(indexTrack);
                 Debug.Log("Correct");
                 return;
             }
