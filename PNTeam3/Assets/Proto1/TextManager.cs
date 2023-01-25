@@ -31,7 +31,6 @@ namespace T3
             circledividers[0].findPartEvent += x => { CheckInput(); return x; };
             circledividers[1].findPartEvent += x => { return secondInput = x; };
             circledividers[1].findPartEvent += x => { CheckInput(); return x; };
-            InitText(0);
         }
 
         private int ParseText(string text, char[] letters)
@@ -95,7 +94,7 @@ namespace T3
             { Tween b = secondSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getSecondSentence, animDuration, true, ScrambleMode.Uppercase); };
         }
 
-        private void InitText(int index)
+        public void InitText(int index)
         {
             indexTrack = index;
             firstSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getFirstSentence, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
