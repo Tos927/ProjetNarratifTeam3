@@ -27,9 +27,10 @@ public class ParserDialogueGraph : MonoBehaviour
             if (dialogueContainer.dialogueNodeDatas[i].Guid == dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").TargetNodeGuid)
             {
                 currentNode = dialogueContainer.dialogueNodeDatas[i];
-                charaImage.sprite = Resources.Load<Sprite>("General");
-                signatureText.text = "General Patin";
+                charaImage.sprite = Resources.Load<Sprite>("Character/General");
                 signatureText.font = Resources.Load<Font>("Font/Typewriter-Black");
+                signatureText.text = "General Patin";
+
                 //Debug.Log(dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").PortName);
             }
         }
@@ -69,19 +70,19 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             case DialogueNodeData.ImageSignature.BFF:
                 bffGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("BFF1");
+                charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
                 signatureText.font = Resources.Load<Font>("Font/Autography");
                 signatureText.text = "J.P.";
                 break;
             case DialogueNodeData.ImageSignature.FRERE:
                 frereGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("Frere1");
+                charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
                 signatureText.font = Resources.Load<Font>("Font/Cherolina");
                 signatureText.text = "Charles";
                 break;
 
             default:
-                charaImage.sprite = Resources.Load<Sprite>("General");
+                charaImage.sprite = Resources.Load<Sprite>("Character/General");
                 signatureText.font = Resources.Load<Font>("Font/Typewriter-Black");
                 signatureText.text = "General Patin";
                 break;
