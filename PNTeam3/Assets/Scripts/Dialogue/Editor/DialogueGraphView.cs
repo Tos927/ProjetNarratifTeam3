@@ -1,3 +1,4 @@
+using Codice.Client.BaseCommands;
 using DG.DemiEditor;
 using System;
 using System.Collections.Generic;
@@ -72,17 +73,16 @@ public class DialogueGraphView : GraphView
         AddElement(CreateDialogueNode(nodeName));
     }
 
-    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT)
+    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT, int futureInt = 0)
     {
         var dialogueNode = new DialogueNode {
-            
+
             dialogueText = nodeName,
-            title = nodeName,
             GUID = Guid.NewGuid().ToString(),
             state = state,
+            title = state.ToString() + " Dialogue",
+            gaugeValue = futureInt,
         };
-
-        
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
         inputPort.name= "Input";
@@ -95,7 +95,7 @@ public class DialogueGraphView : GraphView
         dialogueNode.titleContainer.Add(button);
 
         var dropDownMenu = new EnumField(ImageSignature.DEFAULT);
-        dropDownMenu.value = state;
+        dropDownMenu.value = dialogueNode.state;
         dropDownMenu.RegisterValueChangedCallback(evt =>
         {
             dialogueNode.state = (ImageSignature)evt.newValue;
@@ -103,12 +103,22 @@ public class DialogueGraphView : GraphView
         });
         dialogueNode.inputContainer.Add(dropDownMenu);
 
+
+        var gaugeValue = new IntegerField();
+        gaugeValue.value = dialogueNode.gaugeValue;
+        gaugeValue.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.gaugeValue = evt.newValue;
+        });
+        gaugeValue.SetValueWithoutNotify(dialogueNode.gaugeValue);
+        dialogueNode.inputContainer.Add(gaugeValue);
+
         var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
         {
             dialogueNode.dialogueText = evt.newValue;
         });
-        textField.SetValueWithoutNotify(dialogueNode.title);
+        textField.SetValueWithoutNotify(dialogueNode.dialogueText);
         dialogueNode.mainContainer.Add(textField);
 
         dialogueNode.RefreshPorts();
@@ -188,7 +198,7 @@ public class DialogueGraphView : GraphView
     {
         foreach (DialogueNode node in elements.ToList())
         {
-            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state);
+            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state, node.gaugeValue);
 
             copynode.RefreshPorts();
             copynode.RefreshExpandedState();

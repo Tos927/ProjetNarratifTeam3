@@ -23,15 +23,18 @@ MonoBehaviour:
     PortName: Choice2
     TargetNodeGuid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
   dialogueNodeDatas:
-  - Guid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
-    DialogueText: dksnfk,flkqjsvksdkcjqc
-    State: 3
-    Position: {x: 229.59999, y: 162.40001}
   - Guid: 24a2be4c-392c-4410-bf8b-600d2dd52a7b
     DialogueText: ddddqqqq
     State: 3
     Position: {x: 683.2, y: 250.40001}
+    futureInt: -25
+  - Guid: 22c04839-52f1-4c47-90d9-a04d8d472cbc
+    DialogueText: dksnfk,flkqjsvksdkcjqc
+    State: 3
+    Position: {x: 229.59999, y: 162.40001}
+    futureInt: 544
   - Guid: 9fab1b44-1429-4dad-8e6e-b239e9c7bc85
     DialogueText: dddd
     State: 2
     Position: {x: 651.2, y: 85.600006}
+    futureInt: 777

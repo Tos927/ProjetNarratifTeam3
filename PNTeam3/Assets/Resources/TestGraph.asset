@@ -28,18 +28,6 @@ MonoBehaviour:
   - baseNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
     PortName: Choice1
     TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
-  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    PortName: Choice1
-    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    PortName: Choice2
-    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    PortName: Choice3
-    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    PortName: Choice4
-    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
   - baseNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
     PortName: Choice1
     TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
@@ -55,36 +43,56 @@ MonoBehaviour:
   - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
     PortName: Choice2
     TargetNodeGuid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice1
+    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice2
+    TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice3
+    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+  - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    PortName: Choice4
+    TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
   dialogueNodeDatas:
   - Guid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    DialogueText: troisieme Dialogue
+    DialogueText: Ouais
     State: 1
     Position: {x: 638.4, y: 236.8}
+    gaugeValue: 0
   - Guid: 676e635a-9edf-49f6-8217-327cbbb3c426
     DialogueText: deuxieme Dialogue (second)
     State: 0
     Position: {x: 996.8, y: 236.8}
-  - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
-    DialogueText: troisieme Dialogue (second)
-    State: 0
-    Position: {x: 954.4, y: -8.000001}
+    gaugeValue: 0
   - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
     DialogueText: deuxieme Dialogue
-    State: 0
+    State: 2
     Position: {x: 596, y: -32}
+    gaugeValue: -2
   - Guid: 90a3a836-f46a-4cd5-a660-3817dc485363
     DialogueText: quatrieme dialogue
-    State: 0
+    State: 3
     Position: {x: 1405.6, y: 68}
+    gaugeValue: -8
   - Guid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
     DialogueText: Dialogue Node
     State: 1
     Position: {x: 1642.3999, y: 281.59998}
+    gaugeValue: 0
   - Guid: 0277d11d-29f9-4900-b868-c231b6e8c070
     DialogueText: Dialogue Node
-    State: 1
+    State: 2
     Position: {x: 1798.3999, y: 48.8}
+    gaugeValue: 50
   - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     DialogueText: Premier dialogue
-    State: 0
+    State: 3
     Position: {x: 268, y: 106.399994}
+    gaugeValue: 10
+  - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
+    DialogueText: troisieme Dialogue (second)
+    State: 1
+    Position: {x: 954.4, y: -8.000001}
+    gaugeValue: 200

@@ -1,3 +1,4 @@
+using Codice.Client.BaseCommands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -51,6 +52,7 @@ public class GraphSaveUtility
                 DialogueText = dialogueNode.dialogueText,
                 State = dialogueNode.state,
                 Position = dialogueNode.GetPosition().position,
+                gaugeValue = dialogueNode.gaugeValue
             });
         }
         //Autocreate folder
@@ -93,9 +95,8 @@ public class GraphSaveUtility
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue);
             tempNode.GUID = nodeData.Guid;
-            tempNode.title = tempNode.state.ToString() + " Dialogue";
             _targetGraphView.AddElement(tempNode);
 
             var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
