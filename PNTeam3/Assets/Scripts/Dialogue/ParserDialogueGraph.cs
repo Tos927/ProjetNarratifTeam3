@@ -6,9 +6,10 @@ using UnityEngine.UI;
 
 public class ParserDialogueGraph : MonoBehaviour
 {
-
     [SerializeField] private DialogueContainer dialogueContainer;
     [SerializeField] private Text mainText;
+    [SerializeField] private Text signatureText;
+    [SerializeField] private Image charaImage;
     [SerializeField] private List<Button> buttonList;
 
     //[SerializeField] private DialogueContainer dialogueContainer;
@@ -26,7 +27,11 @@ public class ParserDialogueGraph : MonoBehaviour
             if (dialogueContainer.dialogueNodeDatas[i].Guid == dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").TargetNodeGuid)
             {
                 currentNode = dialogueContainer.dialogueNodeDatas[i];
-                Debug.Log(dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").PortName);
+                charaImage.sprite = Resources.Load<Sprite>("Character/General");
+                signatureText.font = Resources.Load<Font>("Font/Typewriter-Black");
+                signatureText.text = "General Patin";
+
+                //Debug.Log(dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").PortName);
             }
         }
     }
@@ -56,24 +61,33 @@ public class ParserDialogueGraph : MonoBehaviour
 
         currentTextsChoices.Clear();
         ReadCurrentNode();
-        UpdateGauges(currentNode);
+        UpdateGaugesAndImageSignature(currentNode);
     }
 
-    private void UpdateGauges(DialogueNodeData nodeData)
+    private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
     {
         switch (nodeData.State)
         {
             case DialogueNodeData.ImageSignature.BFF:
                 bffGauge += nodeData.gaugeValue;
+                charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
+                signatureText.font = Resources.Load<Font>("Font/Autography");
+                signatureText.text = "J.P.";
                 break;
             case DialogueNodeData.ImageSignature.FRERE:
                 frereGauge += nodeData.gaugeValue;
+                charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
+                signatureText.font = Resources.Load<Font>("Font/Signatra");
+                signatureText.text = "Charles";
                 break;
 
-            default: break;
+            default:
+                charaImage.sprite = Resources.Load<Sprite>("Character/General");
+                signatureText.font = Resources.Load<Font>("Font/Typewriter-Black");
+                signatureText.text = "General Patin";
+                break;
         }
-
-        Debug.Log("BFF : " + bffGauge + "  Brother : " + frereGauge);
+        //Debug.Log("BFF : " + bffGauge + "  Brother : " + frereGauge);
     }
 
     public void ReadCurrentNode()
