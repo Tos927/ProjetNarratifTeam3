@@ -143,22 +143,22 @@ MonoBehaviour:
     PortName: Choice4
     TargetNodeGuid: dd6b96b8-0d7d-494a-88b5-89c36b981a0a
   - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 18df5b07-963f-4250-ba9b-48673abcebd8
   - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 18df5b07-963f-4250-ba9b-48673abcebd8
   - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: bb616fea-ba65-4c28-a878-1045215fb419
   - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8temen"
     TargetNodeGuid: bb616fea-ba65-4c28-a878-1045215fb419
   - baseNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
-    PortName: gentil
+    PortName: "\xCAtre chaleureux"
     TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
   - baseNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
-    PortName: Mechant
+    PortName: "\xCAtre s\xE9rieux"
     TargetNodeGuid: 7d28f967-1362-4635-a624-4931b5722ca9
   - baseNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
     PortName: "Lettre Fr\xE8re"
@@ -173,40 +173,40 @@ MonoBehaviour:
     PortName: Lettre Ami
     TargetNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
   - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 9cb4291c-7938-472c-bc74-c4033d7ab745
   - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit "
     TargetNodeGuid: 9cb4291c-7938-472c-bc74-c4033d7ab745
   - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: 8eac02bc-8343-40cd-9aba-dd64a3fa6339
   - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 8eac02bc-8343-40cd-9aba-dd64a3fa6339
   - baseNodeGuid: a665a97e-3e15-4309-ab6a-705034775f66
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 9c071e35-2161-4a7a-aa07-9d9f5ee2e19e
   - baseNodeGuid: a665a97e-3e15-4309-ab6a-705034775f66
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 9c071e35-2161-4a7a-aa07-9d9f5ee2e19e
   - baseNodeGuid: a665a97e-3e15-4309-ab6a-705034775f66
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 636e9612-e66f-48db-acdc-3168be6ab65c
   - baseNodeGuid: a665a97e-3e15-4309-ab6a-705034775f66
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8temen"
     TargetNodeGuid: 636e9612-e66f-48db-acdc-3168be6ab65c
   - baseNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
-    PortName: Choice3
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: b46cddc1-1b0d-468d-88d9-7795335485e2
   - baseNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
-    PortName: Choice4
+    PortName: "Attaquer par derri\xE8re de nuit"
     TargetNodeGuid: b46cddc1-1b0d-468d-88d9-7795335485e2
   - baseNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
-    PortName: Choice1
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
   - baseNodeGuid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
-    PortName: Choice2
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 327ae390-8b56-41ae-a19c-8ee40d25c77f
   - baseNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
     PortName: "Lettre Fr\xE8re"
@@ -215,16 +215,16 @@ MonoBehaviour:
     PortName: Lettre Ami
     TargetNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
   - baseNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 3a8f4005-ae1e-404e-a857-da92d54f10ed
   - baseNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit "
     TargetNodeGuid: 3a8f4005-ae1e-404e-a857-da92d54f10ed
   - baseNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: 0d78e2eb-7173-4c0b-8034-77c7b17c7531
   - baseNodeGuid: a37012b6-9a0b-419c-9998-658e0f9e18f6
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 0d78e2eb-7173-4c0b-8034-77c7b17c7531
   - baseNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
     PortName: "Lettre Fr\xE8re"
@@ -233,28 +233,28 @@ MonoBehaviour:
     PortName: Lettre Ami
     TargetNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
   - baseNodeGuid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: c9340661-1c9f-4b48-9c0c-55705610c30a
   - baseNodeGuid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: c9340661-1c9f-4b48-9c0c-55705610c30a
   - baseNodeGuid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 486d01a0-00fc-4531-8bf2-926867c7cfc8
   - baseNodeGuid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: 486d01a0-00fc-4531-8bf2-926867c7cfc8
   - baseNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 892bb3be-a54f-481c-9cb3-4806ce0f6862
   - baseNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit"
     TargetNodeGuid: 892bb3be-a54f-481c-9cb3-4806ce0f6862
   - baseNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: c6c8998e-e492-4f55-b178-330986eefb29
   - baseNodeGuid: ebcfaee2-fe05-4231-b532-f69808bb8ae7
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: c6c8998e-e492-4f55-b178-330986eefb29
   - baseNodeGuid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
     PortName: Lettre Ami
@@ -269,28 +269,28 @@ MonoBehaviour:
     PortName: "Lettre Fr\xE8re"
     TargetNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
   - baseNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 7134372f-fa29-4b10-90b0-058d2fc31784
   - baseNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 7134372f-fa29-4b10-90b0-058d2fc31784
   - baseNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 8481ac34-4da8-41c9-8fa7-e665a535aa47
   - baseNodeGuid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: 8481ac34-4da8-41c9-8fa7-e665a535aa47
   - baseNodeGuid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 63bf8ab1-1de5-4ea0-a1c6-b272be66d27d
   - baseNodeGuid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit"
     TargetNodeGuid: 63bf8ab1-1de5-4ea0-a1c6-b272be66d27d
   - baseNodeGuid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: a8c9f608-8bcf-4c0c-a42b-9d5e668ce0c3
   - baseNodeGuid: e34dbb10-69f5-4de7-a88b-c4e28b86f6bb
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: a8c9f608-8bcf-4c0c-a42b-9d5e668ce0c3
   - baseNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
     PortName: Lettre Ami
@@ -305,22 +305,22 @@ MonoBehaviour:
     PortName: "Lettre Fr\xE8re"
     TargetNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
   - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
-    PortName: gentil
+    PortName: "\xCAtre chaleureux."
     TargetNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
   - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
-    PortName: mechant
+    PortName: "\xCAtre s\xE9rieux"
     TargetNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
   - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
-    PortName: gentil
+    PortName: "Rassur\xE9"
     TargetNodeGuid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
   - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
-    PortName: mechant
+    PortName: "Etre r\xE9aliste"
     TargetNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
   - baseNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
-    PortName: gentil
+    PortName: "Rassur\xE9"
     TargetNodeGuid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
   - baseNodeGuid: df8a1971-e60d-4b67-b205-3b495324e615
-    PortName: mechant
+    PortName: "Etre r\xE9aliste"
     TargetNodeGuid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
   - baseNodeGuid: e2d4fef5-8492-475f-86d6-28a9ffa8c30c
     PortName: Choice1
@@ -371,16 +371,16 @@ MonoBehaviour:
     PortName: Choice4
     TargetNodeGuid: d180df2d-0c46-40c8-b027-94809aa22db4
   - baseNodeGuid: 4c06129e-ef50-4542-8de2-9ea418113780
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: a34fc433-d9f0-45b5-8eae-bf3f3a10799a
   - baseNodeGuid: 4c06129e-ef50-4542-8de2-9ea418113780
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit "
     TargetNodeGuid: a34fc433-d9f0-45b5-8eae-bf3f3a10799a
   - baseNodeGuid: 4c06129e-ef50-4542-8de2-9ea418113780
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: 1c9b0294-2f98-4b09-be75-94748fca0685
   - baseNodeGuid: 4c06129e-ef50-4542-8de2-9ea418113780
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 1c9b0294-2f98-4b09-be75-94748fca0685
   - baseNodeGuid: 05fb1a5f-8d8a-4487-9ab6-acd1e4adcead
     PortName: Choice1
@@ -419,28 +419,28 @@ MonoBehaviour:
     PortName: Choice4
     TargetNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
   - baseNodeGuid: 905e5925-e8d3-439a-84f8-af22deb8e16b
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 587ab2f1-ce16-493e-b1f5-5bf802fbc41d
   - baseNodeGuid: 905e5925-e8d3-439a-84f8-af22deb8e16b
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 587ab2f1-ce16-493e-b1f5-5bf802fbc41d
   - baseNodeGuid: 905e5925-e8d3-439a-84f8-af22deb8e16b
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: f1ecece9-3c43-4345-b8f8-41989875f8f0
   - baseNodeGuid: 905e5925-e8d3-439a-84f8-af22deb8e16b
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: f1ecece9-3c43-4345-b8f8-41989875f8f0
   - baseNodeGuid: 1133cc83-28f9-4676-9b95-ffdd82627eac
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
   - baseNodeGuid: 1133cc83-28f9-4676-9b95-ffdd82627eac
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit "
     TargetNodeGuid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
   - baseNodeGuid: 1133cc83-28f9-4676-9b95-ffdd82627eac
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: d32f3726-e109-467a-b09c-3df9786b371e
   - baseNodeGuid: 1133cc83-28f9-4676-9b95-ffdd82627eac
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: d32f3726-e109-467a-b09c-3df9786b371e
   - baseNodeGuid: a3848b3b-9717-4b87-acd3-1e253a5fa296
     PortName: Choice1
@@ -878,10 +878,10 @@ MonoBehaviour:
     PortName: Choice1
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-    PortName: gentil
+    PortName: "\xCAtre chaleureux"
     TargetNodeGuid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
   - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-    PortName: mechant
+    PortName: "\xCAtre s\xE9rieux"
     TargetNodeGuid: c4ecb37d-3395-4ef3-879f-dfac896247bc
   - baseNodeGuid: 0d7678fc-3124-4ad3-8c0c-11a6ac0a25ab
     PortName: Choice1
@@ -1058,16 +1058,16 @@ MonoBehaviour:
     PortName: Choice1
     TargetNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
   - baseNodeGuid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 2c86b9ea-6e06-49e9-bd69-fa8e75ea7489
   - baseNodeGuid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 2c86b9ea-6e06-49e9-bd69-fa8e75ea7489
   - baseNodeGuid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 0bcdca6a-764f-4199-88cb-e82579896d1f
   - baseNodeGuid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: 0bcdca6a-764f-4199-88cb-e82579896d1f
   - baseNodeGuid: 0bcdca6a-764f-4199-88cb-e82579896d1f
     PortName: Choice1
@@ -1124,16 +1124,16 @@ MonoBehaviour:
     PortName: Choice1
     TargetNodeGuid: 589696de-71f6-4eaa-950b-bbe790244a55
   - baseNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 01ff3d81-5cdb-4cda-907a-cb83e0364189
   - baseNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: 01ff3d81-5cdb-4cda-907a-cb83e0364189
   - baseNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 0e08c6b9-eac9-4b7c-bb80-b8c2755c6f58
   - baseNodeGuid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: 0e08c6b9-eac9-4b7c-bb80-b8c2755c6f58
   - baseNodeGuid: cbde9f7f-8e91-435b-a943-674a7f43e588
     PortName: Choice1
@@ -1214,28 +1214,28 @@ MonoBehaviour:
     PortName: Choice1
     TargetNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
   - baseNodeGuid: c1e5510d-6299-4091-ad37-5531695c0708
-    PortName: Choice1
+    PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 9f065808-d1fa-4ea0-b966-cb6e349f1937
   - baseNodeGuid: c1e5510d-6299-4091-ad37-5531695c0708
-    PortName: Choice2
+    PortName: "Attaquer par derri\xE8re de nuit "
     TargetNodeGuid: 9f065808-d1fa-4ea0-b966-cb6e349f1937
   - baseNodeGuid: c1e5510d-6299-4091-ad37-5531695c0708
-    PortName: Choice3
+    PortName: "D\xE9fendre la position et attendre"
     TargetNodeGuid: a9ee014b-aa5e-4774-90e8-09fe22bcc294
   - baseNodeGuid: c1e5510d-6299-4091-ad37-5531695c0708
-    PortName: Choice4
+    PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: a9ee014b-aa5e-4774-90e8-09fe22bcc294
   - baseNodeGuid: a1fc91f5-a268-466f-a863-af77815438c1
-    PortName: Choice1
+    PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: dfc2a16c-66d0-457c-8a01-6d10522e3645
   - baseNodeGuid: a1fc91f5-a268-466f-a863-af77815438c1
-    PortName: Choice2
+    PortName: Escalader les grillages
     TargetNodeGuid: dfc2a16c-66d0-457c-8a01-6d10522e3645
   - baseNodeGuid: a1fc91f5-a268-466f-a863-af77815438c1
-    PortName: Choice3
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
     TargetNodeGuid: 01716186-f61a-4af1-9a95-8642c0ab9ec4
   - baseNodeGuid: a1fc91f5-a268-466f-a863-af77815438c1
-    PortName: Choice4
+    PortName: "Tuez les gardes discr\xE8temen"
     TargetNodeGuid: 01716186-f61a-4af1-9a95-8642c0ab9ec4
   - baseNodeGuid: 01ff3d81-5cdb-4cda-907a-cb83e0364189
     PortName: Choice1
@@ -1436,48 +1436,6 @@ MonoBehaviour:
       cher fr\xE8res\r\nCharles \r\n"
     State: 3
     Position: {x: 4712.8003, y: -3695.2}
-  - Guid: 6165affe-b980-4446-b303-969c3c2f20de
-    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
-      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
-      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
-      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
-      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
-      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
-      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
-      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
-      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
-      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
-      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
-      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
-      avec toi.\r\nBon courage mon ami, prends soin de to\r"
-    State: 2
-    Position: {x: 2929.5999, y: -2738.4}
-  - Guid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
-    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
-      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
-      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
-      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
-      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
-      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
-      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
-      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
-      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
-      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
-      ?\t\t\n\t\t\t\t\tJP"
-    State: 2
-    Position: {x: 4720.8003, y: -3134.4}
-  - Guid: a665a97e-3e15-4309-ab6a-705034775f66
-    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
-      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
-      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
-      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
-      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8re\r\nCharles \r\n"
-    State: 3
-    Position: {x: 4720.8003, y: -2644.8}
   - Guid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
     DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
       r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus pote parce que
@@ -1605,42 +1563,6 @@ MonoBehaviour:
       avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
     State: 2
     Position: {x: 1779.2, y: 1216}
-  - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
-    State: 3
-    Position: {x: 2857.5999, y: 760.8}
-  - Guid: df8a1971-e60d-4b67-b205-3b495324e615
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
-    State: 3
-    Position: {x: 2763.2, y: 3280.8}
   - Guid: d9194598-5db4-481e-b62a-480292254592
     DialogueText: "Salut camarade,\r\nJe vais bient\xF4t assister \xE0 un meeting
       de SS haut plac\xE9, je vais pouvoir obtenir des informations qui vont nous
@@ -3851,3 +3773,81 @@ MonoBehaviour:
       guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
     State: 1
     Position: {x: 3922.4, y: -3297.5999}
+  - Guid: 6165affe-b980-4446-b303-969c3c2f20de
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r"
+    State: 2
+    Position: {x: 2929.5999, y: -2738.4}
+  - Guid: df8a1971-e60d-4b67-b205-3b495324e615
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    State: 3
+    Position: {x: 2763.2, y: 3280.8}
+  - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    State: 3
+    Position: {x: 2857.5999, y: 760.8}
+  - Guid: a665a97e-3e15-4309-ab6a-705034775f66
+    DialogueText: "Cher fr\xE8re,\r\nBien re\xE7u, je vois que ces ann\xE9es de service
+      t\u2019on rendu un peu froid \xE0 mon \xE9gard.\r\nMis \xE0 part, je suis enfin
+      aux tranch\xE9es de Brumath.\r\nL'ennemie avance petit \xE0 petit  mais nous
+      arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense. \r\nPar contre
+      si on attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit ce sera plus difficile d\u2019y voir. \r\nSache que l\u2019on suivra
+      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r\n"
+    State: 3
+    Position: {x: 4720.8003, y: -2644.8}
+  - Guid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    DialogueText: "Mon ami,\r\nJe vois que t\u2019as pas perdu le nord. T\u2019en
+      fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nOn
+      va bient\xF4t p\xE9n\xE9trer Berlin, jusqu\u2019\xE0 pr\xE9sent ils n\u2019ont
+      pas d\xE9tecter notre subterfuge. \r\nMais maintenant, les soldats ont l\u2019air
+      bien plus vigilant. \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas
+      trop nombreux, mais c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air
+      controller tous ceux qui rentrent/de fouiller tous ceux qui rentrent, ces chiens.
+      \r\nOu alors, on pourrait essayer de voir s'il y a un autre chemin o\xF9 l\u2019on
+      pourrait se faufiler, mais on risque de perdre de pr\xE9cieuses heures. \r\nQuand
+      penses-tu ?\r\n\xC0 ton avis mon ami, qu\u2019est-ce qu\u2019on devrait faire
+      ?\t\t\n\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 4720, y: -3133.5999}
