@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 49339daffa8b47e418a61149f4ab10b4
+guid: ad431054729dd284c80688a0aeeef965
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,9 +9,10 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Cherolina
+  - JMH Typewriter
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 3684a4ebd3e4d5648832da76f95ea69c, type: 3}
+  - {fileID: 12800000, guid: 21586321964f08d46bf68e6afe84d7c8, type: 3}
+  - {fileID: 12800000, guid: 43fc0900215ff9048b7fb582ebcbb41d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2b96f434c82f3684eb57c702f2cdc89c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cherolina
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3684a4ebd3e4d5648832da76f95ea69c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
