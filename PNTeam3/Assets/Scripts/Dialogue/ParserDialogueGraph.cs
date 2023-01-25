@@ -15,6 +15,8 @@ public class ParserDialogueGraph : MonoBehaviour
     private DialogueNodeData currentNode;
     private List<string> currentTextsChoices = new List<string>();
 
+    public int bffGauge = 0;
+    public int frereGauge = 0;
 
     private void Start()
     {
@@ -54,6 +56,24 @@ public class ParserDialogueGraph : MonoBehaviour
 
         currentTextsChoices.Clear();
         ReadCurrentNode();
+        UpdateGauges(currentNode);
+    }
+
+    private void UpdateGauges(DialogueNodeData nodeData)
+    {
+        switch (nodeData.State)
+        {
+            case DialogueNodeData.ImageSignature.BFF:
+                bffGauge += nodeData.gaugeValue;
+                break;
+            case DialogueNodeData.ImageSignature.FRERE:
+                frereGauge += nodeData.gaugeValue;
+                break;
+
+            default: break;
+        }
+
+        Debug.Log("BFF : " + bffGauge + "  Brother : " + frereGauge);
     }
 
     public void ReadCurrentNode()
@@ -65,7 +85,6 @@ public class ParserDialogueGraph : MonoBehaviour
             if (currentNode.Guid == dialogueContainer.nodeLinks[i].baseNodeGuid)
             {
                 currentTextsChoices.Add(dialogueContainer.nodeLinks[i].PortName);
-                //Debug.Log(dialogueContainer.nodeLinks[i].PortName);
             }
         }
 

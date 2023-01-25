@@ -52,7 +52,7 @@ public class GraphSaveUtility
                 DialogueText = dialogueNode.dialogueText,
                 State = dialogueNode.state,
                 Position = dialogueNode.GetPosition().position,
-                futureInt = dialogueNode.futureInt
+                gaugeValue = dialogueNode.gaugeValue
             });
         }
         //Autocreate folder
@@ -95,7 +95,7 @@ public class GraphSaveUtility
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.futureInt);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue);
             tempNode.GUID = nodeData.Guid;
             _targetGraphView.AddElement(tempNode);
 
