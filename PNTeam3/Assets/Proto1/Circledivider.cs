@@ -41,8 +41,9 @@ namespace T3
                 GameObject textPosition = Instantiate(textPrefab, transform.position, Quaternion.identity);
                 textPosition.transform.SetParent(transform);
                 RectTransform textRect = textPosition.GetComponent<RectTransform>();
-                textRect.sizeDelta = new Vector2(lineRect.rect.width * 5, GetComponent<RectTransform>().rect.height * .75f);
+                textRect.sizeDelta = new Vector2(lineRect.rect.width * 5, GetComponent<RectTransform>().rect.height * .85f);
                 textRect.transform.Rotate(new Vector3(0, 0, -angle - angleStep / 2));
+                textRect.localScale = new Vector3(.5f, .5f, .5f);
                 textPosition.GetComponent<TextMeshProUGUI>().text = letters[i].ToString();
                 textList.Add(textPosition);
             }
