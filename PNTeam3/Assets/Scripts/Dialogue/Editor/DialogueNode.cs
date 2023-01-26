@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Policy;
+using System;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
+using static DialogueNodeData;
 
 public class DialogueNode : Node
 {
@@ -11,4 +11,5 @@ public class DialogueNode : Node
     public DialogueNodeData.ImageSignature state;
     public bool entryPoint = false;
     public int gaugeValue = 0;
+    public AudioClip audioSource;
 }

@@ -9,6 +9,8 @@ public class DialogueNodeData
     public ImageSignature State;
     public Vector2 Position;
     public int gaugeValue = 0;
+    public AudioClip audioSource;
+
 
     public enum ImageSignature
     {
