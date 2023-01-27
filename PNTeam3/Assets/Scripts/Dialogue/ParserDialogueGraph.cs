@@ -86,7 +86,6 @@ public class ParserDialogueGraph : MonoBehaviour
         textmanager.InitText(currentNode.cocoInt);
 
         UpdateGaugesAndImageSignature(currentNode);
-
     }
 
     private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
@@ -113,7 +112,6 @@ public class ParserDialogueGraph : MonoBehaviour
                 signatureText.text = "General Patin";
                 break;
         }
-        //Debug.Log("BFF : " + bffGauge + "  Brother : " + frereGauge);
     }
 
     public void ReadCurrentNode()
