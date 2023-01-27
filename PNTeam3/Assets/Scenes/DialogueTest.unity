@@ -2087,6 +2087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueContainer: {fileID: 11400000, guid: 32d73a5096d3c95479cba6024d1dfbe9, type: 2}
+  textmanager: {fileID: 7600562593144598647}
   mainText: {fileID: 1749673680}
   signatureText: {fileID: 602440483}
   charaImage: {fileID: 1753679071}
