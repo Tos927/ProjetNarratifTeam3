@@ -1,3 +1,4 @@
+using Codice.Client.BaseCommands;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,8 +48,11 @@ public class GraphSaveUtility
             dialogueContainer.dialogueNodeDatas.Add(new DialogueNodeData
             {
                 Guid = dialogueNode.GUID,
-                DialogueText= dialogueNode.dialogueText,
-                Position= dialogueNode.GetPosition().position,
+                DialogueText = dialogueNode.dialogueText,
+                State = dialogueNode.state,
+                Position = dialogueNode.GetPosition().position,
+                gaugeValue = dialogueNode.gaugeValue,
+                audioSource = dialogueNode.audioSource,
             });
         }
         //Autocreate folder
@@ -85,18 +89,16 @@ public class GraphSaveUtility
 
             _targetGraphView.RemoveElement(node);
         }
-
     }
 
     private void CreateNodes()
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue, nodeData.audioSource);
             tempNode.GUID = nodeData.Guid;
-            _targetGraphView.AddElement(tempNode);
 
+            _targetGraphView.AddElement(tempNode);
             var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
             nodePorts.ForEach(x=> _targetGraphView.AddChoicePort(tempNode, x.PortName));
         }

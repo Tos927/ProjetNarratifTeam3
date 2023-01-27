@@ -1,19 +1,24 @@
-using PlasticPipe.PlasticProtocol.Messages;
+using Codice.Client.BaseCommands;
+using DG.DemiEditor;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Management.Instrumentation;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static DialogueNodeData;
+using static UnityEditor.VersionControl.Asset;
 
 public class DialogueGraphView : GraphView
 {
     public readonly Vector2 defaultNodeSize = new Vector2(200f, 200f);
+
+    //private List<string> copyCacheData;
+    //private List<DialogueNode> copyCacheDialogueNodes;
 
     public DialogueGraphView() {
         styleSheets.Add(Resources.Load<StyleSheet>("DialogueGraph"));
@@ -29,8 +34,12 @@ public class DialogueGraphView : GraphView
         grid.StretchToParentSize();
 
         AddElement(GenerateEntryPointNode());
-    }
+        AddElement(GenerateENDPointNode());
 
+        serializeGraphElements += CutCopyOperation;
+        unserializeAndPaste += PasteOperation;
+        canPasteSerializedData += AllowPaste;
+    }
 
     private Port GeneratePort(DialogueNode node, Direction portDirection, Port.Capacity capacity = Port.Capacity.Single)
     {
@@ -39,7 +48,7 @@ public class DialogueGraphView : GraphView
 
     private DialogueNode GenerateEntryPointNode()
     {
-        var node = new DialogueNode
+        var node = new DialogueNode()
         {
             title = "Start",
             GUID = Guid.NewGuid().ToString(),
@@ -53,25 +62,57 @@ public class DialogueGraphView : GraphView
 
         node.capabilities -= Capabilities.Movable;
         node.capabilities -= Capabilities.Deletable;
+        node.capabilities -= Capabilities.Copiable;
+
 
         node.RefreshExpandedState();
         node.RefreshPorts();
 
         node.SetPosition(new Rect(100f, 200f, 100f, 150f));
         return node;
+    } 
+    private DialogueNode GenerateENDPointNode()
+    {
+        var node = new DialogueNode()
+        {
+            title = "End",
+            GUID = Guid.NewGuid().ToString(),
+            dialogueText = "ENDPOINT",
+            
+        };
+
+        var genratedPort = GeneratePort(node, Direction.Input);
+        genratedPort.portName = "End";
+        node.inputContainer.Add(genratedPort);
+
+        
+        node.capabilities -= Capabilities.Deletable;
+        node.capabilities -= Capabilities.Copiable;
+
+
+        node.RefreshExpandedState();
+        node.RefreshPorts();
+
+        node.SetPosition(new Rect(300f, 200f, 100f, 150f));
+        return node;
     }
+
+
     public void CreateNode(string nodeName)
     {
         AddElement(CreateDialogueNode(nodeName));
     }
 
-    public DialogueNode CreateDialogueNode(string nodeName)
+    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT, int gaugeV = 0, AudioClip audio = null, int cocoInt = 0)
     {
-        var dialogueNode = new DialogueNode { 
-            
-            title = nodeName,
-            dialogueText  = nodeName,
-            GUID = Guid.NewGuid().ToString()
+        var dialogueNode = new DialogueNode()
+        {
+            dialogueText = nodeName,
+            GUID = Guid.NewGuid().ToString(),
+            state = state,
+            title = state.ToString() + " Dialogue",
+            gaugeValue = gaugeV,
+            audioSource = audio,
         };
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
@@ -84,18 +125,62 @@ public class DialogueGraphView : GraphView
         button.text = "NewChoice";
         dialogueNode.titleContainer.Add(button);
 
-        var textField = new TextField(string.Empty);
+        var dropDownMenu = new EnumField(ImageSignature.DEFAULT);
+        dropDownMenu.value = dialogueNode.state;
+        dropDownMenu.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.state = (ImageSignature)evt.newValue;
+            dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
+        });
+        dialogueNode.inputContainer.Add(dropDownMenu);
+
+
+        var gaugeValue = new IntegerField();
+        gaugeValue.value = dialogueNode.gaugeValue;
+        gaugeValue.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.gaugeValue = evt.newValue;
+        });
+        gaugeValue.SetValueWithoutNotify(dialogueNode.gaugeValue);
+        dialogueNode.inputContainer.Add(gaugeValue);
+
+        // LE COCO INT
+        //var intIndex = new IntegerField();
+        //intIndex.value = dialogueNode.gaugeValue;
+        //intIndex.RegisterValueChangedCallback(evt =>
+        //{
+        //dialogueNode.gaugeValue = evt.newValue;
+        //});
+        //intIndex.SetValueWithoutNotify(dialogueNode.gaugeValue);
+        //dialogueNode.mainContainer.Add(intIndex);
+
+        ObjectField audioSource = new ObjectField()
+        {
+            objectType = typeof(AudioClip),
+            allowSceneObjects = false,
+            
+        };
+        audioSource.value = dialogueNode.audioSource;
+        audioSource.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.audioSource = evt.newValue as AudioClip;
+            Debug.Log(dialogueNode.audioSource);
+        });
+        //audioSource.SetValueWithoutNotify(dialogueNode.audioSource);
+        dialogueNode.mainContainer.Add(audioSource);
+
+
+        var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
         {
             dialogueNode.dialogueText = evt.newValue;
-            dialogueNode.title = evt.newValue;
         });
-        textField.SetValueWithoutNotify(dialogueNode.title);
+        textField.SetValueWithoutNotify(dialogueNode.dialogueText);
         dialogueNode.mainContainer.Add(textField);
 
         dialogueNode.RefreshPorts();
         dialogueNode.RefreshExpandedState();
-        dialogueNode.SetPosition(new Rect(Vector2.zero,defaultNodeSize));
+        dialogueNode.SetPosition(new Rect(Vector2.zero, defaultNodeSize));
 
         return dialogueNode;
     }
@@ -164,5 +249,30 @@ public class DialogueGraphView : GraphView
         });
 
         return comptaiblePorts;
+    }
+
+    private string CutCopyOperation(IEnumerable<GraphElement> elements)
+    {
+        foreach (DialogueNode node in elements.ToList())
+        {
+            DialogueNode copynode = CreateDialogueNode(node.dialogueText, node.state, node.gaugeValue);
+
+            copynode.RefreshPorts();
+            copynode.RefreshExpandedState();
+            copynode.SetPosition(new Rect(node.GetPosition().position + new Vector2(50f, 50f), node.GetPosition().size));
+
+            AddElement(copynode);
+        }
+        return string.Empty;
+    }
+
+    private void PasteOperation(string a, string b)
+    {
+        //Debug.Log("paste");
+    }
+
+    private bool AllowPaste(string data)
+    {
+        return true;
     }
 }
