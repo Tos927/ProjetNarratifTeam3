@@ -2086,7 +2086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026d9d807f7dad44bab6b48d44ae7952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 11400000, guid: 2376dadbbf0ef1149a442b2deb88e832, type: 2}
+  dialogueContainer: {fileID: 11400000, guid: 32d73a5096d3c95479cba6024d1dfbe9, type: 2}
   mainText: {fileID: 1749673680}
   signatureText: {fileID: 602440483}
   charaImage: {fileID: 1753679071}
@@ -3300,6 +3300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BackgroundPanelStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 7564123434684492309, guid: 1bb607dd6930ddb438379ded496feb4b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bb607dd6930ddb438379ded496feb4b, type: 3}
@@ -6939,7 +6944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   button: {fileID: 7600562594000328468}
   puzzles: {fileID: 11400000, guid: 9f9ae99bdb7a9fc449e8090071fd6268, type: 2}
-  animDuration: 5
+  animDuration: 3
   firstSentenceUI: {fileID: 7600562593230369697}
   secondSentenceUI: {fileID: 7600562593208792876}
   circledividers:

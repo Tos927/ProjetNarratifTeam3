@@ -11,5 +11,6 @@ public class DialogueNode : Node
     public DialogueNodeData.ImageSignature state;
     public bool entryPoint = false;
     public int gaugeValue = 0;
+    public int cocoInt = 0;
     public AudioClip audioSource;
 }

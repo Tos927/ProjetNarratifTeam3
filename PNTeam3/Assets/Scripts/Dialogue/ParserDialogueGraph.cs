@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using T3;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -9,6 +10,7 @@ using UnityEngine.UI;
 public class ParserDialogueGraph : MonoBehaviour
 {
     [SerializeField] private DialogueContainer dialogueContainer;
+    [SerializeField] private TextManager textmanager;
     [SerializeField] private Text mainText;
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
@@ -81,7 +83,10 @@ public class ParserDialogueGraph : MonoBehaviour
 
         currentTextsChoices.Clear();
         //ReadCurrentNode();
+        textmanager.InitText(currentNode.cocoInt);
+
         UpdateGaugesAndImageSignature(currentNode);
+
     }
 
     private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
