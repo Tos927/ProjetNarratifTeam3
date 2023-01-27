@@ -1368,6 +1368,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3409052705366328769, guid: dadd0b37a1e181b42bbab6b985b1efea,
         type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3409052705366328769, guid: dadd0b37a1e181b42bbab6b985b1efea,
+        type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 
       objectReference: {fileID: 4746835266751356186, guid: 69013b03225b09b46b059e31f178dae6,
@@ -2132,7 +2137,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 82
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
