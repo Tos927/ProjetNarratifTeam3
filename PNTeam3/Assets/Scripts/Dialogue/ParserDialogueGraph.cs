@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class ParserDialogueGraph : MonoBehaviour
@@ -11,16 +13,21 @@ public class ParserDialogueGraph : MonoBehaviour
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
     [SerializeField] private List<Button> buttonList;
+    //[SerializeField] private AudioMixerGroup mixer;
 
     //[SerializeField] private DialogueContainer dialogueContainer;
     private DialogueNodeData currentNode;
     private List<string> currentTextsChoices = new List<string>();
+
+    private AudioSource audioSource;
 
     public int bffGauge = 0;
     public int frereGauge = 0;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         //currentNode = dialogueContainer.dialogueNodeDatas[0];
         for (int i = 0; i < dialogueContainer.dialogueNodeDatas.Count; i++)
         {
@@ -31,13 +38,23 @@ public class ParserDialogueGraph : MonoBehaviour
                 signatureText.font = Resources.Load<Font>("Font/Typewriter-Black");
                 signatureText.text = "General Patin";
 
+                audioSource.clip = currentNode.audioSource;
+                Debug.Log(audioSource);
+                //audioSource.outputAudioMixerGroup = mixer;
+                //audioSource.Play();
                 //Debug.Log(dialogueContainer.nodeLinks.Find(x => x.PortName == "Next").PortName);
             }
         }
+
     }
 
     public void GoToNextDialogue(Text port)
     {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Stop();
+        }
+
         string targetGuid = string.Empty;
         List<NodeLinkData> nodes = dialogueContainer.nodeLinks.FindAll(x => x.PortName == port.text);
 
@@ -51,6 +68,7 @@ public class ParserDialogueGraph : MonoBehaviour
             }
         }
 
+
         for (int i = 0; i < dialogueContainer.dialogueNodeDatas.Count; i++)
         {
             if (dialogueContainer.dialogueNodeDatas[i].Guid == targetGuid)
@@ -59,13 +77,16 @@ public class ParserDialogueGraph : MonoBehaviour
             }
         }
 
+        audioSource.clip = currentNode.audioSource;
+
         currentTextsChoices.Clear();
-        ReadCurrentNode();
+        //ReadCurrentNode();
         UpdateGaugesAndImageSignature(currentNode);
     }
 
     private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
     {
+        //Check la Gaugevalue pour le frere et le bff
         switch (nodeData.State)
         {
             case DialogueNodeData.ImageSignature.BFF:
@@ -92,6 +113,8 @@ public class ParserDialogueGraph : MonoBehaviour
 
     public void ReadCurrentNode()
     {
+        audioSource.Play();
+
         mainText.text = currentNode.DialogueText;
 
         for (int i = 0; i < dialogueContainer.nodeLinks.Count; i++)
