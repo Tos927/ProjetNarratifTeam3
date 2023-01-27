@@ -205,9 +205,6 @@ MonoBehaviour:
   - baseNodeGuid: 342a5fa1-bd02-41ec-9666-c359d43fa176
     PortName: Suivant
     TargetNodeGuid: be7b353b-35fc-49a9-b938-b546dc33e0ce
-  - baseNodeGuid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
-    PortName: Suivant
-    TargetNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
   - baseNodeGuid: f00a1899-7336-44c5-8b05-65795e43b95c
     PortName: Suivant
     TargetNodeGuid: b914dab2-0f9e-489d-8705-8b248253a73d
@@ -259,9 +256,6 @@ MonoBehaviour:
   - baseNodeGuid: 3a8f4005-ae1e-404e-a857-da92d54f10ed
     PortName: Suivant
     TargetNodeGuid: 3e93ec20-205d-46fd-865d-e94278d4db46
-  - baseNodeGuid: dd32646f-1a9c-4923-a999-65c3762de8e6
-    PortName: Suivant
-    TargetNodeGuid: 78a8f909-3c80-46c3-aaf1-41a2ad08611e
   - baseNodeGuid: a6f519ac-ddc8-466b-9f07-99a8955de423
     PortName: Suivant
     TargetNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
@@ -274,9 +268,6 @@ MonoBehaviour:
   - baseNodeGuid: 892bb3be-a54f-481c-9cb3-4806ce0f6862
     PortName: Suivant
     TargetNodeGuid: a6f519ac-ddc8-466b-9f07-99a8955de423
-  - baseNodeGuid: c9340661-1c9f-4b48-9c0c-55705610c30a
-    PortName: Suivant
-    TargetNodeGuid: b8654763-875e-4410-a6cd-652728ccc9e2
   - baseNodeGuid: 486d01a0-00fc-4531-8bf2-926867c7cfc8
     PortName: Suivant
     TargetNodeGuid: 764b6231-06dd-4e40-9cde-ede8db6b92fd
@@ -307,9 +298,6 @@ MonoBehaviour:
   - baseNodeGuid: cbde9f7f-8e91-435b-a943-674a7f43e588
     PortName: Suivant
     TargetNodeGuid: d92bfa50-2182-4d60-91c2-1b0dd37b9936
-  - baseNodeGuid: 6b3923fe-3b59-4a90-8ec8-71f66fd1928f
-    PortName: Suivant
-    TargetNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
   - baseNodeGuid: 1cd297c3-e76b-47dc-9d1f-394b39a9068f
     PortName: Suivant
     TargetNodeGuid: 5ce3b19a-dce7-480d-9352-3968606891ac
@@ -340,9 +328,6 @@ MonoBehaviour:
   - baseNodeGuid: 1c9b0294-2f98-4b09-be75-94748fca0685
     PortName: Suivant
     TargetNodeGuid: b46f3adc-9bad-4fcb-a8a0-5c8139239b65
-  - baseNodeGuid: b0368926-8cb6-4f20-bfc5-fcd41e20ff7f
-    PortName: Suivant
-    TargetNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
   - baseNodeGuid: b46f3adc-9bad-4fcb-a8a0-5c8139239b65
     PortName: Suivant
     TargetNodeGuid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
@@ -475,24 +460,15 @@ MonoBehaviour:
   - baseNodeGuid: 693ddf00-863c-4ef3-a7df-e387e73bd948
     PortName: Suivant
     TargetNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
-  - baseNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
     PortName: Suivant
     TargetNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
-  - baseNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
     PortName: Suivant
     TargetNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
   - baseNodeGuid: fb0e2c96-16bf-43e7-986c-e0a3bca27e09
     PortName: Suivant
     TargetNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
-  - baseNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 63889bb9-4765-45cf-8e28-df3de3dd2675
     PortName: Suivant
     TargetNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
@@ -625,9 +601,6 @@ MonoBehaviour:
   - baseNodeGuid: a3fdb2b4-6735-471c-b2f1-be56e762b7c6
     PortName: Suivant
     TargetNodeGuid: e9db3420-35c2-4f3d-8e5f-1144402e5d00
-  - baseNodeGuid: e9db3420-35c2-4f3d-8e5f-1144402e5d00
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 6faef1d4-9f6a-47ef-b23d-bbd9fab2df28
     PortName: Suivant
     TargetNodeGuid: 23b903da-882f-4680-8fee-c7da9fcc90cc
@@ -787,30 +760,6 @@ MonoBehaviour:
   - baseNodeGuid: 7a33ff75-8396-4f33-9a77-5f61f17ff414
     PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 693ddf00-863c-4ef3-a7df-e387e73bd948
-  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
-    PortName: "Attaquer par derri\xE8re de jour"
-    TargetNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
-  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
-    PortName: "Attaquer par derri\xE8re de nuit"
-    TargetNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
-  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
-    PortName: "D\xE9fendre la position et attendre"
-    TargetNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
-  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
-    PortName: "Attaquer l\u2019ennemi de front"
-    TargetNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
-  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
-    PortName: "Cherchez une entr\xE9e plus petite"
-    TargetNodeGuid: 978a9ffd-08fa-459c-8360-bbba3c8ee374
-  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
-    PortName: Escalader les grillages
-    TargetNodeGuid: 978a9ffd-08fa-459c-8360-bbba3c8ee374
-  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
-    PortName: "Allez-y par l\u2019entr\xE9e principale"
-    TargetNodeGuid: 75f55686-f66f-4627-abd0-d2d36f01d544
-  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
-    PortName: "Tuez les gardes discr\xE8tement"
-    TargetNodeGuid: 75f55686-f66f-4627-abd0-d2d36f01d544
   - baseNodeGuid: d4d8707e-4ec5-445f-8a1b-afa2b2352a2f
     PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 562f6210-feb1-44ac-a784-ca6fd239073f
@@ -880,16 +829,7 @@ MonoBehaviour:
   - baseNodeGuid: 7f37d3b4-0f5f-4de8-b80a-9806452d54f4
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: c5bae470-81ec-4867-b72b-eed8891ea34e
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 5949d50a-d3ac-443a-8856-5874c395246c
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 2793963d-8fa5-4dd2-8df7-00d99ebf25a7
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9946de48-4b3c-4834-a886-c8eb11c185ed
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
@@ -907,19 +847,10 @@ MonoBehaviour:
   - baseNodeGuid: 152ddd88-a30a-4250-8929-08376973ac29
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: fedce001-d66f-4c6f-9394-b3b5f674bb27
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 23b903da-882f-4680-8fee-c7da9fcc90cc
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 6ad031ab-caa0-4160-9ea9-6a6b1f3f8ebe
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 9acf61e9-3b65-424a-9894-35c902ff1b06
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
@@ -1114,30 +1045,6 @@ MonoBehaviour:
   - baseNodeGuid: 17ca0c48-158e-4d99-af02-682d937bcebd
     PortName: "Tuez les gardes discr\xE8tement"
     TargetNodeGuid: 6f532df6-a69e-43a9-8f08-7d0515fd4200
-  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
-    PortName: "Cherchez une entr\xE9e plus petite"
-    TargetNodeGuid: 3cb7f3fe-9ddb-496e-9a66-654a987d9734
-  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
-    PortName: Escalader les grillages
-    TargetNodeGuid: 3cb7f3fe-9ddb-496e-9a66-654a987d9734
-  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
-    PortName: "Allez-y par l\u2019entr\xE9e principale"
-    TargetNodeGuid: ae80384f-4981-4b73-a119-1deec3f611fc
-  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
-    PortName: "Tuez les gardes discr\xE8tement"
-    TargetNodeGuid: ae80384f-4981-4b73-a119-1deec3f611fc
-  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
-    PortName: "Cherchez une entr\xE9e plus petite"
-    TargetNodeGuid: 1633ef9b-a1ef-4c9f-9ea1-7a1e7f8974cc
-  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
-    PortName: Escalader les grillages
-    TargetNodeGuid: 1633ef9b-a1ef-4c9f-9ea1-7a1e7f8974cc
-  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
-    PortName: "Allez-y par l\u2019entr\xE9e principale"
-    TargetNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
-  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
-    PortName: "Tuez les gardes discr\xE8tement"
-    TargetNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
   - baseNodeGuid: d9194598-5db4-481e-b62a-480292254592
     PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: f0ea3dbd-0386-4d04-8fc0-e52136d8fdf1
@@ -1165,16 +1072,7 @@ MonoBehaviour:
   - baseNodeGuid: 73bd5318-962f-4625-9cb7-cde5e43b0f9f
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8ef507b1-0fb2-43a3-8a7a-215aad541d72
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8303ea27-e0b0-4b3b-a4b2-7c51971b7278
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 9b12baa4-bb6c-43b3-a82f-012ca1ba0322
@@ -1186,28 +1084,10 @@ MonoBehaviour:
   - baseNodeGuid: 75a92c10-29ef-4abd-8184-f03fca979602
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: b37da23c-ef67-4180-b159-32fca87702d3
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: cc64d81c-67cf-4ccb-a9c4-aa470036df9a
-    PortName: Suivant
-    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
   - baseNodeGuid: 9c331fcf-db03-4074-a481-0afc9826f690
@@ -1261,18 +1141,6 @@ MonoBehaviour:
   - baseNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
     PortName: "Lettre Fr\xE8re"
     TargetNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
-  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
-    PortName: Capturer
-    TargetNodeGuid: c26baa2d-5c01-4003-aad3-920c71291833
-  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
-    PortName: Essayer de voler son insigne et son chapeau
-    TargetNodeGuid: c26baa2d-5c01-4003-aad3-920c71291833
-  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
-    PortName: "Trouver un SS plus haut grad\xE9"
-    TargetNodeGuid: 585116a1-1cc7-49e4-93ae-18f3e0b394a1
-  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
-    PortName: Assassiner
-    TargetNodeGuid: 585116a1-1cc7-49e4-93ae-18f3e0b394a1
   - baseNodeGuid: c26baa2d-5c01-4003-aad3-920c71291833
     PortName: Suivant
     TargetNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
@@ -1348,9 +1216,6 @@ MonoBehaviour:
   - baseNodeGuid: cd3bc1da-09e0-4b56-aef1-92b75a4a368b
     PortName: Suivant
     TargetNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
-  - baseNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
-    PortName: Suivant
-    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
   - baseNodeGuid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
     PortName: Suivant
     TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
@@ -1363,9 +1228,6 @@ MonoBehaviour:
   - baseNodeGuid: 0a9f1c41-6518-4fb0-97c8-56ef32bdf3c7
     PortName: Suivant
     TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
-  - baseNodeGuid: 71651410-8dff-4a2b-bef3-a479e302f8cd
-    PortName: Suivant
-    TargetNodeGuid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
   - baseNodeGuid: 6eb7c22b-f7a6-4433-a8f4-c0e561758758
     PortName: Suivant
     TargetNodeGuid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
@@ -1417,6 +1279,12 @@ MonoBehaviour:
   - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
     PortName: Attendre les renforts
     TargetNodeGuid: 11b9478f-8b3c-48a5-ba00-89c0036a04a0
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Retraite
+    TargetNodeGuid: 11b9478f-8b3c-48a5-ba00-89c0036a04a0
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Envoyer avec le bataillon
+    TargetNodeGuid: f5ad8f10-4743-4e71-8653-5852863c13e4
   - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
     PortName: "S\u2019infiltrer pour les sauver la nuit"
     TargetNodeGuid: 8d5552dd-ef2d-4efc-a958-8e72158c285b
@@ -1462,27 +1330,145 @@ MonoBehaviour:
   - baseNodeGuid: 4db0d501-f7e5-4e3c-b154-0bac080ed455
     PortName: Suivant
     TargetNodeGuid: 21680273-e954-4b53-87f9-c02b6847f85f
-  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
-    PortName: Retraite
-    TargetNodeGuid: 11b9478f-8b3c-48a5-ba00-89c0036a04a0
-  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
-    PortName: Envoyer avec le bataillon
-    TargetNodeGuid: f5ad8f10-4743-4e71-8653-5852863c13e4
+  - baseNodeGuid: 71651410-8dff-4a2b-bef3-a479e302f8cd
+    PortName: Suivant
+    TargetNodeGuid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
+  - baseNodeGuid: dd32646f-1a9c-4923-a999-65c3762de8e6
+    PortName: Suivant
+    TargetNodeGuid: 78a8f909-3c80-46c3-aaf1-41a2ad08611e
+  - baseNodeGuid: c9340661-1c9f-4b48-9c0c-55705610c30a
+    PortName: Suivant
+    TargetNodeGuid: b8654763-875e-4410-a6cd-652728ccc9e2
+  - baseNodeGuid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+    PortName: Suivant
+    TargetNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+  - baseNodeGuid: 6b3923fe-3b59-4a90-8ec8-71f66fd1928f
+    PortName: Suivant
+    TargetNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
+  - baseNodeGuid: b0368926-8cb6-4f20-bfc5-fcd41e20ff7f
+    PortName: Suivant
+    TargetNodeGuid: 67034924-ffbc-40c0-8a5d-1bc322547015
+  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 3cb7f3fe-9ddb-496e-9a66-654a987d9734
+  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
+    PortName: Escalader les grillages
+    TargetNodeGuid: 3cb7f3fe-9ddb-496e-9a66-654a987d9734
+  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: ae80384f-4981-4b73-a119-1deec3f611fc
+  - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
+    PortName: "Tuez les gardes discr\xE8tement"
+    TargetNodeGuid: ae80384f-4981-4b73-a119-1deec3f611fc
+  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 1633ef9b-a1ef-4c9f-9ea1-7a1e7f8974cc
+  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
+    PortName: Escalader les grillages
+    TargetNodeGuid: 1633ef9b-a1ef-4c9f-9ea1-7a1e7f8974cc
+  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
+  - baseNodeGuid: cfd217c0-3b5d-4cf6-8e03-72a39a700b0f
+    PortName: "Tuez les gardes discr\xE8tement"
+    TargetNodeGuid: 550e7afc-a0fc-47f7-9924-61e77628ab20
+  - baseNodeGuid: e9db3420-35c2-4f3d-8e5f-1144402e5d00
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: c5bae470-81ec-4867-b72b-eed8891ea34e
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
+    PortName: "Attaquer par derri\xE8re de jour"
+    TargetNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
+  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
+    PortName: "Attaquer par derri\xE8re de nuit"
+    TargetNodeGuid: db6520d7-b68c-4262-b79f-08f4d68f5a4f
+  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
+    PortName: "D\xE9fendre la position et attendre"
+    TargetNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
+  - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
+    PortName: "Attaquer l\u2019ennemi de front"
+    TargetNodeGuid: 89dd69bb-6a30-484f-8738-731e6cdb84d3
+  - baseNodeGuid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: f2de70da-2f1f-4028-8ef6-23393ff43df1
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: c40e721d-8ceb-463d-b1b2-7363f9d2b10e
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: f34dac04-f927-4cb0-bf0a-85f092784bac
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 5949d50a-d3ac-443a-8856-5874c395246c
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: fedce001-d66f-4c6f-9394-b3b5f674bb27
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 978a9ffd-08fa-459c-8360-bbba3c8ee374
+  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
+    PortName: Escalader les grillages
+    TargetNodeGuid: 978a9ffd-08fa-459c-8360-bbba3c8ee374
+  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: 75f55686-f66f-4627-abd0-d2d36f01d544
+  - baseNodeGuid: 742e653d-d5bd-4425-8038-33046993db3a
+    PortName: "Tuez les gardes discr\xE8tement"
+    TargetNodeGuid: 75f55686-f66f-4627-abd0-d2d36f01d544
+  - baseNodeGuid: b37da23c-ef67-4180-b159-32fca87702d3
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 9acf61e9-3b65-424a-9894-35c902ff1b06
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 8303ea27-e0b0-4b3b-a4b2-7c51971b7278
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 9946de48-4b3c-4834-a886-c8eb11c185ed
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 8ef507b1-0fb2-43a3-8a7a-215aad541d72
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Capturer
+    TargetNodeGuid: c26baa2d-5c01-4003-aad3-920c71291833
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Essayer de voler son insigne et son chapeau
+    TargetNodeGuid: c26baa2d-5c01-4003-aad3-920c71291833
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: "Trouver un SS plus haut grad\xE9"
+    TargetNodeGuid: 585116a1-1cc7-49e4-93ae-18f3e0b394a1
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Assassiner
+    TargetNodeGuid: 585116a1-1cc7-49e4-93ae-18f3e0b394a1
+  - baseNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
+    PortName: Suivant
+    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
   dialogueNodeDatas:
-  - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
-    DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
-      de transmission.\r\nVous serez en charge des communications avec le 14e r\xE9giment
-      d'infanterie mais aussi de celles de l\u2019escouade d\u2019espionnage Berthe.\r\nVotre
-      r\xF4le sera d\u2019assurer et de d\xE9crypter les \xE9changes que vous aurez
-      avec les forces sur les diff\xE9rents fronts afin d\u2019aider aux prises de
-      d\xE9cisions de l\u2019\xE9tat major, gr\xE2ce \xE0 l\u2019aide de notre d\xE9codeur.\r\nVous
-      serez bient\xF4t initi\xE9 \xE0 son fonctionnement.\r\nUne fois votre entra\xEEnement
-      termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
-      au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
-    State: 1
-    Position: {x: 525.60004, y: 188.8}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
   - Guid: d92bfa50-2182-4d60-91c2-1b0dd37b9936
     DialogueText: "Mon ami,\r\n\r\nJe vois que t\u2019as pas perdu le nord.\r\nNe
       t\u2019en fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nNous
@@ -1500,18 +1486,18 @@ MonoBehaviour:
     gaugeValue: 1
     audioSource: {fileID: 0}
   - Guid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r\n"
     State: 3
     Position: {x: 4712.8003, y: -3695.2}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
   - Guid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
     DialogueText: "Mon ami,\r\nJ\u2019aimerais quand m\xEAme qu\u2019on s\u2019\xE9crive
       r\xE9guli\xE8rement, tu ne vas pas me dire qu\u2019on est plus ami parce que
@@ -1545,15 +1531,16 @@ MonoBehaviour:
     gaugeValue: 0
     audioSource: {fileID: 0}
   - Guid: c4ecb37d-3395-4ef3-879f-dfac896247bc
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 4062.4, y: -544}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
     DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
       \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
@@ -1584,25 +1571,27 @@ MonoBehaviour:
     gaugeValue: 0
     audioSource: {fileID: 0}
   - Guid: bedb7c9a-e4a9-411a-a0d5-771efa1e78ad
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3848, y: 3749.6}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: cb0fc57c-dca5-4dce-afc5-0e4be58aeaf7
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3956, y: 2928}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
     DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
       fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
@@ -1633,33 +1622,16 @@ MonoBehaviour:
     gaugeValue: 0
     audioSource: {fileID: 0}
   - Guid: 18fa1c62-7522-4032-9b97-b4e5fd5b5ed2
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3990.4, y: 221.6}
     gaugeValue: 0
-    audioSource: {fileID: 0}
-  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
-    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
-      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
-      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
-      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
-      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
-      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
-      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
-      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
-      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
-      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
-      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
-      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
-      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
-    State: 2
-    Position: {x: 1779.2, y: 1216}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 905e5925-e8d3-439a-84f8-af22deb8e16b
     DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
       \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
@@ -1742,36 +1714,20 @@ MonoBehaviour:
     State: 2
     Position: {x: 2888.8, y: -701.60004}
     gaugeValue: 0
-    audioSource: {fileID: 0}
-  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
-    State: 3
-    Position: {x: 1765.6, y: -484}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
   - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
+      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
+      on a repouss\xE9 leur perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
+      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
+      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
+      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
+      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
+      pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 6255.2, y: -4853.6}
     gaugeValue: -1
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
   - Guid: f00a1899-7336-44c5-8b05-65795e43b95c
     DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
       d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
@@ -2251,20 +2207,16 @@ MonoBehaviour:
     gaugeValue: 0
     audioSource: {fileID: 0}
   - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
+      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
+      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
+      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
+      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
+      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
     Position: {x: 6255.2, y: -5225.6}
     gaugeValue: 1
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
   - Guid: 550e7afc-a0fc-47f7-9924-61e77628ab20
     DialogueText: Dialogue Node
     State: 0
@@ -2717,8 +2669,8 @@ MonoBehaviour:
       ?\r\n"
     State: 2
     Position: {x: 7159.2, y: -4911.2}
-    gaugeValue: -1
-    audioSource: {fileID: 0}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
   - Guid: b914dab2-0f9e-489d-8705-8b248253a73d
     DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
       \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
@@ -3128,45 +3080,49 @@ MonoBehaviour:
     gaugeValue: -2
     audioSource: {fileID: 0}
   - Guid: 1eefa763-f614-494f-8fec-3de326c3367c
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3955.2, y: 1476}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 90fa5f0f-28a5-40b1-85db-26f91ba135ee
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3828.8, y: -1404}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 7d28f967-1362-4635-a624-4931b5722ca9
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3922.4, y: -2224}
     gaugeValue: 0
     audioSource: {fileID: 0}
   - Guid: 1b31f845-1a19-4860-b2df-a3989889b13a
-    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
-      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
-      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
-      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
-      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\n"
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
     State: 1
     Position: {x: 3922.4, y: -3297.5999}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
   - Guid: 6165affe-b980-4446-b303-969c3c2f20de
     DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
       pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
@@ -3184,7 +3140,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 2929.5999, y: -2738.4}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
   - Guid: df8a1971-e60d-4b67-b205-3b495324e615
     DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
       \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
@@ -3204,7 +3160,7 @@ MonoBehaviour:
     State: 3
     Position: {x: 2763.2, y: 3280.8}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
   - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
     DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
       \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
@@ -3224,7 +3180,7 @@ MonoBehaviour:
     State: 3
     Position: {x: 2857.5999, y: 760.8}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
   - Guid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
     DialogueText: "Mon ami,\r\n\r\nJe vois que t\u2019as pas perdu le nord.\r\nNe
       t\u2019en fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nNous
@@ -3284,8 +3240,8 @@ MonoBehaviour:
       ?\r\n"
     State: 2
     Position: {x: 7140, y: -5332}
-    gaugeValue: 1
-    audioSource: {fileID: 0}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
   - Guid: d147a44e-41a3-4681-a76f-7b4aad736a1f
     DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
       d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
@@ -3294,7 +3250,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 9094.4, y: -5092}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
   - Guid: 473d3ba0-412e-4b63-8dbc-d7cf51f80cea
     DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
       d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
@@ -3724,7 +3680,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 9056.8, y: -5362.4004}
     gaugeValue: 2
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
   - Guid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
     DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
       par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
@@ -3765,7 +3721,7 @@ MonoBehaviour:
     State: 1
     Position: {x: 11984, y: -298.40002}
     gaugeValue: 0
-    audioSource: {fileID: 0}
+    audioSource: {fileID: 8300000, guid: bde9bfe70b2f15c40922dda4fe1848dd, type: 3}
   - Guid: c26baa2d-5c01-4003-aad3-920c71291833
     DialogueText: Dialogue Node
     State: 0
@@ -4550,3 +4506,55 @@ MonoBehaviour:
     Position: {x: 17006.398, y: -373.6}
     gaugeValue: -2
     audioSource: {fileID: 0}
+  - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
+    DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
+      de transmission.\r\nVous serez en charge des communications avec le 14e r\xE9giment
+      d'infanterie mais aussi de celles de l\u2019escouade d\u2019espionnage Berthe.\r\nVotre
+      r\xF4le sera d\u2019assurer et de d\xE9crypter les \xE9changes que vous aurez
+      avec les forces sur les diff\xE9rents fronts afin d\u2019aider aux prises de
+      d\xE9cisions de l\u2019\xE9tat major, gr\xE2ce \xE0 l\u2019aide de notre d\xE9codeur.\r\nVous
+      serez bient\xF4t initi\xE9 \xE0 son fonctionnement.\r\nUne fois votre entra\xEEnement
+      termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
+      au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
+    State: 1
+    Position: {x: 525.60004, y: 188.8}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 2d9f12c66358a4d45ac87fbfd2f11c5b, type: 3}
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
+      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
+      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
+      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
+      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
+      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
+      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
+      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
+      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
+      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
+      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
+    State: 3
+    Position: {x: 1765.6, y: -484}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
+  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
+    State: 2
+    Position: {x: 1779.2, y: 1216}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
