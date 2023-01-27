@@ -18,6 +18,7 @@ namespace T3
         #endregion
 
         public static TextEvent cleanEvent;
+        public static TextEvent startPuzzleEvent;
 
         [SerializeField] private PuzzleCollectionSO puzzles;
         [SerializeField] private float animDuration;
@@ -99,6 +100,7 @@ namespace T3
         {
             firstInput = -1;
             secondInput = -1;
+            CodexRotation.DisableCircle();
             Tween a = firstSentenceUI.DOText(puzzles.getPuzzleDataSOs[index].getFirstSentence, animDuration, true, ScrambleMode.Uppercase);
             a.onComplete += () =>
             {
@@ -118,6 +120,7 @@ namespace T3
             indexTrack = index;
             button.SetActive(false); //TEMP
             button.GetComponent<CanvasGroup>().alpha = 0; //TEMP
+            Clean();
             firstSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getFirstSentence, puzzles.getPuzzleDataSOs[index].getLettersFirstSentence);
             secondSentenceUI.text = stoc(puzzles.getPuzzleDataSOs[index].getSecondSentence, puzzles.getPuzzleDataSOs[index].getLettersSecondSentence);
 
@@ -155,6 +158,12 @@ namespace T3
         public void Clean()
         {
             cleanEvent?.Invoke();
+        }
+
+        public void StartPuzzle()
+        {
+            CodexRotation.EnableCircle();
+            startPuzzleEvent?.Invoke();
         }
     }
 }

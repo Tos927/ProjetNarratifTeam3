@@ -21,6 +21,7 @@ namespace T3
 
         private float angle;
         private float prevAngle;
+        private static bool isInteractable;
 
         public float GetAngle()
         {
@@ -33,7 +34,9 @@ namespace T3
             rectT = UI_Element;
             InitEventsSystem();
             endCodex += circle.FindCurrentPart;
-            TextManager.cleanEvent += () => { angle = 0f; prevAngle = 0f; rectT.localEulerAngles = Vector3.zero; };
+            TextManager.cleanEvent += () => 
+                { angle = 0f; prevAngle = 0f; rectT.localEulerAngles = Vector3.zero; };
+            TextManager.startPuzzleEvent += EnableCircle;
         }
 
         void Update()
@@ -81,6 +84,9 @@ namespace T3
 
         public void PressEvent(BaseEventData eventData)
         {
+            if (!isInteractable)
+                return;
+
             Vector2 pointerPos = ((PointerEventData)eventData).position;
 
             centerPoint = RectTransformUtility.WorldToScreenPoint(((PointerEventData)eventData).pressEventCamera, rectT.position);
@@ -90,6 +96,9 @@ namespace T3
 
         public void DragEvent(BaseEventData eventData)
         {
+            if (!isInteractable)
+                return;
+
             Vector2 pointerPos = ((PointerEventData)eventData).position;
 
             float newAngle = Vector2.Angle(Vector2.up, pointerPos - centerPoint);
@@ -105,9 +114,22 @@ namespace T3
 
         public void ReleaseEvent(BaseEventData eventData)
         {
+            if (!isInteractable)
+                return;
+
             DragEvent(eventData);
 
             endCodex?.Invoke();
+        }
+
+        public static void EnableCircle()
+        {
+            isInteractable = true;
+        }
+
+        public static void DisableCircle()
+        {
+            isInteractable = false;
         }
     }
 }
