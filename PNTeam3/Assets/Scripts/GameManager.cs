@@ -8,11 +8,21 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private float DelayToSwitchConsequences = 5;
     private Coroutine temp;
+    public bool isStarted = false;
+    public GameObject languageSettings;
+
     public void Consequences()
     {
         temp = StartCoroutine(StartConsequences());
     }
 
+    public void Update()
+    {
+        if (isStarted)
+        {
+            languageSettings.SetActive(false);
+        }
+    }
 
     IEnumerator StartConsequences() 
     {
@@ -27,6 +37,10 @@ public class GameManager : MonoBehaviour
         StopCoroutine(temp);
     }
 
+    public void StartGame()
+    {
+        isStarted = true;   
+    }
 
     public void OpenCloseSettings(GameObject settingsPanel)
     {

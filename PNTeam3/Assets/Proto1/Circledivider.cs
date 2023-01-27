@@ -43,6 +43,7 @@ namespace T3
                 RectTransform textRect = textPosition.GetComponent<RectTransform>();
                 textRect.sizeDelta = new Vector2(lineRect.rect.width * 5, GetComponent<RectTransform>().rect.height * .85f);
                 textRect.transform.Rotate(new Vector3(0, 0, -angle - angleStep / 2));
+                textRect.localScale = new Vector3(.5f, .5f, .5f);
                 textPosition.GetComponent<TextMeshProUGUI>().text = letters[i].ToString();
                 textList.Add(textPosition);
             }
@@ -59,12 +60,12 @@ namespace T3
 
         public void ClearCircle()
         {
-            for (int i = lineList.Count; i >= 0; --i)
+            for (int i = lineList.Count - 1; i >= 0; --i)
             {
                 Destroy(lineList[i]);
             }
 
-            for (int i = textList.Count; i >= 0; --i)
+            for (int i = textList.Count - 1; i >= 0; --i)
             {
                 Destroy(textList[i]);
             }

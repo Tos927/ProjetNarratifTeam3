@@ -33,6 +33,7 @@ namespace T3
             rectT = UI_Element;
             InitEventsSystem();
             endCodex += circle.FindCurrentPart;
+            TextManager.cleanEvent += () => { angle = 0f; prevAngle = 0f; rectT.localEulerAngles = Vector3.zero; };
         }
 
         void Update()

@@ -40,7 +40,6 @@ public class GraphSaveUtility
                 baseNodeGuid = outputNode.GUID,
                 PortName = connectedPort[i].output.portName,
                 TargetNodeGuid= inputNode.GUID,
-                
             }); 
         }
 
@@ -52,7 +51,8 @@ public class GraphSaveUtility
                 DialogueText = dialogueNode.dialogueText,
                 State = dialogueNode.state,
                 Position = dialogueNode.GetPosition().position,
-                gaugeValue = dialogueNode.gaugeValue
+                gaugeValue = dialogueNode.gaugeValue,
+                audioSource = dialogueNode.audioSource,
             });
         }
         //Autocreate folder
@@ -95,10 +95,10 @@ public class GraphSaveUtility
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue, nodeData.audioSource);
             tempNode.GUID = nodeData.Guid;
-            _targetGraphView.AddElement(tempNode);
 
+            _targetGraphView.AddElement(tempNode);
             var nodePorts = _containerCache.nodeLinks.Where(x => x.baseNodeGuid == nodeData.Guid).ToList();
             nodePorts.ForEach(x=> _targetGraphView.AddChoicePort(tempNode, x.PortName));
         }
