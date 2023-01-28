@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().name != "DialogueTest")
         {
-            StartCoroutine(FadeStart());
+            StartCoroutine(FadeCoroutine());
         }
     }
     #region Fade
@@ -48,14 +48,21 @@ public class GameManager : MonoBehaviour
     {
         fadeOut = true;
     }
+    public void Fade()
+    {
+        StartCoroutine(FadeCoroutine());
+    }
 
-    public IEnumerator FadeStart()
+    public IEnumerator FadeCoroutine()
     {
         ShowUI();
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         HideUI();
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("DialogueTest");
+        if (SceneManager.GetActiveScene().name == "StartScene")
+        {
+            SceneManager.LoadScene("DialogueTest");
+        }
     }
 
     #endregion
