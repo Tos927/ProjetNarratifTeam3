@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,25 +13,94 @@ public class GameManager : MonoBehaviour
     public bool isStarted = false;
     public GameObject languageSettings;
 
-    public void Consequences()
+    [SerializeField] private CanvasGroup canvasGroup;
+    [SerializeField] private bool fadeIn = false, fadeOut = false;
+
+    public static GameManager instance;
+
+    private void Awake()
     {
-        temp = StartCoroutine(StartConsequences());
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
+    private void Start()
+    {
+        StartCoroutine(FadeStart());
+    }
+    #region Fade
+
+    public void ShowUI()
+    {
+        fadeIn = true;
+    }
+
+    public void HideUI()
+    {
+        fadeOut = true;
+    }
+
+    private IEnumerator FadeStart()
+    {
+        ShowUI();
+        yield return new WaitForSeconds(3);
+        HideUI();
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("DialogueTest");
+    }
+
+    #endregion
     public void Update()
     {
         if (isStarted)
         {
             languageSettings.SetActive(false);
         }
+
+        if (fadeIn)
+        {
+            if (canvasGroup.alpha < 1)
+            {
+                canvasGroup.alpha += Time.deltaTime;
+                if (canvasGroup.alpha >= 1)
+                {
+                    fadeIn = false;
+                }
+            }
+        }
+        if (fadeOut)
+        {
+            if (canvasGroup.alpha >= 0)
+            {
+                canvasGroup.alpha -= Time.deltaTime;
+                if (canvasGroup.alpha == 0)
+                {
+                    fadeOut = false;
+                }
+            }
+        }
+    }
+    public void Consequences()
+    {
+        temp = StartCoroutine(StartConsequences());
     }
 
     IEnumerator StartConsequences() 
     {
-        consequencesVisualPanel.SetActive(true);
-        yield return new WaitForSeconds(DelayToSwitchConsequences);
-        consequencesTextPanel.SetActive(true);
-        consequencesVisualPanel.SetActive(false);
+        if (SceneManager.GetActiveScene().name == "DialogueTest")
+        {
+            consequencesVisualPanel.SetActive(true);
+            yield return new WaitForSeconds(DelayToSwitchConsequences);
+            consequencesTextPanel.SetActive(true);
+            consequencesVisualPanel.SetActive(false);
+        }
     }
 
     public void StopCoroutine()
@@ -44,6 +115,9 @@ public class GameManager : MonoBehaviour
 
     public void OpenCloseSettings(GameObject settingsPanel)
     {
-        settingsPanel.SetActive(!settingsPanel.activeSelf);
+        if (SceneManager.GetActiveScene().name == "DialogueTest")
+        {
+            settingsPanel.SetActive(!settingsPanel.activeSelf);
+        }
     }
 }
