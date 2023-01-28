@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -33,7 +32,10 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(FadeStart());
+        if (SceneManager.GetActiveScene().name != "DialogueTest")
+        {
+            StartCoroutine(FadeStart());
+        }
     }
     #region Fade
 
@@ -47,7 +49,7 @@ public class GameManager : MonoBehaviour
         fadeOut = true;
     }
 
-    private IEnumerator FadeStart()
+    public IEnumerator FadeStart()
     {
         ShowUI();
         yield return new WaitForSeconds(3);
