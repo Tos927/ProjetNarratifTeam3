@@ -54,6 +54,7 @@ public class GraphSaveUtility
                 gaugeValue = dialogueNode.gaugeValue,
                 audioSource = dialogueNode.audioSource,
                 cocoInt = dialogueNode.cocoInt,
+                consequense = dialogueNode.consequence,
             });
         }
         //Autocreate folder
@@ -96,7 +97,8 @@ public class GraphSaveUtility
     {
         foreach (var nodeData in _containerCache.dialogueNodeDatas)
         {
-            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue, nodeData.audioSource, nodeData.cocoInt);
+            var tempNode = _targetGraphView.CreateDialogueNode(nodeData.DialogueText, nodeData.State, nodeData.gaugeValue,
+                nodeData.audioSource, nodeData.cocoInt, nodeData.consequense);
             tempNode.GUID = nodeData.Guid;
 
             _targetGraphView.AddElement(tempNode);

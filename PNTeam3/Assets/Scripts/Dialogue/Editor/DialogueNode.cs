@@ -13,4 +13,5 @@ public class DialogueNode : Node
     public int gaugeValue = 0;
     public int cocoInt = 0;
     public AudioClip audioSource;
+    public bool consequence = false;
 }

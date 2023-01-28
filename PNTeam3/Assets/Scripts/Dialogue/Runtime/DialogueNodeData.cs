@@ -11,6 +11,7 @@ public class DialogueNodeData
     public int gaugeValue = 0;
     public AudioClip audioSource;
     public int cocoInt = 0;
+    public bool consequense = false;
 
 
     public enum ImageSignature
