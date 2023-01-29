@@ -113,15 +113,44 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             case DialogueNodeData.ImageSignature.BFF:
                 bffGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
+                //charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
                 signatureText.font = Resources.Load<Font>("Font/Autography");
                 signatureText.text = "J.P.";
+
+                if (bffGauge < -4)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF4");
+                }
+                else if (bffGauge < -2)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF3");
+                }
+                else if (bffGauge < 0)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF2");
+                }
+                else charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
                 break;
             case DialogueNodeData.ImageSignature.FRERE:
+
                 frereGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
                 signatureText.font = Resources.Load<Font>("Font/Signatra");
                 signatureText.text = "Charles";
+
+                if (frereGauge < -4)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere4");
+                }
+                else if (frereGauge < -2)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere3");
+                }
+                else if (frereGauge < 0)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere2");
+                }
+                else charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
+
                 break;
 
             default:
