@@ -20,5 +20,6 @@ public class DialogueNodeData
         GENERAL,
         BFF,
         FRERE,
+        END,
     }
 }
