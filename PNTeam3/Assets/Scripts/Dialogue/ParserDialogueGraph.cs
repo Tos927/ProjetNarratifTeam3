@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using T3;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -214,5 +215,19 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             buttonList[i].transform.GetChild(0).GetComponent<Text>().text = currentTextsChoices[i];
         }
+    }
+
+    public void ChangeLanguange(int a)
+    {
+        switch (a)
+        {
+            case 0:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTestEN");
+                break;
+            default:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTest");
+                break;
+        }
+
     }
 }
