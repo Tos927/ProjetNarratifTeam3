@@ -13,4 +13,13 @@ MonoBehaviour:
   m_Name: EncodedPuzzleCollection
   m_EditorClassIdentifier: 
   puzzleSOs:
-  - {fileID: 11400000, guid: 26ebb51f3a677a14980dfeb3e4d1144b, type: 2}
+  - {fileID: 11400000, guid: 11524ded5070639449ac7e01d72f9e29, type: 2}
+  - {fileID: 11400000, guid: e914ce4d1ad4b1c468fbe292e17083aa, type: 2}
+  - {fileID: 11400000, guid: fe6f42b02537e374bac4dc7d35d7c99f, type: 2}
+  - {fileID: 11400000, guid: 2ecf40ce2d573ad4aaab64f67c32cb08, type: 2}
+  - {fileID: 11400000, guid: c1a7267b033daf743a5f5539947b1c71, type: 2}
+  - {fileID: 11400000, guid: ce4ff6cb8a375ea4a882c18873d50ef5, type: 2}
+  - {fileID: 11400000, guid: 6d8fe3498312cf44b948fbfe07707c6f, type: 2}
+  - {fileID: 11400000, guid: 2363c2dd34761c64a9e85ccdcf1935f7, type: 2}
+  - {fileID: 11400000, guid: 188318176f2b21f44980af76453877f5, type: 2}
+  - {fileID: 11400000, guid: f09d691d46a6c2546940eb99af4826b3, type: 2}
