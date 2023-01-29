@@ -177,7 +177,7 @@ public class DialogueGraphView : GraphView
 
 
         // LE COCO INT
-        var intIndex = new IntegerField();
+        var intIndex = new IntegerField("Index Enigmes");
         intIndex.value = dialogueNode.cocoInt;
         intIndex.RegisterValueChangedCallback(evt =>
         {

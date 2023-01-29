@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using T3;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class ParserDialogueGraph : MonoBehaviour
 {
@@ -13,11 +15,12 @@ public class ParserDialogueGraph : MonoBehaviour
     [SerializeField] private TextManager textmanager;
     [SerializeField] private GameObject decoder;
     [SerializeField] private GameObject consequences;
-    [SerializeField] private Text mainText;
+    [SerializeField] private TextMeshProUGUI mainText;
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
     [SerializeField] private Image consequenceImage;
     [SerializeField] private List<Button> buttonList;
+    [SerializeField] private TextTweening textTweening;
     //[SerializeField] private AudioMixerGroup mixer;
 
     //[SerializeField] private DialogueContainer dialogueContainer;
@@ -189,6 +192,8 @@ public class ParserDialogueGraph : MonoBehaviour
 
         mainText.text = currentNode.DialogueText;
 
+        textTweening.AnimateText(audioSource.clip);
+
         for (int i = 0; i < dialogueContainer.nodeLinks.Count; i++)
         {
             if (currentNode.Guid == dialogueContainer.nodeLinks[i].baseNodeGuid)
@@ -214,5 +219,19 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             buttonList[i].transform.GetChild(0).GetComponent<Text>().text = currentTextsChoices[i];
         }
+    }
+
+    public void ChangeLanguange(int a)
+    {
+        switch (a)
+        {
+            case 0:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTestEN");
+                break;
+            default:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTest");
+                break;
+        }
+
     }
 }
