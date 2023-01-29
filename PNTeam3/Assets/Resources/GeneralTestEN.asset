@@ -421,9 +421,6 @@ MonoBehaviour:
   - baseNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
     PortName: "Lettre Fr\xE8re"
     TargetNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
-  - baseNodeGuid: 673eac62-db83-42b7-a403-854c1c353df0
-    PortName: Suivant
-    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
   - baseNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
     PortName: Battre en retraite
     TargetNodeGuid: 9b93fa68-6d4e-49db-b019-89c5b438c024
@@ -442,9 +439,6 @@ MonoBehaviour:
   - baseNodeGuid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
     PortName: Suivant
     TargetNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
-  - baseNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
-    PortName: Suivant
-    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
   - baseNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
     PortName: Battre en retraite
     TargetNodeGuid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
@@ -484,24 +478,6 @@ MonoBehaviour:
   - baseNodeGuid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
     PortName: Suivant
     TargetNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
-  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
-    PortName: "S\u2019infiltrer pour les sauver la nuit"
-    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
-  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
-    PortName: 'Convaincre les soldats de ne pas les tuer '
-    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
-  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
-    PortName: "Essayer de r\xE9colter des informations jusqu\u2019au meeting"
-    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
-  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
-    PortName: "Ne rien faire jusqu\u2019au meeting"
-    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
-  - baseNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
-    PortName: Suivant
-    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
-  - baseNodeGuid: ea71d76a-3985-432f-9931-faa1c5472a53
-    PortName: Suivant
-    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
   - baseNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
     PortName: Lettre Ami
     TargetNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
@@ -700,12 +676,6 @@ MonoBehaviour:
   - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
     PortName: Envoyer avec le bataillon
     TargetNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
-  - baseNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
-    PortName: Suivant
-    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
-  - baseNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
-    PortName: Suivant
-    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
   - baseNodeGuid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
@@ -1132,6 +1102,36 @@ MonoBehaviour:
   - baseNodeGuid: a486a754-817f-41a3-94e6-03d27c781295
     PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 8888cb80-96e2-4b2c-9da8-ff61d3bebb7e
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "S\u2019infiltrer pour les sauver la nuit"
+    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: 'Convaincre les soldats de ne pas les tuer '
+    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "Essayer de r\xE9colter des informations jusqu\u2019au meeting"
+    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "Ne rien faire jusqu\u2019au meeting"
+    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+  - baseNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: ea71d76a-3985-432f-9931-faa1c5472a53
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
+    PortName: Suivant
+    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+  - baseNodeGuid: 673eac62-db83-42b7-a403-854c1c353df0
+    PortName: Suivant
+    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
   dialogueNodeDatas:
   - Guid: b9b8fa6e-5161-438b-91a8-db1c18fa48f6
     DialogueText: "My friend,\r\nI would still like us to write to each other regularly,
@@ -1177,14 +1177,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 7ec6beec-8a65-4a73-890a-75d8b52fc0d3
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4781, y: -702}
     gaugeValue: 0
@@ -1234,14 +1235,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 32e1c388-0aff-46e0-871e-74ecd4466fe5
-    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
-      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
-      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
-      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
-      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8res\r\nCharles \r"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4704, y: 2993}
     gaugeValue: 0
@@ -1325,16 +1325,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: e2c39714-9842-4ad7-8737-b5550f328f17
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 6194, y: -3562}
     gaugeValue: 1
@@ -1342,10 +1337,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 7676d78e-cb15-4416-9091-30157b28bec7
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 6179, y: -3248}
     gaugeValue: -1
@@ -1353,29 +1351,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 0e1c6dcd-7824-4147-9267-98e0ad79eeee
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 6090, y: -1847}
-    gaugeValue: 1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
-  - Guid: a6f519ac-ddc8-466b-9f07-99a8955de423
-    DialogueText: "Hi comrade,\r\nWe managed to get into Stuttgart thanks to you.\r\nAs
-      you know, we are going in undercover as a simple soldier.\r\nYes, I know, it's
-      demeaning but there's nothing we can do about it.\r\nI'll try to see if I can
-      get some information.\r\nI'll keep you posted.\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP\r\n\r\n"
-    State: 2
-    Position: {x: 6040, y: -338}
     gaugeValue: 1
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -1414,14 +1396,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: c7178836-1a1b-45ea-bc27-e40fb6cb451f
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4781, y: 787}
     gaugeValue: 0
@@ -1429,16 +1410,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: cbde9f7f-8e91-435b-a943-674a7f43e588
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 6028, y: 726}
     gaugeValue: 1
@@ -1468,16 +1444,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 729d8513-68ec-4d62-91c4-540e2584566e
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 5976, y: 1746}
     gaugeValue: 1
@@ -1485,10 +1456,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: b61c6b84-b51e-406a-afd7-b066c203b1aa
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 5976, y: 2024}
     gaugeValue: -1
@@ -1507,16 +1481,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 6795f5d7-2342-4dfa-aba8-7495e141ad78
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 5909, y: 2846}
     gaugeValue: 1
@@ -1524,10 +1493,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 2bc2ddd1-e2ea-461a-90b8-39dedc1159e7
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 5909, y: 3105}
     gaugeValue: -1
@@ -1535,10 +1507,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: efdbc588-3722-4c69-bce0-17a3a960cae1
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 5930, y: 4154}
     gaugeValue: -1
@@ -1546,16 +1521,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 1118e924-80e2-42d1-9247-696e64d692dd
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 5930, y: 3878}
     gaugeValue: 1
@@ -1601,14 +1571,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: a1fc91f5-a268-466f-a863-af77815438c1
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "\nDear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 4634, y: 3971}
     gaugeValue: 0
@@ -1616,12 +1587,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 6255, y: -5226}
     gaugeValue: 1
@@ -1644,14 +1614,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: b914dab2-0f9e-489d-8705-8b248253a73d
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7262, y: -3982}
     gaugeValue: -1
@@ -1659,14 +1628,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 03cea8e8-828b-4580-beac-a1a4326d94e7
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7262, y: -4373}
     gaugeValue: 1
@@ -1706,14 +1674,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 78bf6663-e534-4c18-b2d7-339876293f86
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7178, y: -2688}
     gaugeValue: 1
@@ -1721,62 +1688,32 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 33f8da99-e0dc-49d9-8245-09a7e0e3d087
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7178, y: -2287}
     gaugeValue: -1
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
-  - Guid: 118d5fe1-f5fe-4305-ac9a-32a20e26dd07
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
-    State: 3
-    Position: {x: 7206, y: -1073}
-    gaugeValue: 1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 1
   - Guid: 78a8f909-3c80-46c3-aaf1-41a2ad08611e
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7206, y: -866}
     gaugeValue: -1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 1
-  - Guid: 095e199b-4147-4344-9a0e-f02686b62563
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
-    State: 3
-    Position: {x: 7242, y: -16}
-    gaugeValue: 1
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
@@ -1844,21 +1781,19 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: df8a1971-e60d-4b67-b205-3b495324e615
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    DialogueText: "Dear brother,\r\nAs you know, I turned 18 last summer, and I have
+      just received my draft notice. \r\nI could be useful to you and the country.
+      \r\nI will give my best and make our father proud. \r\nMom cried before I left,
+      I had to reassure her before leaving. \r\nWhen I left, I crossed the old field
+      where we used to play when we were kids, it's now a field of craters, a reflection
+      of the war. \r\nIt's going to be hard not being able to see you, but I have
+      been assigned to a position that will allow me to keep in touch with you. \r\nI
+      am officially in charge of communication between the 14th infantry regiment
+      and the capital. You will be the first to read about my exploits, and I will
+      be the first to receive and transmit your orders. \r\nNow that the war has
+      started and you are my superior, our relationship will be different, don't
+      you think? \r\nI am convinced that you will make the right decisions. \r\nI'll
+      see you soon and wish you good luck. \r\nYour dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 2763, y: 3281}
     gaugeValue: 0
@@ -1866,21 +1801,19 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
+    DialogueText: "Dear brother,\r\nAs you know, I turned 18 last summer, and I have
+      just received my draft notice. \r\nI could be useful to you and the country.
+      \r\nI will give my best and make our father proud. \r\nMom cried before I left,
+      I had to reassure her before leaving. \r\nWhen I left, I crossed the old field
+      where we used to play when we were kids, it's now a field of craters, a reflection
+      of the war. \r\nIt's going to be hard not being able to see you, but I have
+      been assigned to a position that will allow me to keep in touch with you. \r\nI
+      am officially in charge of communication between the 14th infantry regiment
+      and the capital. You will be the first to read about my exploits, and I will
+      be the first to receive and transmit your orders. \r\nNow that the war has
+      started and you are my superior, our relationship will be different, don't
+      you think? \r\nI am convinced that you will make the right decisions. \r\nI'll
+      see you soon and wish you good luck. \r\nYour dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 2858, y: 761}
     gaugeValue: 0
@@ -1918,34 +1851,6 @@ MonoBehaviour:
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 0
     consequense: 1
-  - Guid: b8654763-875e-4410-a6cd-652728ccc9e2
-    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
-      Berlin gr\xE2ce \xE0 toi.\r\nOn y a vu des tas d'atrocit\xE9s mais je te passe
-      les d\xE9tails, les allemands sont fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter
-      des informations, mais en tant que simple soldat, nous recevons uniquement
-      des instructions sans plus de d\xE9tails.\r\nIl faudrait que j\u2019obtienne
-      une tenue de lieutenant SS pour recevoir de meilleures informations. \r\nJ\u2019en
-      ai rep\xE9r\xE9 un d\u2019ailleurs, je vais essayer de l'intercepter pour voler
-      son costume mais je n\u2019ai aucune id\xE9e de quoi en faire apr\xE8s.\r\nDonne-moi
-      ton avis rapidement, mon ami, si tu veux pas que j\u2019y perde un bras. \r\nJe
-      plaisante bien s\xFBr.\r\n"
-    State: 3
-    Position: {x: 6190, y: -802}
-    gaugeValue: 1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
-  - Guid: 764b6231-06dd-4e40-9cde-ede8db6b92fd
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
-    State: 3
-    Position: {x: 6190, y: -560}
-    gaugeValue: -1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
     DialogueText: "Soldier, I congratulate you. \r\nThanks to you, the army has managed
       to keep the enemy at bay. \r\nThe Berthe squad, on the other hand, has not
@@ -1959,39 +1864,25 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 18ae4497-bab2-471c-8f54-8d3216af7dba
-    DialogueText: "Ch\xE8res fr\xE8re \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain
-      temps. \r\nIl pr\xE9pare quelque chose. Je pense qu\u2019il essaye de rassembler
-      des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
-      Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
+    DialogueText: "Dear brother,\r\nMy wound itches and reminds me of my fallen comrades.
+      \r\nThe enemy hasn't attacked for a while. \r\nThey must be planning something.
+      \r\nI think they are trying to gather troops. \r\nIt reminds me of the stories
+      father used to tell us when we were kids and it doesn't reassure me. I sense
+      worry in the regiment. \r\nWhat should we do?\r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 12892, y: -111}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
-  - Guid: 9b93fa68-6d4e-49db-b019-89c5b438c024
-    DialogueText: "Cher fr\xE8re,\r\nEn suivant tes indications, nous avons fui la
-      bataille.\r\nSur le chemin nous avons crois\xE9 des aviateurs alli\xE9s.\r\nJe
-      ne sais pas si c\u2019est toi qui les a envoy\xE9s mais gr\xE2ce \xE0 eux l\u2019ennemi
-      a d\xFB battre en retraite.\r\nJe suis quand m\xEAme d\xE9\xE7u d\u2019avoir
-      d\xFB fuir face \xE0 l\u2019ennemi, nous aurions pu contre-attaquer et les
-      repousser davantage.\r\nMaintenant l\u2019ennemi est pr\xE9par\xE9 et nous
-      ne pourrons plus les attaquer par les airs.\r\nMais au moins le moral des troupes
-      est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
-      pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
-    State: 3
-    Position: {x: 14003, y: -158}
-    gaugeValue: 2
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
-    DialogueText: "Cher fr\xE8re,\r\nNous avons attendu les renforts alli\xE9s avant
-      d\u2019attaquer, mais ce n\u2019\xE9tait pas suffisant. \r\nL\u2019ennemi \xE9tait
-      trop nombreux et nous avons battu en retraite.\r\nLes pertes furent lourdes
-      et le moral des troupes a baiss\xE9.\r\nMalgr\xE9 tout nous restons motiv\xE9s
-      et nous avons d\xE9j\xE0 reform\xE9 le camp.\r\nJ\u2019esp\xE8re que notre
-      prochaine bataille se passera mieux.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nGiven the enemy's advance, we retreated to join
+      the reinforcements. \r\nBut the enemy saw through our plan and took advantage
+      of it to attack us by surprise. \r\nThose who managed to escape were sent to
+      another front. \r\nThe rest of us and I have been transferred to the Stuttgart
+      battalion.\r\nI guess it's fate. \r\nAfter a long journey, we will reach the
+      allied camp and we're preparing for the upcoming battle. \r\nI will give you
+      a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 14003, y: 100}
     gaugeValue: -2
@@ -1999,10 +1890,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: bd8f74be-677b-43b3-9603-6e30847692e5
-    DialogueText: "Ch\xE8res fr\xE8re \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain
-      temps. \r\nIl pr\xE9pare quelque chose. Je pense qu\u2019il essaye de rassembler
-      des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
-      Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
+    DialogueText: "Dear brother,\r\nMy wound itches and reminds me of my fallen comrades.
+      \r\nThe enemy hasn't attacked for a while. \r\nThey must be planning something.
+      \r\nI think they are trying to gather troops. \r\nIt reminds me of the stories
+      father used to tell us when we were kids and it doesn't reassure me. I sense
+      worry in the regiment. \r\nWhat should we do?\r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 15898, y: -514}
     gaugeValue: 0
@@ -2023,15 +1915,14 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
-    DialogueText: "Cher fr\xE8re,\r\nEn suivant tes indications, nous avons fui la
-      bataille.\r\nSur le chemin nous avons crois\xE9 des aviateurs alli\xE9s.\r\nJe
-      ne sais pas si c\u2019est toi qui les a envoy\xE9s mais gr\xE2ce \xE0 eux l\u2019ennemi
-      a d\xFB battre en retraite.\r\nJe suis quand m\xEAme d\xE9\xE7u d\u2019avoir
-      d\xFB fuir face \xE0 l\u2019ennemi, nous aurions pu contre-attaquer et les
-      repousser davantage.\r\nMaintenant l\u2019ennemi est pr\xE9par\xE9 et nous
-      ne pourrons plus les attaquer par les airs.\r\nMais au moins le moral des troupes
-      est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
-      pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nFollowing your instructions, we retreated from
+      the battle. \r\nOn the way, we met some allied pilots. \r\nI don't know if
+      it was you who sent them, but thanks to them the enemy had to retreat. \r\nI'm
+      still disappointed that we had to flee from the enemy, we could have counterattacked
+      and pushed them further. \r\nNow the enemy is prepared and we won't be able
+      to attack them from the air. \r\nBut at least the morale of the troops is intact
+      and losses are minimal on our side. \r\nI hope to be able to fight next time.
+      \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 0
     Position: {x: 16879, y: -671}
     gaugeValue: 2
@@ -2039,16 +1930,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 1db7b169-75ef-4e5f-93be-38e272349e93
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe commence \xE0 fatiguer. \r\nLes bruits
-      des bombes commencent \xE0 \xEAtre naturels pour moi. Le moral des troupes
-      est au plus bas. \r\nL\u2019ennemi nous attaque sans cesse et ne nous laisse
-      aucun moment de r\xE9pit. \r\nLes rations de nourritures commencent a diminu\xE9
-      et les soldats commencent \xE0 perdre patience et pour \xEAtre sinc\xE8re moi
-      aussi.\r\nApparemment, des soldats arrivent en renfort mais nous ne sommes
-      pas s\xFBrs de pouvoir tenir. \r\nJ\u2019ai aussi entendu dire qu\u2019un ultime
-      assaut allait avoir lieu non loin de l\xE0 et que cela pourrait mettre fin
-      \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
-      mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
+    DialogueText: "Dear brother,\r\nIt's been a while since my last letter. \r\nI'm
+      starting to tire. \r\nThe noise of the bombs is now part of the background
+      noise. \r\nThe enemy is constantly attacking us and giving us no respite. \r\nOur
+      stock of cigarettes is running low and our food rations are decreasing. \r\nThe
+      soldiers are losing patience and to be honest, so am I. \r\nApparently, reinforcements
+      are coming but we're not sure if we can hold out until then. \r\nI also heard
+      that a big offensive is going to happen nearby and it might put an end to this
+      war. I could finally go home.\r\nPlease let me go. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 18885, y: -53}
     gaugeValue: 0
@@ -2056,12 +1946,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 30acdae4-3c75-47a9-8f84-bf7e99056d9a
-    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 tes instructions, mon r\xE9giment
-      et moi sommes en route pour pr\xEAter main-forte aux troupes de Stuttgart.\r\nJe
-      suis heureux d\u2019avoir pu assister mes compagnons \xE0 Brumath, mais on
-      a besoin de moi ailleurs. \r\nApr\xE8s une longue travers\xE9e nous atteindrons
-      le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
-      te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nThanks to your instructions, my regiment and
+      I are on our way to provide support to the troops in Stuttgart. \r\nI'm glad
+      I could help my comrades in Brumath, but I'm needed elsewhere.\r\nAfter a long
+      journey, we will reach the allied camp and we're preparing for the upcoming
+      battle.\r\nI will give you a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 20424, y: -35}
     gaugeValue: 3
@@ -2069,15 +1958,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 5d7262ea-63ee-4ed1-a5ef-69d2b237f03c
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nGiven the enemy's advance, we retreated to join
+      the reinforcements. \r\nBut the enemy saw through our plan and took advantage
+      of it to attack us by surprise. \r\nThose who managed to escape were sent to
+      another front. \r\nThe rest of us and I have been transferred to the Stuttgart
+      battalion.\r\nI guess it's fate. \r\nAfter a long journey, we will reach the
+      allied camp and we're preparing for the upcoming battle. \r\nI will give you
+      a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 20424, y: 209}
     gaugeValue: -3
@@ -2121,10 +2008,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 6b3923fe-3b59-4a90-8ec8-71f66fd1928f
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 6028, y: 985}
     gaugeValue: -1
@@ -2157,49 +2047,27 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 09131549-14a8-485e-9e51-070fed6683fe
-    DialogueText: "Cher fr\xE8re,\r\nNous avons attendu les renforts alli\xE9s avant
-      d\u2019attaquer, mais ce n\u2019\xE9tait pas suffisant. \r\nL\u2019ennemi \xE9tait
-      trop nombreux et nous avons battu en retraite.\r\nLes pertes furent lourdes
-      et le moral des troupes a baiss\xE9.\r\nMalgr\xE9 tout nous restons motiv\xE9s
-      et nous avons d\xE9j\xE0 reform\xE9 le camp.\r\nJ\u2019esp\xE8re que notre
-      prochaine bataille se passera mieux.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nGiven the enemy's advance, we retreated to join
+      the reinforcements. \r\nBut the enemy saw through our plan and took advantage
+      of it to attack us by surprise. \r\nThose who managed to escape were sent to
+      another front. \r\nThe rest of us and I have been transferred to the Stuttgart
+      battalion.\r\nI guess it's fate. \r\nAfter a long journey, we will reach the
+      allied camp and we're preparing for the upcoming battle. \r\nI will give you
+      a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 0
     Position: {x: 17006, y: -374}
     gaugeValue: -2
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
-  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
-      a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
-      j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
-      champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
-      par les combats, mais je sais que c\u2019est pour la bonne cause. \r\n\xC7a
-      va me manquer de plus pouvoir te voir, mais au moins on pourra se contacter
-      gr\xE2ce \xE0 ce poste, je suis officiellement charg\xE9 de la communication
-      entre le front et la ville.\r\nTu pourras \xEAtre le premier \xE0 lire mes
-      exploits ; quant \xE0 moi je serais le premier \xE0 recevoir et transmettre
-      tes ordres.\r\nN\u2019oublie pas que tu joues un r\xF4le tr\xE8s important
-      dans ce combat. J\u2019ai confiance en toi et je sais que tu peux nous guider.\r\nMaintenant
-      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur notre relation va
-      \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
-      te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
-    State: 3
-    Position: {x: 1766, y: -484}
-    gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
-    cocoInt: 0
-    consequense: 0
   - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
-      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
-      on a repouss\xE9 leur perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
-      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
-      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
-      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
-      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
-      pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 6255, y: -4854}
     gaugeValue: -1
@@ -2207,14 +2075,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
-    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
-      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
-      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
-      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
-      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
-      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
-      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
-      cher fr\xE8re\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4745, y: -4542}
     gaugeValue: 0
@@ -2260,31 +2127,19 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: a665a97e-3e15-4309-ab6a-705034775f66
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4814, y: -3058}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
-  - Guid: b547d551-90d4-440c-aa9a-d56569b8d926
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
-    State: 3
-    Position: {x: 6090, y: -1543}
-    gaugeValue: -1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: 3e93ec20-205d-46fd-865d-e94278d4db46
     DialogueText: "Hi comrade,\r\nWe managed to get into Stuttgart thanks to you.\r\nAs
       you know, we are going in undercover as a simple soldier.\r\nYes, I know, it's
@@ -2308,12 +2163,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: ddea7dab-23b9-4877-94e7-7b26d4f2f5f5
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 8500, y: -3643}
     gaugeValue: -2
@@ -2386,45 +2240,14 @@ MonoBehaviour:
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
-  - Guid: 23b903da-882f-4680-8fee-c7da9fcc90cc
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
-    State: 3
-    Position: {x: 8573, y: -4467}
-    gaugeValue: 2
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
-  - Guid: fa81640d-47db-4f13-bb6e-fd3db571f829
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
-    State: 3
-    Position: {x: 8573, y: -4216}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: 145690fd-b07d-4b0d-94d7-577a24c07694
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 8465, y: -3982}
     gaugeValue: 0
@@ -2447,14 +2270,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 905e5925-e8d3-439a-84f8-af22deb8e16b
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4661, y: 1856}
     gaugeValue: 0
@@ -2462,14 +2286,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 95418c21-1bb7-49c3-83d5-79c68615c097
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 4721, y: -1618}
     gaugeValue: 0
@@ -2545,18 +2370,18 @@ MonoBehaviour:
       died for the same reasons, maybe these people also have a child who will be
       left alone if they are executed.
 
-      I cannot just let them be, I know
-      I may also die but it is my duty to save them.
+      I cannot just let them be, I know I
+      may also die but it is my duty to save them.
 
-      But at the same time,
-      I also need to continue my work to save my entire country.
+      But at the same time, I
+      also need to continue my work to save my entire country.
 
-      I have to
-      make a decision.
+      I have to make
+      a decision.
 
       What should I do?
 
-      
+
 
       JP
 
@@ -2582,74 +2407,41 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe commence \xE0 fatiguer. \r\nLes bruits
-      des bombes commencent \xE0 \xEAtre naturels pour moi. Le moral des troupes
-      est au plus bas. \r\nL\u2019ennemi nous attaque sans cesse et ne nous laisse
-      aucun moment de r\xE9pit. \r\nLes rations de nourritures commencent a diminu\xE9
-      et les soldats commencent \xE0 perdre patience et pour \xEAtre sinc\xE8re moi
-      aussi.\r\nApparemment, des soldats arrivent en renfort mais nous ne sommes
-      pas s\xFBrs de pouvoir tenir. \r\nJ\u2019ai aussi entendu dire qu\u2019un ultime
-      assaut allait avoir lieu non loin de l\xE0 et que cela pourrait mettre fin
-      \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
-      mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
+    DialogueText: "Dear brother,\r\nIt's been a while since my last letter. \r\nI'm
+      starting to tire. \r\nThe noise of the bombs is now part of the background
+      noise. \r\nThe enemy is constantly attacking us and giving us no respite. \r\nOur
+      stock of cigarettes is running low and our food rations are decreasing. \r\nThe
+      soldiers are losing patience and to be honest, so am I. \r\nApparently, reinforcements
+      are coming but we're not sure if we can hold out until then. \r\nI also heard
+      that a big offensive is going to happen nearby and it might put an end to this
+      war. I could finally go home.\r\nPlease let me go. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 21818, y: -322}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
-  - Guid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
-    State: 3
-    Position: {x: 8150, y: -2497}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: 67ef6f90-9cb6-4478-8b49-7bf1a97ca172
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 8168, y: -2728}
     gaugeValue: 2
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
-  - Guid: 572b79da-c745-439b-af9b-0de9af5a5458
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
-    State: 3
-    Position: {x: 8934, y: -2310}
-    gaugeValue: 0
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
   - Guid: 80e13f01-49af-4db6-972d-ec64050b336b
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n\r\n"
     State: 3
     Position: {x: 8427, y: -2163}
     gaugeValue: -2
@@ -2694,15 +2486,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 4463072b-f02c-4c48-b3d9-c122d3f5674c
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 9340, y: -1125}
     gaugeValue: 2
@@ -2710,15 +2500,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 2a294572-268f-4916-9de5-480308e2295f
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 9938, y: -852}
     gaugeValue: 0
@@ -2737,10 +2525,10 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear friend,\r\nI managed to get out of it without too many scratches.\r\nUnfortunately,
+      several of my teammates did not make it.\r\nDespite this, we're keeping our
+      spirits up and know that we will make it through.\r\nI'll let you know as soon
+      as I have any new information.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP\r\n"
     State: 2
     Position: {x: 8477, y: -237}
     gaugeValue: -2
@@ -2748,10 +2536,10 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 86397f5b-f3d8-4e60-9a2e-051a40cbf101
-    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
-      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
-      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
-      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    DialogueText: "Dear friend,\r\nI managed to get out of it without too many scratches.\r\nUnfortunately,
+      several of my teammates did not make it.\r\nDespite this, we're keeping our
+      spirits up and know that we will make it through.\r\nI'll let you know as soon
+      as I have any new information.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP\r\n"
     State: 2
     Position: {x: 8477, y: -470}
     gaugeValue: 0
@@ -2759,12 +2547,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: d82a6cfd-f99a-4292-a45b-ecf35ac057e0
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 8383, y: -790}
     gaugeValue: -2
@@ -2772,31 +2559,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n"
     State: 3
     Position: {x: 8942, y: -36}
     gaugeValue: 2
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
-  - Guid: 8ac2350a-1554-4cd9-b283-664a325c61d7
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
-    State: 3
-    Position: {x: 8841, y: 74}
-    gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
@@ -2833,14 +2604,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: fc874e12-fecc-4c49-8c9b-f715c0ecc2f8
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7001, y: 3764}
     gaugeValue: 1
@@ -2848,14 +2620,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 0c03a961-4308-4294-ba0c-bc3edeb79f8c
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 6989, y: 2732}
     gaugeValue: -1
@@ -2863,14 +2634,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 67034924-ffbc-40c0-8a5d-1bc322547015
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 6917, y: 2395}
     gaugeValue: 1
@@ -2878,14 +2648,15 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 6949, y: 4143}
     gaugeValue: -1
@@ -2893,15 +2664,12 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n"
     State: 3
     Position: {x: 9602, y: 131}
     gaugeValue: 0
@@ -2941,12 +2709,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: dc0cec0d-e59b-43f1-b607-679183e2c4b5
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n\r\n"
     State: 3
     Position: {x: 8767, y: 3231}
     gaugeValue: -2
@@ -2954,12 +2721,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 21680273-e954-4b53-87f9-c02b6847f85f
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 8710, y: 2923}
     gaugeValue: 0
@@ -3004,55 +2770,25 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: f6687f0d-434b-43c0-99c9-5c738b3deece
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 8860, y: 1926}
     gaugeValue: -2
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
-  - Guid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
-    State: 3
-    Position: {x: 9045, y: 321}
-    gaugeValue: -2
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 0
-  - Guid: 7a33ff75-8396-4f33-9a77-5f61f17ff414
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
-    State: 3
-    Position: {x: 7242, y: 167}
-    gaugeValue: -1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 1
   - Guid: 49c291c2-77c9-4127-adf6-f85188c43000
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 6982, y: 275}
     gaugeValue: 1
@@ -3060,15 +2796,12 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n"
     State: 3
     Position: {x: 10191, y: 278}
     gaugeValue: 0
@@ -3105,12 +2838,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: f2de70da-2f1f-4028-8ef6-23393ff43df1
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 9758, y: 481}
     gaugeValue: -2
@@ -3129,14 +2861,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 589696de-71f6-4eaa-950b-bbe790244a55
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nThank you for worrying, but don't worry, I've
+      been preparing for this moment all my life. \r\nI've finally arrived at the
+      trenches in Brumath. \r\nThe enemy is trying to break through, but we are managing
+      to push them back. \r\nWe know that the enemy plans to attack tonight, leaving
+      us an opportunity to break their defense.\r\nIf we attack during the day, we'll
+      be more easily spotted, but if we attack at night, there will be less visibility.
+      \r\nWaiting for your instructions.\r\nYour dear brother.\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 7334, y: 466}
     gaugeValue: -1
@@ -3155,12 +2886,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: b37da23c-ef67-4180-b159-32fca87702d3
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 8930, y: 1613}
     gaugeValue: 0
@@ -3168,15 +2898,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 75a92c10-29ef-4abd-8184-f03fca979602
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 9758, y: 2093}
     gaugeValue: 0
@@ -3184,15 +2912,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 6ad031ab-caa0-4160-9ea9-6a6b1f3f8ebe
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 9630, y: 1683}
     gaugeValue: 2
@@ -3233,15 +2959,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 9acf61e9-3b65-424a-9894-35c902ff1b06
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 9418, y: 2897}
     gaugeValue: 2
@@ -3249,12 +2973,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: a8c518ac-1e92-44d7-8bca-43e2cdc6b4c6
-    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 tes instructions, mon r\xE9giment
-      et moi sommes en route pour pr\xEAter main-forte aux troupes de Stuttgart.\r\nJe
-      suis heureux d\u2019avoir pu assister mes compagnons \xE0 Brumath, mais on
-      a besoin de moi ailleurs. \r\nApr\xE8s une longue travers\xE9e nous atteindrons
-      le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
-      te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n\r\n"
     State: 3
     Position: {x: 9725, y: 3198}
     gaugeValue: 0
@@ -3284,12 +3007,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 8d6d9e97-7adc-466b-8f26-8d6b8a744370
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n\r\n"
     State: 3
     Position: {x: 9922, y: 4258}
     gaugeValue: 2
@@ -3297,12 +3019,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 9842, y: 4656}
     gaugeValue: 0
@@ -3343,14 +3064,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 345c1582-7d8c-4aa1-913a-8279ec20c411
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
-      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
-      on a repouss\xE9 leur perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
-      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
-      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
-      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
-      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
-      pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles \r\n"
+    DialogueText: "\r\nDear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 8863, y: 4656}
     gaugeValue: -2
@@ -3358,14 +3078,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 94497101-750f-4182-bea8-2bbe14c6b868
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
-      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
-      on a repouss\xE9 leur perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
-      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
-      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
-      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
-      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
-      pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles \r\n"
+    DialogueText: "\r\nDear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
     State: 3
     Position: {x: 8906, y: 4307}
     gaugeValue: 0
@@ -3489,12 +3208,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 3337af9d-2c3d-447c-a0fd-c8e6204be812
-    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
-      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
-      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
-      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
-      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
-      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 9077, y: -867}
     gaugeValue: 0
@@ -3596,30 +3314,16 @@ MonoBehaviour:
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 1
-  - Guid: d4d8707e-4ec5-445f-8a1b-afa2b2352a2f
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
-    State: 3
-    Position: {x: 6917, y: 1321}
-    gaugeValue: 1
-    audioSource: {fileID: 0}
-    cocoInt: 0
-    consequense: 1
   - Guid: 05fb1a5f-8d8a-4487-9ab6-acd1e4adcead
-    DialogueText: "Ch\xE8re fr\xE8re \r\nJe suis enfin sur le champ de bataille.
-      \r\nL'ennemie avance petit \xE0 petit mais nous arrivons \xE0 les repousser.
-      \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer ce soir, nous laissant
-      une ouverture pour briser leur d\xE9fense. \r\nPar contre si on attaque de
-      jour, on se fera plus facilement rep\xE9rer, mais si on attaque de nuit ce
-      sera plus difficile de s\u2019y rep\xE9rer. \r\nSache que l\u2019on suivra
-      tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
-      ch\xE8r fr\xE8res\r\nCharles \r\n"
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
     State: 3
     Position: {x: 6917, y: 1571}
     gaugeValue: -1
@@ -3661,18 +3365,18 @@ MonoBehaviour:
       died for the same reasons, maybe these people also have a child who will be
       left alone if they are executed.
 
-      I cannot just let them be, I know
-      I may also die but it is my duty to save them.
+      I cannot just let them be, I know I
+      may also die but it is my duty to save them.
 
-      But at the same time,
-      I also need to continue my work to save my entire country.
+      But at the same time, I
+      also need to continue my work to save my entire country.
 
-      I have to
-      make a decision.
+      I have to make
+      a decision.
 
       What should I do?
 
-      
+
 
       JP
 
@@ -3684,12 +3388,11 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 1
   - Guid: e95386ec-6280-4436-a816-d0865c5eb5e1
-    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 tes instructions, mon r\xE9giment
-      et moi sommes en route pour pr\xEAter main-forte aux troupes de Stuttgart.\r\nJe
-      suis heureux d\u2019avoir pu assister mes compagnons \xE0 Brumath, mais on
-      a besoin de moi ailleurs. \r\nApr\xE8s une longue travers\xE9e nous atteindrons
-      le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
-      te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nThanks to your instructions, my regiment and
+      I are on our way to provide support to the troops in Stuttgart. \r\nI'm glad
+      I could help my comrades in Brumath, but I'm needed elsewhere.\r\nAfter a long
+      journey, we will reach the allied camp and we're preparing for the upcoming
+      battle.\r\nI will give you a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 23349, y: -497}
     gaugeValue: 3
@@ -3697,15 +3400,13 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: ea71d76a-3985-432f-9931-faa1c5472a53
-    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
-      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
-      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
-      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
-      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
-      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
-      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
-      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
-      fr\xE8re\r\nCharles\r\n"
+    DialogueText: "Dear brother,\r\nGiven the enemy's advance, we retreated to join
+      the reinforcements. \r\nBut the enemy saw through our plan and took advantage
+      of it to attack us by surprise. \r\nThose who managed to escape were sent to
+      another front. \r\nThe rest of us and I have been transferred to the Stuttgart
+      battalion.\r\nI guess it's fate. \r\nAfter a long journey, we will reach the
+      allied camp and we're preparing for the upcoming battle. \r\nI will give you
+      a report soon. \r\nYour dear brother.\r\n\r\nCharles\r\n"
     State: 3
     Position: {x: 23317, y: -204}
     gaugeValue: -3
@@ -3763,6 +3464,232 @@ MonoBehaviour:
     State: 2
     Position: {x: 14343, y: -487}
     gaugeValue: -2
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: "Dear brother,\r\nAs you know, I turned 18 last summer, and I have
+      just received my draft notice. \r\nI could be useful to you and the country.
+      \r\nI will give my best and make our father proud. \r\nMom cried before I left,
+      I had to reassure her before leaving. \r\nWhen I left, I crossed the old field
+      where we used to play when we were kids, it's now a field of craters, a reflection
+      of the war. \r\nIt's going to be hard not being able to see you, but I have
+      been assigned to a position that will allow me to keep in touch with you. \r\nI
+      am officially in charge of communication between the 14th infantry regiment
+      and the capital. You will be the first to read about my exploits, and I will
+      be the first to receive and transmit your orders. \r\nNow that the war has
+      started and you are my superior, our relationship will be different, don't
+      you think? \r\nI am convinced that you will make the right decisions. \r\nI'll
+      see you soon and wish you good luck. \r\nYour dear brother\r\n\r\nCharles \r\n"
+    State: 3
+    Position: {x: 1665, y: -521}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: b547d551-90d4-440c-aa9a-d56569b8d926
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
+    State: 3
+    Position: {x: 5672, y: -1640}
+    gaugeValue: -1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: b8654763-875e-4410-a6cd-652728ccc9e2
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 6190, y: -802}
+    gaugeValue: 1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 764b6231-06dd-4e40-9cde-ede8db6b92fd
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
+    State: 3
+    Position: {x: 5832, y: -579}
+    gaugeValue: -1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: a6f519ac-ddc8-466b-9f07-99a8955de423
+    DialogueText: "Hi comrade,\r\nWe managed to get into Stuttgart thanks to you.\r\nAs
+      you know, we are going in undercover as a simple soldier.\r\nYes, I know, it's
+      demeaning but there's nothing we can do about it.\r\nI'll try to see if I can
+      get some information.\r\nI'll keep you posted.\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP\r\n\r\n"
+    State: 2
+    Position: {x: 6049, y: -346}
+    gaugeValue: 1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 118d5fe1-f5fe-4305-ac9a-32a20e26dd07
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
+    State: 3
+    Position: {x: 7485, y: -1226}
+    gaugeValue: 1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 1
+  - Guid: 095e199b-4147-4344-9a0e-f02686b62563
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
+    State: 3
+    Position: {x: 6828, y: -193}
+    gaugeValue: 1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 1
+  - Guid: 7a33ff75-8396-4f33-9a77-5f61f17ff414
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
+    State: 3
+    Position: {x: 7549, y: 3}
+    gaugeValue: -1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 1
+  - Guid: 8ac2350a-1554-4cd9-b283-664a325c61d7
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 8445, y: 258}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: d4d8707e-4ec5-445f-8a1b-afa2b2352a2f
+    DialogueText: "Dear brother,\r\nI received your message, I see that these years
+      of service have made you a bit cold towards me.\r\nAside from that, I've finally
+      arrived at the trenches in Brumath. \r\nThe enemy is slowly advancing but we
+      are managing to push them back. \r\nWe know that the enemy plans to attack
+      tonight, leaving us an opportunity to break their defense. \r\nHowever, if
+      we attack during the day, we will be more easily spotted, but if we attack
+      at night, it will be more difficult to see clearly. \r\nKnow that we will follow
+      your orders no matter what your decision is. \r\nWaiting for your instructions.\r\nYour
+      dear brother\r\n\r\nCharles \r\n"
+    State: 3
+    Position: {x: 6816, y: 1256}
+    gaugeValue: 1
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 1
+  - Guid: fa81640d-47db-4f13-bb6e-fd3db571f829
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 8240, y: -4300}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 23b903da-882f-4680-8fee-c7da9fcc90cc
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
+    State: 3
+    Position: {x: 8753, y: -4591}
+    gaugeValue: 2
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 572b79da-c745-439b-af9b-0de9af5a5458
+    DialogueText: "Dear brother,\r\nWe followed your orders and faced the enemy.
+      \r\nWe managed to defend our trenches and push back their advance. \r\nUnfortunately,
+      we suffered heavy losses. \r\nI was gravely injured in the face, I don't know
+      if mother will recognize me. \r\nOur troops are questioning if it was worth
+      it. \r\nOur morale has dropped and the next attack will be even harder. \r\nBut
+      don't worry, we will continue to fight for France. \r\nYour dear brother.\r\n\r\nCharles
+      \r\n"
+    State: 3
+    Position: {x: 8973, y: -2334}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 8cebf137-e0e1-495a-9a00-4e3e9083f7fd
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 9057, y: 306}
+    gaugeValue: -2
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: e9548e6c-529c-42a2-9f0e-65e9cd23f9c5
+    DialogueText: "Dear brother,\r\nWe followed your orders and took the enemy by
+      surprise. \r\nDue to our unexpected attack, the enemy suffered heavy losses
+      and had to retreat. \r\nBecause of this, the morale of the troops is at its
+      highest, and the next battle will be easier. We will continue to fight for
+      France and I am sure that we will win. \r\nYour dear brother.\r\n\r\nCharles\r\n\r\n"
+    State: 3
+    Position: {x: 8150, y: -2497}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 9b93fa68-6d4e-49db-b019-89c5b438c024
+    DialogueText: "Dear brother,\r\nFollowing your instructions, we retreated from
+      the battle. \r\nOn the way, we met some allied pilots. \r\nI don't know if
+      it was you who sent them, but thanks to them the enemy had to retreat. \r\nI'm
+      still disappointed that we had to flee from the enemy, we could have counterattacked
+      and pushed them further. \r\nNow the enemy is prepared and we won't be able
+      to attack them from the air. \r\nBut at least the morale of the troops is intact
+      and losses are minimal on our side. \r\nI hope to be able to fight next time.
+      \r\nYour dear brother.\r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 13965, y: -257}
+    gaugeValue: 2
     audioSource: {fileID: 0}
     cocoInt: 0
     consequense: 0
