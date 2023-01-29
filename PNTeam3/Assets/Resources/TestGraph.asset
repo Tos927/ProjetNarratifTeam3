@@ -16,6 +16,33 @@ MonoBehaviour:
   - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
     PortName: Next
     TargetNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice1
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice2
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
+    PortName: Choice3
+    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+  - baseNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
+    PortName: Choice1
+    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+  - baseNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+    PortName: Choice1
+    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+    PortName: Choice1
+    TargetNodeGuid: 0277d11d-29f9-4900-b868-c231b6e8c070
+  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
+    PortName: Choice2
+    TargetNodeGuid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+    PortName: Choice1
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
+  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
+    PortName: Choice2
+    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
   - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     PortName: Choice1
     TargetNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
@@ -28,79 +55,68 @@ MonoBehaviour:
   - baseNodeGuid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
     PortName: Choice4
     TargetNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice1
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice2
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 41b806b8-420b-455f-9ca2-704d7865c58a
-    PortName: Choice3
-    TargetNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-    PortName: Choice1
-    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
-  - baseNodeGuid: 84074276-1764-492b-8f78-58fcb21e67fe
-    PortName: Choice2
-    TargetNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
-  - baseNodeGuid: 676e635a-9edf-49f6-8217-327cbbb3c426
-    PortName: Choice1
-    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
-  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
-    PortName: Choice1
-    TargetNodeGuid: 0277d11d-29f9-4900-b868-c231b6e8c070
-  - baseNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
-    PortName: Choice2
-    TargetNodeGuid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
-  - baseNodeGuid: b55cf953-049e-4928-a742-4c6ed9f6134c
-    PortName: Choice1
-    TargetNodeGuid: 90a3a836-f46a-4cd5-a660-3817dc485363
   dialogueNodeDatas:
-  - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
-    DialogueText: Premier dialogue
-    State: 3
-    Position: {x: 328.80002, y: 221.6}
-    gaugeValue: 10
-    audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
   - Guid: 41b806b8-420b-455f-9ca2-704d7865c58a
     DialogueText: Ouais
     State: 1
     Position: {x: 644.8, y: 463.19998}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
-  - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
-    DialogueText: deuxieme Dialogue
-    State: 2
-    Position: {x: 780, y: 221.6}
-    gaugeValue: -2
-    audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
+    cocoInt: 0
+    consequense: 0
   - Guid: 676e635a-9edf-49f6-8217-327cbbb3c426
     DialogueText: deuxieme Dialogue (second)
     State: 0
     Position: {x: 1073.6, y: 550.39996}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 90e5d64fc4a1ce84fa81eaee7b3e0afb, type: 3}
+    cocoInt: 0
+    consequense: 0
   - Guid: b55cf953-049e-4928-a742-4c6ed9f6134c
     DialogueText: troisieme Dialogue (second)
-    State: 1
+    State: 2
     Position: {x: 1192.7999, y: 16.8}
-    gaugeValue: 200
+    gaugeValue: -10
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
+    cocoInt: 0
+    consequense: 0
   - Guid: 7427ef05-71f1-4b11-af9c-3f78fb5ec1f7
     DialogueText: Dialogue Node
     State: 1
     Position: {x: 1680, y: 502.39996}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 05282a83d3858804bbec6006e741b624, type: 3}
+    cocoInt: 0
+    consequense: 0
   - Guid: 0277d11d-29f9-4900-b868-c231b6e8c070
     DialogueText: Dialogue Node
     State: 2
     Position: {x: 1815.2, y: 276.8}
     gaugeValue: 50
     audioSource: {fileID: 8300000, guid: 7b855264409dc054fa2b0863c0262adb, type: 3}
+    cocoInt: 0
+    consequense: 0
   - Guid: 90a3a836-f46a-4cd5-a660-3817dc485363
     DialogueText: quatrieme dialogue
-    State: 3
+    State: 2
     Position: {x: 1430.3999, y: 221.6}
     gaugeValue: -8
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 84074276-1764-492b-8f78-58fcb21e67fe
+    DialogueText: deuxieme Dialogue
+    State: 2
+    Position: {x: 780, y: 221.6}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 48760502-dce7-4ac0-9ec3-b6a81112cc53
+    DialogueText: Premier dialogue
+    State: 1
+    Position: {x: 301.6, y: 221.6}
+    gaugeValue: -4
+    audioSource: {fileID: 8300000, guid: 2d9f12c66358a4d45ac87fbfd2f11c5b, type: 3}
+    cocoInt: 0
+    consequense: 0

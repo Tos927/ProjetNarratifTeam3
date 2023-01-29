@@ -7,6 +7,11 @@ public class UIController : MonoBehaviour
 {
     public Slider musicSlider, sfxSlider, dubbingSlider;
 
+    private void Start()
+    {
+        GameManager.instance.ShowUI();
+    }
+
     public void ToggleMusic()
     {
         AudioManager.instance.ToggleMusic();
