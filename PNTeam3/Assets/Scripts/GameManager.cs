@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public bool isStarted = false;
     public GameObject languageSettings;
 
+    [SerializeField] private GameObject creditsScreen;
     [SerializeField] private CanvasGroup canvasGroup;
     [SerializeField] private bool fadeIn = false, fadeOut = false;
 
@@ -66,6 +67,8 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
+
+    
     public void Update()
     {
         if (isStarted)
