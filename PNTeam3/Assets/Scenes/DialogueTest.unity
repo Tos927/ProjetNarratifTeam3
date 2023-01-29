@@ -2282,7 +2282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4433962, g: 0.22755428, b: 0.22755428, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2671,13 +2671,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026d9d807f7dad44bab6b48d44ae7952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 11400000, guid: 2376dadbbf0ef1149a442b2deb88e832, type: 2}
+  dialogueContainer: {fileID: 11400000, guid: 32d73a5096d3c95479cba6024d1dfbe9, type: 2}
   textmanager: {fileID: 7600562593144598647}
   decoder: {fileID: 2055449724}
   consequences: {fileID: 1959370285}
   mainText: {fileID: 1749673680}
   signatureText: {fileID: 602440483}
   charaImage: {fileID: 1753679071}
+  consequenceImage: {fileID: 1019282348}
   buttonList:
   - {fileID: 1792114921}
   - {fileID: 207379886}
