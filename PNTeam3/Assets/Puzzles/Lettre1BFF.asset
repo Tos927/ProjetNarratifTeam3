@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre1BFF
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 4a004a0020004c0056004a00
+  lettersFirstSentence: 4a00540020004c0056004a00
   lettersSecondSentence: 5600540051004d0050005400
   firstSentence: le coq
   secondSentence: chante
