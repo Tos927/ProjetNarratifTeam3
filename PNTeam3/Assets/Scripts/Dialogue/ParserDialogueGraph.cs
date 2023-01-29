@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using T3;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -16,6 +17,7 @@ public class ParserDialogueGraph : MonoBehaviour
     [SerializeField] private Text mainText;
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
+    [SerializeField] private Image consequenceImage;
     [SerializeField] private List<Button> buttonList;
     //[SerializeField] private AudioMixerGroup mixer;
 
@@ -28,6 +30,9 @@ public class ParserDialogueGraph : MonoBehaviour
     public int bffGauge = 0;
     public int frereGauge = 0;
     public bool showConsequences = false;
+
+    private int frereConsequences = 0;
+    private int bffConsequences = 0;
 
     private void Start()
     {
@@ -77,6 +82,7 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             showConsequences = true;
             consequences.SetActive(true);
+            UpdateConsequences(currentNode);
         }
         else
         {
@@ -106,6 +112,23 @@ public class ParserDialogueGraph : MonoBehaviour
         UpdateGaugesAndImageSignature(currentNode);
     }
 
+    private void UpdateConsequences(DialogueNodeData nodeData)
+    {
+        switch (nodeData.State)
+        {
+            case DialogueNodeData.ImageSignature.BFF:
+                bffConsequences++;
+                consequenceImage.sprite = Resources.Load<Sprite>("Splash/BffC" + bffConsequences);
+                break;
+            case DialogueNodeData.ImageSignature.FRERE:
+                frereConsequences++;
+                consequenceImage.sprite = Resources.Load<Sprite>("Splash/FrereC" + frereConsequences);
+                break;
+            default:
+                break;
+        }
+    }
+
     private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
     {
         //Check la Gaugevalue pour le frere et le bff
@@ -113,15 +136,44 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             case DialogueNodeData.ImageSignature.BFF:
                 bffGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
+                //charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
                 signatureText.font = Resources.Load<Font>("Font/Autography");
                 signatureText.text = "J.P.";
+
+                if (bffGauge < -4)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF4");
+                }
+                else if (bffGauge < -2)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF3");
+                }
+                else if (bffGauge < 0)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/BFF2");
+                }
+                else charaImage.sprite = Resources.Load<Sprite>("Character/BFF1");
                 break;
             case DialogueNodeData.ImageSignature.FRERE:
+
                 frereGauge += nodeData.gaugeValue;
-                charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
                 signatureText.font = Resources.Load<Font>("Font/Signatra");
                 signatureText.text = "Charles";
+
+                if (frereGauge < -4)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere4");
+                }
+                else if (frereGauge < -2)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere3");
+                }
+                else if (frereGauge < 0)
+                {
+                    charaImage.sprite = Resources.Load<Sprite>("Character/Frere2");
+                }
+                else charaImage.sprite = Resources.Load<Sprite>("Character/Frere1");
+
                 break;
 
             default:
@@ -163,5 +215,19 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             buttonList[i].transform.GetChild(0).GetComponent<Text>().text = currentTextsChoices[i];
         }
+    }
+
+    public void ChangeLanguange(int a)
+    {
+        switch (a)
+        {
+            case 0:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTestEN");
+                break;
+            default:
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTest");
+                break;
+        }
+
     }
 }
