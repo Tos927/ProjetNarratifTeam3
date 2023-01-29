@@ -16,6 +16,7 @@ public class ParserDialogueGraph : MonoBehaviour
     [SerializeField] private Text mainText;
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
+    [SerializeField] private Image consequenceImage;
     [SerializeField] private List<Button> buttonList;
     //[SerializeField] private AudioMixerGroup mixer;
 
@@ -28,6 +29,9 @@ public class ParserDialogueGraph : MonoBehaviour
     public int bffGauge = 0;
     public int frereGauge = 0;
     public bool showConsequences = false;
+
+    private int frereConsequences = 0;
+    private int bffConsequences = 0;
 
     private void Start()
     {
@@ -77,6 +81,7 @@ public class ParserDialogueGraph : MonoBehaviour
         {
             showConsequences = true;
             consequences.SetActive(true);
+            UpdateConsequences(currentNode);
         }
         else
         {
@@ -104,6 +109,23 @@ public class ParserDialogueGraph : MonoBehaviour
             decoder.SetActive(true);
         }
         UpdateGaugesAndImageSignature(currentNode);
+    }
+
+    private void UpdateConsequences(DialogueNodeData nodeData)
+    {
+        switch (nodeData.State)
+        {
+            case DialogueNodeData.ImageSignature.BFF:
+                bffConsequences++;
+                consequenceImage.sprite = Resources.Load<Sprite>("Splash/BffC" + bffConsequences);
+                break;
+            case DialogueNodeData.ImageSignature.FRERE:
+                frereConsequences++;
+                consequenceImage.sprite = Resources.Load<Sprite>("Splash/FrereC" + frereConsequences);
+                break;
+            default:
+                break;
+        }
     }
 
     private void UpdateGaugesAndImageSignature(DialogueNodeData nodeData)
