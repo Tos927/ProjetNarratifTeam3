@@ -11,6 +11,8 @@ public class ParserDialogueGraph : MonoBehaviour
 {
     [SerializeField] private DialogueContainer dialogueContainer;
     [SerializeField] private TextManager textmanager;
+    [SerializeField] private GameObject decoder;
+    [SerializeField] private GameObject consequences;
     [SerializeField] private Text mainText;
     [SerializeField] private Text signatureText;
     [SerializeField] private Image charaImage;
@@ -25,6 +27,7 @@ public class ParserDialogueGraph : MonoBehaviour
 
     public int bffGauge = 0;
     public int frereGauge = 0;
+    public bool showConsequences = false;
 
     private void Start()
     {
@@ -70,6 +73,17 @@ public class ParserDialogueGraph : MonoBehaviour
             }
         }
 
+        if (currentNode.consequense)
+        {
+            showConsequences = true;
+            consequences.SetActive(true);
+        }
+        else
+        {
+            consequences.SetActive(false);
+            showConsequences = false;
+        }
+
 
         for (int i = 0; i < dialogueContainer.dialogueNodeDatas.Count; i++)
         {
@@ -83,8 +97,12 @@ public class ParserDialogueGraph : MonoBehaviour
 
         currentTextsChoices.Clear();
         //ReadCurrentNode();
-        textmanager.InitText(currentNode.cocoInt);
-
+        if (!showConsequences)
+        {
+            textmanager.InitText(currentNode.cocoInt);
+            textmanager.StartPuzzle();
+            decoder.SetActive(true);
+        }
         UpdateGaugesAndImageSignature(currentNode);
     }
 
