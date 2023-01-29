@@ -103,7 +103,8 @@ public class DialogueGraphView : GraphView
         AddElement(CreateDialogueNode(nodeName));
     }
 
-    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT, int gaugeV = 0, AudioClip audio = null, int cocoInt = 0)
+    public DialogueNode CreateDialogueNode(string nodeName, ImageSignature state = ImageSignature.DEFAULT, int gaugeV = 0,
+        AudioClip audio = null, int cocoInt = 0, bool consequences = false)
     {
         var dialogueNode = new DialogueNode()
         {
@@ -113,6 +114,8 @@ public class DialogueGraphView : GraphView
             title = state.ToString() + " Dialogue",
             gaugeValue = gaugeV,
             audioSource = audio,
+            cocoInt= cocoInt,
+            consequence = consequences,
         };
 
         var inputPort = GeneratePort(dialogueNode, Direction.Input, Port.Capacity.Multi);
@@ -125,6 +128,7 @@ public class DialogueGraphView : GraphView
         button.text = "NewChoice";
         dialogueNode.titleContainer.Add(button);
 
+
         var dropDownMenu = new EnumField(ImageSignature.DEFAULT);
         dropDownMenu.value = dialogueNode.state;
         dropDownMenu.RegisterValueChangedCallback(evt =>
@@ -133,6 +137,18 @@ public class DialogueGraphView : GraphView
             dialogueNode.title = dialogueNode.state.ToString() + " Dialogue";
         });
         dialogueNode.inputContainer.Add(dropDownMenu);
+
+
+        var isConsequence = new Toggle("IsConsequences")
+        {
+            value = dialogueNode.consequence,
+        };
+        isConsequence.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.consequence = evt.newValue;
+        });
+        isConsequence.SetValueWithoutNotify(dialogueNode.consequence);
+        dialogueNode.inputContainer.Add(isConsequence);
 
 
         var gaugeValue = new IntegerField();
@@ -144,21 +160,11 @@ public class DialogueGraphView : GraphView
         gaugeValue.SetValueWithoutNotify(dialogueNode.gaugeValue);
         dialogueNode.inputContainer.Add(gaugeValue);
 
-        // LE COCO INT
-        //var intIndex = new IntegerField();
-        //intIndex.value = dialogueNode.gaugeValue;
-        //intIndex.RegisterValueChangedCallback(evt =>
-        //{
-        //dialogueNode.gaugeValue = evt.newValue;
-        //});
-        //intIndex.SetValueWithoutNotify(dialogueNode.gaugeValue);
-        //dialogueNode.mainContainer.Add(intIndex);
 
         ObjectField audioSource = new ObjectField()
         {
             objectType = typeof(AudioClip),
             allowSceneObjects = false,
-            
         };
         audioSource.value = dialogueNode.audioSource;
         audioSource.RegisterValueChangedCallback(evt =>
@@ -169,6 +175,16 @@ public class DialogueGraphView : GraphView
         //audioSource.SetValueWithoutNotify(dialogueNode.audioSource);
         dialogueNode.mainContainer.Add(audioSource);
 
+
+        // LE COCO INT
+        var intIndex = new IntegerField();
+        intIndex.value = dialogueNode.cocoInt;
+        intIndex.RegisterValueChangedCallback(evt =>
+        {
+            dialogueNode.cocoInt = evt.newValue;
+        });
+        intIndex.SetValueWithoutNotify(dialogueNode.cocoInt);
+        dialogueNode.mainContainer.Add(intIndex);
 
         var textField = new TextField(string.Empty, -1, true, false, '*');
         textField.RegisterValueChangedCallback(evt =>
