@@ -103,12 +103,6 @@ MonoBehaviour:
   - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
     PortName: "Etre r\xE9aliste"
     TargetNodeGuid: 1eefa763-f614-494f-8fec-3de326c3367c
-  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    PortName: "Etre r\xE9aliste"
-    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
-  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    PortName: "Rassur\xE9"
-    TargetNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
   - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
     PortName: "\xCAtre chaleureux."
     TargetNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
@@ -133,18 +127,6 @@ MonoBehaviour:
   - baseNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
-    PortName: "Attaquer l\u2019ennemi de front"
-    TargetNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
-  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
-    PortName: "D\xE9fendre la position et attendre"
-    TargetNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
-  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
-    PortName: "Attaquer par derri\xE8re de nuit"
-    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
-  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
-    PortName: "Attaquer par derri\xE8re de jour"
-    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
   - baseNodeGuid: 7a33ff75-8396-4f33-9a77-5f61f17ff414
     PortName: "Attaquer par derri\xE8re de nuit"
     TargetNodeGuid: 3ad05be6-c042-4fd6-aa98-4005fc12f22a
@@ -661,18 +643,6 @@ MonoBehaviour:
   - baseNodeGuid: a76f60cf-8ebf-4024-8a14-e1ae3fadc502
     PortName: Suivant
     TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
-  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
-    PortName: "Attaquer par derri\xE8re de nuit"
-    TargetNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
-  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
-    PortName: "Attaquer par derri\xE8re de jour"
-    TargetNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
-  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
-    PortName: "Attaquer l\u2019ennemi de front"
-    TargetNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
-  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
-    PortName: "D\xE9fendre la position et attendre"
-    TargetNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
   - baseNodeGuid: 49c291c2-77c9-4127-adf6-f85188c43000
     PortName: "Attaquer par derri\xE8re de jour"
     TargetNodeGuid: 57e0eb2c-50ec-4a56-a0fa-fd388a06cea0
@@ -919,18 +889,6 @@ MonoBehaviour:
   - baseNodeGuid: e2d4fef5-8492-475f-86d6-28a9ffa8c30c
     PortName: "Cherchez une entr\xE9e plus petite"
     TargetNodeGuid: 73bd5318-962f-4625-9cb7-cde5e43b0f9f
-  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
-    PortName: "Tuez les gardes discr\xE8tement"
-    TargetNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
-  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
-    PortName: "Allez-y par l\u2019entr\xE9e principale"
-    TargetNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
-  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
-    PortName: Escalader les grillages
-    TargetNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
-  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
-    PortName: "Cherchez une entr\xE9e plus petite"
-    TargetNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
   - baseNodeGuid: fc874e12-fecc-4c49-8c9b-f715c0ecc2f8
     PortName: "Attaquer l\u2019ennemi de front"
     TargetNodeGuid: 94497101-750f-4182-bea8-2bbe14c6b868
@@ -1210,6 +1168,48 @@ MonoBehaviour:
   - baseNodeGuid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
     PortName: Suivant
     TargetNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Etre r\xE9aliste"
+    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Rassur\xE9"
+    TargetNodeGuid: 6165affe-b980-4446-b303-969c3c2f20de
+  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
+    PortName: "Tuez les gardes discr\xE8tement"
+    TargetNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
+  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: 270ffc41-d4ec-497f-9edb-bdc1747f6613
+  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
+    PortName: Escalader les grillages
+    TargetNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
+  - baseNodeGuid: ff5a87c6-054e-4161-92be-1a5279039349
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 0c2cd314-aacb-4e56-982d-b1079f333a55
+  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
+    PortName: "Attaquer l\u2019ennemi de front"
+    TargetNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
+  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
+    PortName: "D\xE9fendre la position et attendre"
+    TargetNodeGuid: 345c1582-7d8c-4aa1-913a-8279ec20c411
+  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
+    PortName: "Attaquer par derri\xE8re de nuit"
+    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
+  - baseNodeGuid: 42db28ab-7c65-4a82-85fd-626c0e1ac176
+    PortName: "Attaquer par derri\xE8re de jour"
+    TargetNodeGuid: 56daf45a-8a7b-47c7-8c33-6af05a0b076a
+  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
+    PortName: "Attaquer par derri\xE8re de nuit"
+    TargetNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
+  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
+    PortName: "Attaquer par derri\xE8re de jour"
+    TargetNodeGuid: a03c9920-8f7f-4a11-a9c2-2c5b1aac7b95
+  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
+    PortName: "Attaquer l\u2019ennemi de front"
+    TargetNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
+  - baseNodeGuid: 095e199b-4147-4344-9a0e-f02686b62563
+    PortName: "D\xE9fendre la position et attendre"
+    TargetNodeGuid: 8ac2350a-1554-4cd9-b283-664a325c61d7
   dialogueNodeDatas:
   - Guid: c4ecb37d-3395-4ef3-879f-dfac896247bc
     DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
@@ -1219,7 +1219,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 4062, y: -544}
+    Position: {x: 4062.4, y: -544}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1232,7 +1232,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3848, y: 3750}
+    Position: {x: 3848, y: 3749.6}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3990, y: 222}
+    Position: {x: 3990.4, y: 221.6}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1278,7 +1278,7 @@ MonoBehaviour:
       r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
       avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
     State: 2
-    Position: {x: 2889, y: -702}
+    Position: {x: 2889.5999, y: -702.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
     cocoInt: 0
@@ -1291,7 +1291,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 6255, y: -5226}
+    Position: {x: 6255.2, y: -5226.4004}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -1309,7 +1309,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 7159, y: -4911}
+    Position: {x: 7159.2, y: -4911.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -1322,7 +1322,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3955, y: 1476}
+    Position: {x: 3955.2, y: 1476}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1335,7 +1335,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3829, y: -1404}
+    Position: {x: 3829.5999, y: -1404}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1348,7 +1348,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3922, y: -2224}
+    Position: {x: 3922.4, y: -2224}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -1361,7 +1361,7 @@ MonoBehaviour:
       vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
       G\xE9n\xE9ral Patain"
     State: 1
-    Position: {x: 3922, y: -3298}
+    Position: {x: 3922.4, y: -3298.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
     cocoInt: 0
@@ -1381,7 +1381,7 @@ MonoBehaviour:
       r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
       avec toi.\r\nBon courage mon ami, prends soin de to\r"
     State: 2
-    Position: {x: 2930, y: -2738}
+    Position: {x: 2930.4, y: -2738.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
     cocoInt: 0
@@ -1403,7 +1403,7 @@ MonoBehaviour:
       \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
       te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
     State: 3
-    Position: {x: 2763, y: 3281}
+    Position: {x: 2763.2, y: 3280.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
     cocoInt: 1
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
       te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r"
     State: 3
-    Position: {x: 2858, y: 761}
+    Position: {x: 2858.4, y: 760.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
     cocoInt: 1
@@ -1445,7 +1445,7 @@ MonoBehaviour:
       r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
       avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
     State: 2
-    Position: {x: 1779, y: 1216}
+    Position: {x: 1779.2, y: 1216}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
     cocoInt: 0
@@ -1460,7 +1460,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4745, y: -4542}
+    Position: {x: 4745.6, y: -4542.4004}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -1472,7 +1472,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8621, y: -5486}
+    Position: {x: 8621.601, y: -5486.4004}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -1483,7 +1483,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8621, y: -5174}
+    Position: {x: 8621.601, y: -5174.4004}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -1498,7 +1498,7 @@ MonoBehaviour:
       tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
       ch\xE8r fr\xE8res\r\nCharles \r\n"
     State: 3
-    Position: {x: 7242, y: 167}
+    Position: {x: 7242.4004, y: 167.2}
     gaugeValue: -1
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -1513,7 +1513,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4814, y: -3058}
+    Position: {x: 4814.4004, y: -3058.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -1529,7 +1529,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4721, y: -1618}
+    Position: {x: 4721.6, y: -1618.3999}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -1545,7 +1545,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4781, y: -702}
+    Position: {x: 4781.6, y: -702.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -1560,7 +1560,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4781, y: 787}
+    Position: {x: 4781.6, y: 787.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4661, y: 1856}
+    Position: {x: 4661.6, y: 1856}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -1591,7 +1591,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4704, y: 2993}
+    Position: {x: 4704, y: 2992.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -1607,7 +1607,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 4634, y: 3971}
+    Position: {x: 4634.4004, y: 3971.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -1625,7 +1625,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 4809, y: -4067}
+    Position: {x: 4809.6, y: -4067.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -1643,7 +1643,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4721, y: -2224}
+    Position: {x: 4721.6, y: -2224}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -1661,7 +1661,7 @@ MonoBehaviour:
       mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce
       que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4721, y: -1164}
+    Position: {x: 4721.6, y: -1164}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -1679,7 +1679,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4781, y: -203}
+    Position: {x: 4781.6, y: -203.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -1697,7 +1697,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 4781, y: 325}
+    Position: {x: 4781.6, y: 324.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -1715,7 +1715,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4651, y: 1253}
+    Position: {x: 4651.2, y: 1252.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -1733,7 +1733,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4579, y: 2341}
+    Position: {x: 4579.2, y: 2340.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -1751,7 +1751,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 4634, y: 3452}
+    Position: {x: 4634.4004, y: 3452}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -1766,7 +1766,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 5959, y: 4191}
+    Position: {x: 5959.2, y: 4191.1997}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -1779,7 +1779,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 5930, y: 3878}
+    Position: {x: 5930.4004, y: 3877.6}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -1790,7 +1790,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 5909, y: 3615}
+    Position: {x: 5909.6, y: 3615.2}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -1802,7 +1802,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n"
     State: 2
-    Position: {x: 5892, y: 3363}
+    Position: {x: 5892, y: 3363.2}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -1817,7 +1817,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 5909, y: 3105}
+    Position: {x: 5909.6, y: 3104.8}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -1830,7 +1830,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 5909, y: 2846}
+    Position: {x: 5909.6, y: 2845.6}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -1841,7 +1841,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 5909, y: 2570}
+    Position: {x: 5909.6, y: 2569.6}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -1853,7 +1853,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n"
     State: 2
-    Position: {x: 5909, y: 2313}
+    Position: {x: 5909.6, y: 2312.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -1881,7 +1881,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 5976, y: 1745}
+    Position: {x: 5976, y: 1744.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -1904,7 +1904,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 5976, y: 1214}
+    Position: {x: 5976, y: 1213.6001}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -1919,7 +1919,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 6028, y: 985}
+    Position: {x: 6028, y: 984.8}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -1932,7 +1932,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 6028, y: 726}
+    Position: {x: 6028, y: 725.6}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -1943,7 +1943,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 5990, y: 410}
+    Position: {x: 5990.4004, y: 409.59998}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -1966,7 +1966,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 6028, y: -121}
+    Position: {x: 6028, y: -120.8}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -1978,7 +1978,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 6040, y: -338}
+    Position: {x: 6040, y: -338.40002}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -1993,7 +1993,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 6190, y: -560}
+    Position: {x: 6190.4004, y: -560}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2006,7 +2006,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 6190, y: -802}
+    Position: {x: 6190.4004, y: -802.4}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2017,7 +2017,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 6090, y: -1041}
+    Position: {x: 6090.4004, y: -1040.7999}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2029,7 +2029,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 6113, y: -1347}
+    Position: {x: 6113.6, y: -1347.2}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2044,7 +2044,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 6090, y: -1543}
+    Position: {x: 6090.4004, y: -1543.2}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2057,7 +2057,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 6090, y: -1847}
+    Position: {x: 6090.4004, y: -1847.2}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2068,7 +2068,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 6109, y: -2274}
+    Position: {x: 6109.6, y: -2274.4}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2080,7 +2080,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 6109, y: -2629}
+    Position: {x: 6109.6, y: -2628.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2095,7 +2095,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n"
     State: 3
-    Position: {x: 6179, y: -3248}
+    Position: {x: 6179.2, y: -3248}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2108,7 +2108,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 6194, y: -3562}
+    Position: {x: 6194.4004, y: -3562.4}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2119,7 +2119,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 6179, y: -4078}
+    Position: {x: 6179.2, y: -4078.4}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2131,7 +2131,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 6194, y: -4373}
+    Position: {x: 6194.4004, y: -4372.8003}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2146,7 +2146,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles\r\n"
     State: 3
-    Position: {x: 6255, y: -4854}
+    Position: {x: 6255.2, y: -4854.4004}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2175,7 +2175,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8238, y: -4745}
+    Position: {x: 8238.4, y: -4744.8003}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2190,7 +2190,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7262, y: -4373}
+    Position: {x: 7262.4004, y: -4372.8003}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -2205,7 +2205,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7262, y: -3982}
+    Position: {x: 7262.4004, y: -3982.4}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -2221,7 +2221,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8573, y: -4467}
+    Position: {x: 8573.601, y: -4467.2}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2234,7 +2234,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8573, y: -4216}
+    Position: {x: 8573.601, y: -4216}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8465, y: -3982}
+    Position: {x: 8465.601, y: -3982.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2263,7 +2263,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8500, y: -3643}
+    Position: {x: 8500, y: -3643.2}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2281,7 +2281,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 7095, y: -3542}
+    Position: {x: 7095.2, y: -3542.4}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -2299,7 +2299,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 7095, y: -3160}
+    Position: {x: 7095.2, y: -3160}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -2311,7 +2311,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8666, y: -3385}
+    Position: {x: 8666.4, y: -3384.8}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2322,7 +2322,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8550, y: -3166}
+    Position: {x: 8550.4, y: -3166.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2334,7 +2334,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8860, y: -2986}
+    Position: {x: 8860, y: -2986.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2345,7 +2345,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8934, y: -2705}
+    Position: {x: 8934.4, y: -2704.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2360,7 +2360,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7178, y: -2688}
+    Position: {x: 7178.4004, y: -2688}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -2375,7 +2375,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7178, y: -2287}
+    Position: {x: 7178.4004, y: -2287.2}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -2404,7 +2404,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8150, y: -2497}
+    Position: {x: 8150.4004, y: -2496.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2420,7 +2420,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8934, y: -2310}
+    Position: {x: 8934.4, y: -2310.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2433,7 +2433,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8427, y: -2163}
+    Position: {x: 8427.2, y: -2163.2}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2451,7 +2451,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 7258, y: -1902}
+    Position: {x: 7258.4004, y: -1902.3999}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -2469,7 +2469,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 7066, y: -1490}
+    Position: {x: 7066.4004, y: -1490.3999}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -2481,7 +2481,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8775, y: -1902}
+    Position: {x: 8775.2, y: -1902.3999}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2492,7 +2492,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8694, y: -1622}
+    Position: {x: 8694.4, y: -1622.3999}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2504,7 +2504,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8991, y: -1503}
+    Position: {x: 8991.2, y: -1503.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2515,7 +2515,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8662, y: -1270}
+    Position: {x: 8662.4, y: -1270.3999}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2531,7 +2531,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7206, y: -1073}
+    Position: {x: 7206.4004, y: -1072.7999}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2547,7 +2547,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7206, y: -866}
+    Position: {x: 7206.4004, y: -866.4}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2563,7 +2563,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 9340, y: -1125}
+    Position: {x: 9340, y: -1124.7999}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2576,7 +2576,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9167, y: -935}
+    Position: {x: 9167.2, y: -935.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2592,7 +2592,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 9938, y: -852}
+    Position: {x: 9938.4, y: -852}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2605,7 +2605,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8383, y: -790}
+    Position: {x: 8383.2, y: -790.4}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2623,7 +2623,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 7335, y: -511}
+    Position: {x: 7335.2, y: -511.2}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -2641,7 +2641,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 7360, y: -338}
+    Position: {x: 7360, y: -338.40002}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -2653,7 +2653,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9630, y: -542}
+    Position: {x: 9630.4, y: -542.4}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2664,7 +2664,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8477, y: -470}
+    Position: {x: 8477.601, y: -470.40002}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2676,7 +2676,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9810, y: -231}
+    Position: {x: 9810.4, y: -231.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2687,7 +2687,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8477, y: -237}
+    Position: {x: 8477.601, y: -236.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2703,7 +2703,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6982, y: 275}
+    Position: {x: 6982.4004, y: 275.19998}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2719,7 +2719,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 7334, y: 466}
+    Position: {x: 7334.4004, y: 465.59998}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2735,7 +2735,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8942, y: -36}
+    Position: {x: 8942.4, y: -36}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2751,7 +2751,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 9499, y: 86}
+    Position: {x: 9499.2, y: 85.600006}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2764,7 +2764,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8809, y: 67}
+    Position: {x: 8809.601, y: 67.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2780,7 +2780,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 10191, y: 337}
+    Position: {x: 10191.2, y: 336.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2793,7 +2793,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9758, y: 481}
+    Position: {x: 9758.4, y: 480.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2809,7 +2809,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 9117, y: 605}
+    Position: {x: 9117.601, y: 604.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2822,7 +2822,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9087, y: 803}
+    Position: {x: 9087.2, y: 803.2}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -2840,7 +2840,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 6918, y: 817}
+    Position: {x: 6918.4004, y: 816.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -2858,7 +2858,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 6896, y: 1018}
+    Position: {x: 6896, y: 1017.60004}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -2870,7 +2870,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8903, y: 910}
+    Position: {x: 8903.2, y: 909.6}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2881,7 +2881,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 9737, y: 1042}
+    Position: {x: 9737.601, y: 1041.6001}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2893,7 +2893,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8747, y: 1286}
+    Position: {x: 8747.2, y: 1285.6001}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -2904,7 +2904,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 9737, y: 1350}
+    Position: {x: 9737.601, y: 1349.6001}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -2920,7 +2920,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6917, y: 1321}
+    Position: {x: 6917.6, y: 1320.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2936,7 +2936,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6917, y: 1571}
+    Position: {x: 6917.6, y: 1571.2001}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -2949,7 +2949,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8930, y: 1613}
+    Position: {x: 8930.4, y: 1612.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2978,7 +2978,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8809, y: 1777}
+    Position: {x: 8809.601, y: 1776.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -2994,7 +2994,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 9758, y: 2093}
+    Position: {x: 9758.4, y: 2092.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3012,7 +3012,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 6917, y: 1830}
+    Position: {x: 6917.6, y: 1829.6001}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -3030,7 +3030,7 @@ MonoBehaviour:
       pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
       ?\r\n"
     State: 2
-    Position: {x: 6918, y: 2050}
+    Position: {x: 6918.4004, y: 2049.6}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
     cocoInt: 2
@@ -3041,7 +3041,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8739, y: 2258}
+    Position: {x: 8739.2, y: 2257.6}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3053,7 +3053,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8739, y: 2027}
+    Position: {x: 8739.2, y: 2027.2001}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3065,7 +3065,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9445, y: 2537}
+    Position: {x: 9445.601, y: 2536.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3080,7 +3080,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6917, y: 2395}
+    Position: {x: 6917.6, y: 2395.2}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
     cocoInt: 3
@@ -3095,7 +3095,7 @@ MonoBehaviour:
       de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
       cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6989, y: 2732}
+    Position: {x: 6989.6, y: 2732}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -3108,7 +3108,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 8461, y: 2551}
+    Position: {x: 8461.601, y: 2551.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -3124,7 +3124,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8461, y: 2772}
+    Position: {x: 8461.601, y: 2772}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3137,7 +3137,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9083, y: 3022}
+    Position: {x: 9083.2, y: 3021.6}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -3150,7 +3150,7 @@ MonoBehaviour:
       le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
       te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 8719, y: 3169}
+    Position: {x: 8719.2, y: 3168.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3168,7 +3168,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 7001, y: 3130}
+    Position: {x: 7001.6, y: 3129.6}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -3186,7 +3186,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 6949, y: 3441}
+    Position: {x: 6949.6, y: 3440.8}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -3197,7 +3197,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8937, y: 3547}
+    Position: {x: 8937.601, y: 3547.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3209,7 +3209,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9725, y: 3522}
+    Position: {x: 9725.601, y: 3521.6}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3220,7 +3220,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8906, y: 3902}
+    Position: {x: 8906.4, y: 3901.6}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3232,7 +3232,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9630, y: 3902}
+    Position: {x: 9630.4, y: 3901.6}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3243,7 +3243,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8933, y: 4990}
+    Position: {x: 8933.601, y: 4989.5996}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3255,7 +3255,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9770, y: 4990}
+    Position: {x: 9770.4, y: 4989.5996}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3266,7 +3266,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8933, y: 5437}
+    Position: {x: 8933.601, y: 5436.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3278,7 +3278,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 9770, y: 5437}
+    Position: {x: 9770.4, y: 5436.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3296,7 +3296,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 6932, y: 4918}
+    Position: {x: 6932, y: 4917.5996}
     gaugeValue: -1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -3312,7 +3312,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6949, y: 3792}
+    Position: {x: 6949.6, y: 3792}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: a857dbccbc81c5947b7d208ad3bc7438, type: 3}
     cocoInt: 3
@@ -3327,7 +3327,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles \r\n"
     State: 3
-    Position: {x: 8759, y: 4207}
+    Position: {x: 8759.2, y: 4207.1997}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3340,7 +3340,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9922, y: 4258}
+    Position: {x: 9922.4, y: 4257.5996}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -3353,7 +3353,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9842, y: 4656}
+    Position: {x: 9842.4, y: 4656}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
     cocoInt: 0
@@ -3368,7 +3368,7 @@ MonoBehaviour:
       plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
       pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles \r\n"
     State: 3
-    Position: {x: 8863, y: 4656}
+    Position: {x: 8863.2, y: 4656}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3383,7 +3383,7 @@ MonoBehaviour:
       de lui voler son costume mais je n\u2019ai aucune id\xE9e de quoi faire de
       lui apr\xE8s.\r\nDis-moi quoi faire, tu es toujours de bons conseils.\r\n"
     State: 2
-    Position: {x: 12821, y: -567}
+    Position: {x: 12821.601, y: -567.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
     cocoInt: 4
@@ -3394,7 +3394,7 @@ MonoBehaviour:
       des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
       Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
     State: 3
-    Position: {x: 12892, y: -111}
+    Position: {x: 12892, y: -111.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 8b51700ee3d0c5740ae97bf801b572e0, type: 3}
     cocoInt: 5
@@ -3409,7 +3409,7 @@ MonoBehaviour:
       raser.\r\nPlus s\xE9rieusement, je te r\xE9\xE9cris s' il se passe quelque
       chose, je sens que c\u2019est bien parti.\r\n"
     State: 2
-    Position: {x: 14351, y: -682}
+    Position: {x: 14351.2, y: -682.4}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
     cocoInt: 0
@@ -3423,7 +3423,7 @@ MonoBehaviour:
       c\u2019est une blessure superficielle. \r\nEt tu sais qu\u2019il en faut plus
       pour m'abattre.\r\nJe vais essayer de me fondre dans la masse.\r\n"
     State: 2
-    Position: {x: 14351, y: -413}
+    Position: {x: 14351.2, y: -412.80002}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
     cocoInt: 0
@@ -3439,7 +3439,7 @@ MonoBehaviour:
       est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
       pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 14003, y: -158}
+    Position: {x: 14003.2, y: -158.4}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 05282a83d3858804bbec6006e741b624, type: 3}
     cocoInt: 0
@@ -3450,7 +3450,7 @@ MonoBehaviour:
       des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
       Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
     State: 3
-    Position: {x: 15898, y: -514}
+    Position: {x: 15898.4, y: -514.4}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 8b51700ee3d0c5740ae97bf801b572e0, type: 3}
     cocoInt: 5
@@ -3466,7 +3466,7 @@ MonoBehaviour:
       est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
       pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 0
-    Position: {x: 16879, y: -671}
+    Position: {x: 16879.2, y: -671.2}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: 05282a83d3858804bbec6006e741b624, type: 3}
     cocoInt: 0
@@ -3479,7 +3479,7 @@ MonoBehaviour:
       et nous avons d\xE9j\xE0 reform\xE9 le camp.\r\nJ\u2019esp\xE8re que notre
       prochaine bataille se passera mieux.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 0
-    Position: {x: 17006, y: -374}
+    Position: {x: 17006.398, y: -374.40002}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 7b855264409dc054fa2b0863c0262adb, type: 3}
     cocoInt: 0
@@ -3494,7 +3494,7 @@ MonoBehaviour:
       de lui voler son costume mais je n\u2019ai aucune id\xE9e de quoi faire de
       lui apr\xE8s.\r\nDis-moi quoi faire, tu es toujours de bons conseils.\r\n"
     State: 2
-    Position: {x: 15275, y: 10}
+    Position: {x: 15275.2, y: 9.599998}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
     cocoInt: 4
@@ -3509,7 +3509,7 @@ MonoBehaviour:
       raser.\r\nPlus s\xE9rieusement, je te r\xE9\xE9cris s' il se passe quelque
       chose, je sens que c\u2019est bien parti.\r\n"
     State: 0
-    Position: {x: 16478, y: -58}
+    Position: {x: 16478.398, y: -58.4}
     gaugeValue: 2
     audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
     cocoInt: 0
@@ -3523,7 +3523,7 @@ MonoBehaviour:
       c\u2019est une blessure superficielle. \r\nEt tu sais qu\u2019il en faut plus
       pour m'abattre.\r\nJe vais essayer de me fondre dans la masse.\r\n"
     State: 0
-    Position: {x: 16524, y: 189}
+    Position: {x: 16524, y: 188.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
     cocoInt: 0
@@ -3535,7 +3535,7 @@ MonoBehaviour:
       faut faire des choix difficiles.\r\nJ\u2019ai confiance en vous.\r\nVive la
       R\xE9publique. \r\nVive la France."
     State: 1
-    Position: {x: 24564, y: 29}
+    Position: {x: 24564, y: 28.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: bde9bfe70b2f15c40922dda4fe1848dd, type: 3}
     cocoInt: 0
@@ -3548,7 +3548,7 @@ MonoBehaviour:
       guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\nG\xE9n\xE9ral
       Patain\r\n"
     State: 1
-    Position: {x: 11984, y: -298}
+    Position: {x: 11984, y: -298.40002}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 1f422804360ace347a98a6c70abbf92b, type: 3}
     cocoInt: 0
@@ -3560,7 +3560,7 @@ MonoBehaviour:
       peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
       \r\nJe te tiens au jus.\r\n\r\nJP"
     State: 2
-    Position: {x: 8302, y: -4946}
+    Position: {x: 8302.4, y: -4946.4004}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
     cocoInt: 0
@@ -3573,7 +3573,7 @@ MonoBehaviour:
       continuerons de nous battre pour la France et je suis s\xFBr que nous allons
       gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
     State: 3
-    Position: {x: 9006, y: 213}
+    Position: {x: 9006.4, y: 212.8}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
     cocoInt: 0
@@ -3584,7 +3584,7 @@ MonoBehaviour:
       \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
       te dis d\xE8s que j\u2019ai du nouveau.\r\n"
     State: 2
-    Position: {x: 8910, y: 2580}
+    Position: {x: 8910.4, y: 2580}
     gaugeValue: -2
     audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
     cocoInt: 0
@@ -3596,7 +3596,7 @@ MonoBehaviour:
       est entre vos mains.\r\nVive la R\xE9publique. \r\nVive la France.\r\nG\xE9n\xE9ral
       Patain \r\n"
     State: 1
-    Position: {x: 18156, y: -229}
+    Position: {x: 18156, y: -228.8}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -3613,7 +3613,7 @@ MonoBehaviour:
       \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
       mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
     State: 3
-    Position: {x: 21818, y: -322}
+    Position: {x: 21818.398, y: -322.40002}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 90e5d64fc4a1ce84fa81eaee7b3e0afb, type: 3}
     cocoInt: 6
@@ -3633,7 +3633,7 @@ MonoBehaviour:
       en m\xEAme temps, il faut aussi que je continue mon travail pour sauver tout
       mon pays.\r\nIl faut que je prenne une d\xE9cision.\r\nQue dois-je faire ?\r\n"
     State: 2
-    Position: {x: 21649, y: 138}
+    Position: {x: 21649.6, y: 137.6}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
     cocoInt: 7
@@ -3649,7 +3649,7 @@ MonoBehaviour:
       d\xE9velopper mais je n\u2019ai plus le temps, il faut que je trouve un plan
       pour m\u2019enfuir d\u2019ici.\r\nJe te tiens au courant mon ami.\r\n"
     State: 2
-    Position: {x: 23235, y: 138}
+    Position: {x: 23235.2, y: 137.6}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: e4d6361b5244fe140bc661dc283677aa, type: 3}
     cocoInt: 0
@@ -3665,7 +3665,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 23358, y: -178}
+    Position: {x: 23358.398, y: -178.4}
     gaugeValue: -3
     audioSource: {fileID: 8300000, guid: 2b31b64f7d999ee4d81b0a662b7e4b59, type: 3}
     cocoInt: 0
@@ -3713,7 +3713,7 @@ MonoBehaviour:
       en m\xEAme temps, il faut aussi que je continue mon travail pour sauver tout
       mon pays.\r\nIl faut que je prenne une d\xE9cision.\r\nQue dois-je faire ?\r\n"
     State: 2
-    Position: {x: 18908, y: -475}
+    Position: {x: 18908, y: -475.2}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
     cocoInt: 7
@@ -3730,7 +3730,7 @@ MonoBehaviour:
       \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
       mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
     State: 3
-    Position: {x: 18885, y: -53}
+    Position: {x: 18885.6, y: -52.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 90e5d64fc4a1ce84fa81eaee7b3e0afb, type: 3}
     cocoInt: 6
@@ -3743,7 +3743,7 @@ MonoBehaviour:
       le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
       te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 20424, y: -35}
+    Position: {x: 20424, y: -35.2}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: e4404c4876e8e7448a5ef0f95bbb1f11, type: 3}
     cocoInt: 0
@@ -3759,7 +3759,7 @@ MonoBehaviour:
       la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
       fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 20424, y: 209}
+    Position: {x: 20424, y: 208.8}
     gaugeValue: -3
     audioSource: {fileID: 8300000, guid: 2b31b64f7d999ee4d81b0a662b7e4b59, type: 3}
     cocoInt: 0
@@ -3771,7 +3771,7 @@ MonoBehaviour:
       si je te dis que je suis pas dans de s\xE9rieux ennuis actuellement.\r\nJe
       te r\xE9\xE9cris le plus t\xF4t possible.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
     State: 2
-    Position: {x: 23252, y: 461}
+    Position: {x: 23252, y: 460.8}
     gaugeValue: -3
     audioSource: {fileID: 8300000, guid: ec43a5b7800113b4ab73c687030bf890, type: 3}
     cocoInt: 0
@@ -3787,7 +3787,7 @@ MonoBehaviour:
       termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
       au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
     State: 1
-    Position: {x: 526, y: 189}
+    Position: {x: 526.4, y: 188.8}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 2d9f12c66358a4d45ac87fbfd2f11c5b, type: 3}
     cocoInt: 0
@@ -3800,7 +3800,7 @@ MonoBehaviour:
       le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
       te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
     State: 3
-    Position: {x: 23356, y: -489}
+    Position: {x: 23356, y: -488.80002}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: e4404c4876e8e7448a5ef0f95bbb1f11, type: 3}
     cocoInt: 0
@@ -3814,7 +3814,7 @@ MonoBehaviour:
       au moins servi ma patrie avec honneur.\r\nUne fois rentr\xE9, je t'attendrai
       \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles "
     State: 3
-    Position: {x: 25811, y: -1646}
+    Position: {x: 25811.2, y: -1646.3999}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: b96012cf3c28abb47965e4b99cc4f716, type: 3}
     cocoInt: 0
@@ -3831,7 +3831,7 @@ MonoBehaviour:
       t'attendrai \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher
       fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
     State: 3
-    Position: {x: 25829, y: -1301}
+    Position: {x: 25829.6, y: -1300.7999}
     gaugeValue: -3
     audioSource: {fileID: 8300000, guid: ae2a1259ebb320240893a242f38d2743, type: 3}
     cocoInt: 0
@@ -3848,7 +3848,7 @@ MonoBehaviour:
       \r\nSaches que quoi qu\u2019il arrive, Jacques, tu seras toujours dans mon
       c\u0153ur.\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
     State: 2
-    Position: {x: 26738, y: -1449}
+    Position: {x: 26738.398, y: -1448.7999}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 5febefbd4ebc0eb4888cd030d2346df5, type: 3}
     cocoInt: 8
@@ -3862,7 +3862,7 @@ MonoBehaviour:
       au moins servi ma patrie avec honneur.\r\nUne fois rentr\xE9, je t'attendrai
       \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher fr\xE8re\r\n\t\t\tCharles "
     State: 3
-    Position: {x: 27664, y: 291}
+    Position: {x: 27664, y: 291.19998}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: b96012cf3c28abb47965e4b99cc4f716, type: 3}
     cocoInt: 0
@@ -3879,7 +3879,7 @@ MonoBehaviour:
       t'attendrai \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher
       fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
     State: 3
-    Position: {x: 27670, y: -112}
+    Position: {x: 27670.398, y: -112}
     gaugeValue: -3
     audioSource: {fileID: 8300000, guid: ae2a1259ebb320240893a242f38d2743, type: 3}
     cocoInt: 0
@@ -3895,7 +3895,7 @@ MonoBehaviour:
       je voulais juste te remercier mon ami d\u2019avoir toujours cru en moi jusqu\u2019\xE0
       maintenant.\r\nJ\u2019ai h\xE2te de te revoir.\r\n"
     State: 3
-    Position: {x: 25988, y: -170}
+    Position: {x: 25988, y: -170.4}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
     cocoInt: 0
@@ -3913,7 +3913,7 @@ MonoBehaviour:
       toujours cru en moi jusqu\u2019\xE0 maintenant.\r\nJ\u2019ai h\xE2te de te
       revoir.\r\n"
     State: 2
-    Position: {x: 26004, y: 306}
+    Position: {x: 26004, y: 305.59998}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
     cocoInt: 0
@@ -3925,7 +3925,7 @@ MonoBehaviour:
       lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
       ministre de la d\xE9fense\r\n"
     State: 0
-    Position: {x: 25812, y: -843}
+    Position: {x: 25812, y: -843.2}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -3943,7 +3943,7 @@ MonoBehaviour:
       toujours cru en moi jusqu\u2019\xE0 maintenant.\r\nJ\u2019ai h\xE2te de te
       revoir.\r\n"
     State: 2
-    Position: {x: 27714, y: -1373}
+    Position: {x: 27714.398, y: -1372.7999}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
     cocoInt: 0
@@ -3955,7 +3955,7 @@ MonoBehaviour:
       lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
       ministre de la d\xE9fense\r\n"
     State: 0
-    Position: {x: 27699, y: -1011}
+    Position: {x: 27699.2, y: -1011.2}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -3967,7 +3967,7 @@ MonoBehaviour:
       lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
       ministre de la d\xE9fense\r\n"
     State: 0
-    Position: {x: 26006, y: 713}
+    Position: {x: 26006.398, y: 712.8}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -3994,7 +3994,7 @@ MonoBehaviour:
       lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
       ministre de la d\xE9fense\r\n"
     State: 0
-    Position: {x: 27665, y: 751}
+    Position: {x: 27665.6, y: 751.2}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -4010,7 +4010,7 @@ MonoBehaviour:
       je voulais juste te remercier mon ami d\u2019avoir toujours cru en moi jusqu\u2019\xE0
       maintenant.\r\nJ\u2019ai h\xE2te de te revoir.\r\n"
     State: 2
-    Position: {x: 27707, y: -1781}
+    Position: {x: 27707.2, y: -1780.7999}
     gaugeValue: 3
     audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
     cocoInt: 0
@@ -4018,7 +4018,7 @@ MonoBehaviour:
   - Guid: cf74a83d-9ce1-4700-9680-78845f33411d
     DialogueText: "Votre role est fini \nMeric d'avoir jouer au jeu."
     State: 0
-    Position: {x: 28914, y: -433}
+    Position: {x: 28914.398, y: -432.80002}
     gaugeValue: 0
     audioSource: {fileID: 0}
     cocoInt: 0
@@ -4050,7 +4050,7 @@ MonoBehaviour:
       de pouvoir en finir pour pouvoir rentrer.\r\nTon bataillon attend tes ordres.\r\nTon
       cher fr\xE8re \r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
     State: 3
-    Position: {x: 25054, y: -1516}
+    Position: {x: 25054.398, y: -1516}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: 644403ff680f21b4497cd6d4073dc34e, type: 3}
     cocoInt: 9
@@ -4069,8 +4069,8 @@ MonoBehaviour:
     cocoInt: 0
     consequense: 0
   - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
-    DialogueText: "Ch\xE8re fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais
-      \xEAtre utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
+    DialogueText: "Cher fr\xE8re,\r\nJe pars enfin \xE0 la guerre. Je pourrais \xEAtre
+      utile, \xE0 toi et \xE0 ma patrie et ferait la fiert\xE9 de notre p\xE8re.\r\nMaman
       a pleur\xE9 juste avant que je parte, je l\u2019ai rassur\xE9 du mieux que
       j\u2019ai pu avant de la quitter.\r\nEn partant j\u2019ai crois\xE9 le vieux
       champ ou l\u2019on s'amusait quand on \xE9tait petit, il a \xE9t\xE9 d\xE9truit
@@ -4085,7 +4085,7 @@ MonoBehaviour:
       \xEAtre diff\xE9rente, tu ne crois pas ?   \r\nJe te dis \xE0 bient\xF4t et
       te souhaite bonne chance.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 1766, y: -484}
+    Position: {x: 1766.3999, y: -484}
     gaugeValue: 0
     audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
     cocoInt: 1
@@ -4103,7 +4103,7 @@ MonoBehaviour:
       se faufiler, mais on risque de perdre un temps pr\xE9cieux.\r\nQuand penses-tu
       ?\r\nQu\u2019est-ce que l\u2019on devrait faire ?\r\n"
     State: 2
-    Position: {x: 6932, y: 4481}
+    Position: {x: 6932, y: 4480.8}
     gaugeValue: 1
     audioSource: {fileID: 8300000, guid: 7e5223c1e97ad554dbe38eb95699b398, type: 3}
     cocoInt: 2
@@ -4119,7 +4119,7 @@ MonoBehaviour:
       que l\u2019on suivra tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant
       tes instructions.\r\nTon cher fr\xE8re\r\nCharles \r\n"
     State: 3
-    Position: {x: 6949, y: 4143}
+    Position: {x: 6949.6, y: 4143.1997}
     gaugeValue: -1
     audioSource: {fileID: 0}
     cocoInt: 3
@@ -4134,7 +4134,7 @@ MonoBehaviour:
       tes ordres qu\u2019importe ta d\xE9cision.\r\nEn attendant tes ordres \r\nTon
       ch\xE8r fr\xE8res\r\nCharles \r\n"
     State: 3
-    Position: {x: 7242, y: -16}
+    Position: {x: 7242.4004, y: -16}
     gaugeValue: 1
     audioSource: {fileID: 0}
     cocoInt: 3

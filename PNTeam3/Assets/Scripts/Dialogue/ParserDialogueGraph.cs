@@ -72,10 +72,11 @@ public class ParserDialogueGraph : MonoBehaviour
 
         for (int i = 0; i < nodes.Count; i++)
         {
-            Debug.Log(nodes[i].PortName);
+            Debug.Log(nodes[i].PortName + " " + port.text);
             if (currentNode.Guid == nodes[i].baseNodeGuid)
             {
                 targetGuid = nodes[i].TargetNodeGuid;
+                Debug.Log(nodes[i].PortName);
                 //currentNode = dialogueContainer.dialogueNodeDatas[i];
             }
         }
@@ -91,7 +92,6 @@ public class ParserDialogueGraph : MonoBehaviour
             consequences.SetActive(false);
             showConsequences = false;
         }
-
 
         for (int i = 0; i < dialogueContainer.dialogueNodeDatas.Count; i++)
         {
@@ -229,7 +229,7 @@ public class ParserDialogueGraph : MonoBehaviour
                 dialogueContainer = Resources.Load<DialogueContainer>("GeneralTestEN");
                 break;
             default:
-                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTest");
+                dialogueContainer = Resources.Load<DialogueContainer>("GeneralTestFinal");
                 break;
         }
 
