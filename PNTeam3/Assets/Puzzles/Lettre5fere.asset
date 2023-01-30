@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Lettre5fere
   m_EditorClassIdentifier: 
   lettersFirstSentence: 4a004b004d0050004600540048005600
-  lettersSecondSentence: 5800570050005a004d00480052005400430042004e0054004c005600
+  lettersSecondSentence: 5800570050005a004d0048005200430042004e0054004c005600
   firstSentence: 'Une pluie '
   secondSentence: Sanglante tombe
