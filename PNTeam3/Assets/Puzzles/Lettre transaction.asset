@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
-  m_Name: Lettre5BFF
+  m_Name: Lettre transaction
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 4b00540050004d004e0051005700430042005500
-  lettersSecondSentence: 50005a005200540046004d004a004c004e004800
-  firstSentence: Les souries
-  secondSentence: mange le fromages
+  lettersFirstSentence: 42004100
+  lettersSecondSentence: 
+  firstSentence: A
+  secondSentence: V

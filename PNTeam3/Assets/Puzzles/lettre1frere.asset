@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: lettre1frere
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 4200430020004200430041004200
-  lettersSecondSentence: 44004a0054004a0054002000440044002000540054004a004a0044004400
+  lettersFirstSentence: 42004a0051004600430041005600
+  lettersSecondSentence: 44004a00540050005a00
   firstSentence: Le loup
   secondSentence: reste en meutes

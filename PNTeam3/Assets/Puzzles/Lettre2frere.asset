@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre2frere
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 55005a005200460055004700
-  lettersSecondSentence: 48004b004c00550048005a005600
+  lettersFirstSentence: 55005a00520046004e004700
+  lettersSecondSentence: 48004b004c00550050005a005600
   firstSentence: Le chat
   secondSentence: Voyages

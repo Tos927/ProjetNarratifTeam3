@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre4fere
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 56004b0054005a005a0054004b0056005400
-  lettersSecondSentence: 5a005a00470050004700440047004100
+  lettersFirstSentence: 56004b0054005a004700460043004e004d00
+  lettersSecondSentence: 5a005100470050004400480054005700
   firstSentence: Les fusils
   secondSentence: En fleure

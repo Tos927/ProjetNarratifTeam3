@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre2BFF
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 560052004d0054004b0052005600
-  lettersSecondSentence: 4b0043004b0054005a00
+  lettersFirstSentence: 560052004d0054004b0048005600
+  lettersSecondSentence: 4b0043005a0054005a00
   firstSentence: Le chien
   secondSentence: Aboie

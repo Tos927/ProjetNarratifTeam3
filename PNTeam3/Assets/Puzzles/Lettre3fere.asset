@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre3fere
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 4a004a004d0046004a004600
-  lettersSecondSentence: 4b0050004b0055004b00550056004e00
+  lettersFirstSentence: 4b004a004d0046004a005400
+  lettersSecondSentence: 4b005000420055004b00520056004e00
   firstSentence: Girafe
   secondSentence: Long coup
