@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre4BFF
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 460044004600540046005400540046004400
-  lettersSecondSentence: 44005a005a0054005a005200
+  lettersFirstSentence: 460044004a0054005200570051004c00
+  lettersSecondSentence: 44005a004a00540052005700
   firstSentence: Les bombes
   secondSentence: S'armes

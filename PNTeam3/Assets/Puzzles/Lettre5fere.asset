@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
   m_Name: Lettre5fere
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 4a004b004d005000460054004d005600
-  lettersSecondSentence: 5800570050005a005700570052005400570058005800540057005600
+  lettersFirstSentence: 4a004b004d0050004600540048005600
+  lettersSecondSentence: 5800570050005a004d00480052005400430042004e0054004c005600
   firstSentence: 'Une pluie '
   secondSentence: Sanglante tombe
