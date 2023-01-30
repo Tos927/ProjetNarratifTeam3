@@ -1,0 +1,1294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e2daeab3f7b544cb173c49d8fc4a67, type: 3}
+  m_Name: GeneralTestfinal
+  m_EditorClassIdentifier: 
+  nodeLinks:
+  - baseNodeGuid: af8cdf0d-de27-49ec-987c-7b84af214074
+    PortName: Next
+    TargetNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Capturer
+    TargetNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Essayer de voler son insigne et son chapeau
+    TargetNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: Assassiner
+    TargetNodeGuid: 673eac62-db83-42b7-a403-854c1c353df0
+  - baseNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    PortName: "Trouver un SS plus haut grad\xE9"
+    TargetNodeGuid: 673eac62-db83-42b7-a403-854c1c353df0
+  - baseNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+    PortName: Battre en retraite
+    TargetNodeGuid: 9b93fa68-6d4e-49db-b019-89c5b438c024
+  - baseNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+    PortName: Envoyer des avions
+    TargetNodeGuid: 9b93fa68-6d4e-49db-b019-89c5b438c024
+  - baseNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+    PortName: "Attaquer l\u2019ennemi"
+    TargetNodeGuid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
+  - baseNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+    PortName: Attendre les renforts
+    TargetNodeGuid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
+  - baseNodeGuid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
+    PortName: Suivant
+    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+  - baseNodeGuid: 673eac62-db83-42b7-a403-854c1c353df0
+    PortName: Suivant
+    TargetNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+  - baseNodeGuid: 9b93fa68-6d4e-49db-b019-89c5b438c024
+    PortName: Suivant
+    TargetNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+  - baseNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+    PortName: Battre en retraite
+    TargetNodeGuid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
+  - baseNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+    PortName: Envoyer des avions
+    TargetNodeGuid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
+  - baseNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+    PortName: "Attaquer l\u2019ennemi"
+    TargetNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
+  - baseNodeGuid: bd8f74be-677b-43b3-9603-6e30847692e5
+    PortName: Attendre les renforts
+    TargetNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
+  - baseNodeGuid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
+    PortName: Suivant
+    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+  - baseNodeGuid: 09131549-14a8-485e-9e51-070fed6683fe
+    PortName: Suivant
+    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+  - baseNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+    PortName: Essayer de voler son insigne et son chapeau
+    TargetNodeGuid: 0a9f1c41-6518-4fb0-97c8-56ef32bdf3c7
+  - baseNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+    PortName: Capturer
+    TargetNodeGuid: 0a9f1c41-6518-4fb0-97c8-56ef32bdf3c7
+  - baseNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+    PortName: Assassiner
+    TargetNodeGuid: 981b26cf-4cfd-4cf4-8a0f-ec059923ef6b
+  - baseNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+    PortName: "Trouver un SS plus haut grad\xE9"
+    TargetNodeGuid: 981b26cf-4cfd-4cf4-8a0f-ec059923ef6b
+  - baseNodeGuid: 0a9f1c41-6518-4fb0-97c8-56ef32bdf3c7
+    PortName: Suivant
+    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+  - baseNodeGuid: 981b26cf-4cfd-4cf4-8a0f-ec059923ef6b
+    PortName: Suivant
+    TargetNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+  - baseNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+    PortName: Lettre Ami
+    TargetNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+  - baseNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+    PortName: "Lettre Fr\xE8re"
+    TargetNodeGuid: 4be3fc17-e6bf-4ca4-8c6a-f34857f1cc3c
+  - baseNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+    PortName: Lettre Ami
+    TargetNodeGuid: 228eba31-5470-4245-ba79-054cf1b4ea87
+  - baseNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+    PortName: "Lettre Fr\xE8re"
+    TargetNodeGuid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+  - baseNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+    PortName: "Lettre Fr\xE8re"
+    TargetNodeGuid: 1db7b169-75ef-4e5f-93be-38e272349e93
+  - baseNodeGuid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+    PortName: Lettre Ami
+    TargetNodeGuid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Retraite
+    TargetNodeGuid: ea71d76a-3985-432f-9931-faa1c5472a53
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Attendre les renforts
+    TargetNodeGuid: ea71d76a-3985-432f-9931-faa1c5472a53
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Envoyer avec plusieurs hommes
+    TargetNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
+  - baseNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    PortName: Envoyer avec le bataillon
+    TargetNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "S\u2019infiltrer pour les sauver la nuit"
+    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: 'Convaincre les soldats de ne pas les tuer '
+    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "Essayer de r\xE9colter des informations jusqu\u2019au meeting"
+    TargetNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+  - baseNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    PortName: "Ne rien faire jusqu\u2019au meeting"
+    TargetNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+  - baseNodeGuid: af539145-fc11-41b7-9645-31d77ebd7fe7
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: ea71d76a-3985-432f-9931-faa1c5472a53
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
+    PortName: Suivant
+    TargetNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+  - baseNodeGuid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
+    PortName: Suivant
+    TargetNodeGuid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+  - baseNodeGuid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+    PortName: "S\u2019infiltrer pour les sauver la nuit"
+    TargetNodeGuid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
+  - baseNodeGuid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+    PortName: "Essayer de r\xE9colter des informations jusqu\u2019au meeting"
+    TargetNodeGuid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
+  - baseNodeGuid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+    PortName: "Ne rien faire jusqu\u2019au meeting"
+    TargetNodeGuid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
+  - baseNodeGuid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+    PortName: 'Convaincre les soldats de ne pas les tuer '
+    TargetNodeGuid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
+  - baseNodeGuid: 1db7b169-75ef-4e5f-93be-38e272349e93
+    PortName: Envoyer avec le bataillon
+    TargetNodeGuid: 30acdae4-3c75-47a9-8f84-bf7e99056d9a
+  - baseNodeGuid: 1db7b169-75ef-4e5f-93be-38e272349e93
+    PortName: Envoyer avec plusieurs hommes
+    TargetNodeGuid: 30acdae4-3c75-47a9-8f84-bf7e99056d9a
+  - baseNodeGuid: 1db7b169-75ef-4e5f-93be-38e272349e93
+    PortName: Retraite
+    TargetNodeGuid: 5d7262ea-63ee-4ed1-a5ef-69d2b237f03c
+  - baseNodeGuid: 1db7b169-75ef-4e5f-93be-38e272349e93
+    PortName: Attendre les renforts
+    TargetNodeGuid: 5d7262ea-63ee-4ed1-a5ef-69d2b237f03c
+  - baseNodeGuid: 30acdae4-3c75-47a9-8f84-bf7e99056d9a
+    PortName: Suivant
+    TargetNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+  - baseNodeGuid: 5d7262ea-63ee-4ed1-a5ef-69d2b237f03c
+    PortName: Suivant
+    TargetNodeGuid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+  - baseNodeGuid: c2df19db-b73a-481d-8e14-2fba09afd772
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: e95386ec-6280-4436-a816-d0865c5eb5e1
+    PortName: Suivant
+    TargetNodeGuid: d3623af2-9004-4354-a8c8-57920fda7ea5
+  - baseNodeGuid: f689bf93-788b-4ced-bc5a-4f23a8e59a85
+    PortName: Suivant
+    TargetNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+  - baseNodeGuid: 252f7e38-a123-47f6-8dbf-bec28eaa16c0
+    PortName: Suivant
+    TargetNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+  - baseNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+    PortName: Envoyer des troupes
+    TargetNodeGuid: e811fd46-ce0f-46e5-bae2-bda04be2c1da
+  - baseNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+    PortName: Envoyer quelque soldat
+    TargetNodeGuid: c26eee26-cad9-4d76-9cae-1a3ce5cafbbb
+  - baseNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+    PortName: Le laisser
+    TargetNodeGuid: c5a44846-aeb6-4d6d-884c-ec91bf8fc7f0
+  - baseNodeGuid: b4ff0a12-7280-4ed9-9d40-be1ed38c7ca4
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: f70c0855-2f39-4098-a08a-b2dd8c7af74a
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: 4dd3d798-e9bc-4ab8-b9e0-fa638d8c79ef
+    PortName: Suivant
+    TargetNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+  - baseNodeGuid: 3eb98e79-0174-4d35-9d87-442c4e993c42
+    PortName: Suivant
+    TargetNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+  - baseNodeGuid: c7c1bdb8-0699-4d4e-b409-3c3fc3245f46
+    PortName: Suivant
+    TargetNodeGuid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+  - baseNodeGuid: c26eee26-cad9-4d76-9cae-1a3ce5cafbbb
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: c5a44846-aeb6-4d6d-884c-ec91bf8fc7f0
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: 5c1df75f-b729-46a8-b16f-9765d4977853
+    PortName: Suivant
+    TargetNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+  - baseNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+    PortName: 'Attaquer par la droite '
+    TargetNodeGuid: b4ff0a12-7280-4ed9-9d40-be1ed38c7ca4
+  - baseNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+    PortName: "Attaquer par derri\xE8re"
+    TargetNodeGuid: b4ff0a12-7280-4ed9-9d40-be1ed38c7ca4
+  - baseNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+    PortName: Attaquer par la gauche
+    TargetNodeGuid: f70c0855-2f39-4098-a08a-b2dd8c7af74a
+  - baseNodeGuid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+    PortName: "Attaquer avec les alli\xE9es"
+    TargetNodeGuid: df68edad-921d-4370-b102-3c4630d8bab3
+  - baseNodeGuid: df68edad-921d-4370-b102-3c4630d8bab3
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: e811fd46-ce0f-46e5-bae2-bda04be2c1da
+    PortName: Suivant
+    TargetNodeGuid: cf74a83d-9ce1-4700-9680-78845f33411d
+  - baseNodeGuid: 4be3fc17-e6bf-4ca4-8c6a-f34857f1cc3c
+    PortName: Le laisser
+    TargetNodeGuid: 5c1df75f-b729-46a8-b16f-9765d4977853
+  - baseNodeGuid: 4be3fc17-e6bf-4ca4-8c6a-f34857f1cc3c
+    PortName: Envoyer quelque soldat
+    TargetNodeGuid: 3eb98e79-0174-4d35-9d87-442c4e993c42
+  - baseNodeGuid: 4be3fc17-e6bf-4ca4-8c6a-f34857f1cc3c
+    PortName: 'envoyer des troupes '
+    TargetNodeGuid: 4dd3d798-e9bc-4ab8-b9e0-fa638d8c79ef
+  - baseNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+    PortName: Attaquer par la gauche
+    TargetNodeGuid: 252f7e38-a123-47f6-8dbf-bec28eaa16c0
+  - baseNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+    PortName: 'Attaquer par la droite '
+    TargetNodeGuid: f689bf93-788b-4ced-bc5a-4f23a8e59a85
+  - baseNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+    PortName: "Attaquer par derri\xE8re"
+    TargetNodeGuid: f689bf93-788b-4ced-bc5a-4f23a8e59a85
+  - baseNodeGuid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+    PortName: "Attaquer avec les alli\xE9es"
+    TargetNodeGuid: c7c1bdb8-0699-4d4e-b409-3c3fc3245f46
+  - baseNodeGuid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
+    PortName: Suivant
+    TargetNodeGuid: ce417275-dade-4c45-92ba-f45f527478a7
+  - baseNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 23b903da-882f-4680-8fee-c7da9fcc90cc
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: fa81640d-47db-4f13-bb6e-fd3db571f829
+    PortName: Suivant
+    TargetNodeGuid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Etre r\xE9aliste"
+    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+  - baseNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    PortName: "Rassur\xE9"
+    TargetNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+  - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+    PortName: "\xCAtre chaleureux."
+    TargetNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+  - baseNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+    PortName: "\xCAtre s\xE9rieux"
+    TargetNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+  - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    PortName: "Rassur\xE9"
+    TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+  - baseNodeGuid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    PortName: "Etre r\xE9aliste"
+    TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: "\xCAtre chaleureux"
+    TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+  - baseNodeGuid: 0d81150f-0987-455d-862b-745610b495c5
+    PortName: "\xCAtre s\xE9rieux"
+    TargetNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+  - baseNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    PortName: "Lettre Fr\xE8re"
+    TargetNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+  - baseNodeGuid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    PortName: Lettre Ami
+    TargetNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+  - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    PortName: "Attaquer par derri\xE8re de nuit "
+    TargetNodeGuid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
+  - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    PortName: "Attaquer par derri\xE8re de jour"
+    TargetNodeGuid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
+  - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    PortName: "Attaquer l\u2019ennemi de front"
+    TargetNodeGuid: 342a5fa1-bd02-41ec-9666-c359d43fa176
+  - baseNodeGuid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    PortName: "D\xE9fendre la position et attendre"
+    TargetNodeGuid: 342a5fa1-bd02-41ec-9666-c359d43fa176
+  - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+  - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    PortName: Escalader les grillages
+    TargetNodeGuid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+  - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    PortName: "Tuez les gardes discr\xE8temen"
+    TargetNodeGuid: f00a1899-7336-44c5-8b05-65795e43b95c
+  - baseNodeGuid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: f00a1899-7336-44c5-8b05-65795e43b95c
+  - baseNodeGuid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
+    PortName: Suivant
+    TargetNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+  - baseNodeGuid: f00a1899-7336-44c5-8b05-65795e43b95c
+    PortName: Suivant
+    TargetNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+  - baseNodeGuid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+    PortName: Suivant
+    TargetNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+  - baseNodeGuid: 342a5fa1-bd02-41ec-9666-c359d43fa176
+    PortName: Suivant
+    TargetNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+  - baseNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    PortName: "Cherchez une entr\xE9e plus petite"
+    TargetNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
+  - baseNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    PortName: Escalader les grillages
+    TargetNodeGuid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
+  - baseNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    PortName: "Allez-y par l\u2019entr\xE9e principale"
+    TargetNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
+  - baseNodeGuid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    PortName: "Tuez les gardes discr\xE8tement"
+    TargetNodeGuid: d147a44e-41a3-4681-a76f-7b4aad736a1f
+  - baseNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+    PortName: "Attaquer par derri\xE8re de jour"
+    TargetNodeGuid: 23b903da-882f-4680-8fee-c7da9fcc90cc
+  - baseNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+    PortName: "Attaquer par derri\xE8re de nuit"
+    TargetNodeGuid: 23b903da-882f-4680-8fee-c7da9fcc90cc
+  - baseNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+    PortName: "D\xE9fendre la position et attendre"
+    TargetNodeGuid: fa81640d-47db-4f13-bb6e-fd3db571f829
+  - baseNodeGuid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+    PortName: "Attaquer l\u2019ennemi de front"
+    TargetNodeGuid: fa81640d-47db-4f13-bb6e-fd3db571f829
+  - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+    PortName: "Lettre Fr\xE8re"
+    TargetNodeGuid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+  - baseNodeGuid: 67e54db8-c241-420d-8579-8938e7c6310d
+    PortName: Lettre Ami
+    TargetNodeGuid: a173d434-73df-4209-9cb8-0a5820d529c4
+  dialogueNodeDatas:
+  - Guid: 2d6de613-ae09-44de-b17a-140cbf1c78e6
+    DialogueText: "Cher fr\xE8re,\r\nComme tu le sais, j\u2019ai eu 18 ans l\u2019\xE9t\xE9
+      dernier, et je viens de recevoir mon ordre de convocation.\r\nJe pourrais vous
+      \xEAtre utile \xE0 toi et \xE0 la patrie.\r\nJe vais donner le meilleur de
+      moi-m\xEAme et ferai la fiert\xE9 de notre p\xE8re.\r\nMaman a pleur\xE9 avant
+      que je ne parte, j\u2019ai d\xFB la rassurer avant de la quitter.\r\nEn partant,
+      j\u2019ai crois\xE9 le vieux champ ou l\u2019on s\u2019amusait quand on \xE9tait
+      petit, c\u2019est maintenant un champ de crat\xE8res, reflet de la guerre.\r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais j\u2019ai \xE9t\xE9 affect\xE9
+      \xE0 un poste qui me permettra de garder contact avec toi.\r\nJe suis officiellement
+      charg\xE9 de la communication entre le 14e r\xE9giment d\u2019infanterie et
+      la capitale.\r\nTu pourras \xEAtre le premier \xE0 lire mes exploits, quant
+      \xE0 moi je serais le premier \xE0 recevoir et transmettre tes ordres.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur, notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?\r\nJe suis convaincu que tu sauras
+      prendre les bonnes d\xE9cisions.\r\nJe te dis \xE0 bient\xF4t et te souhaite
+      bonne chance.\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 1678, y: -167}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
+    cocoInt: 1
+    consequense: 0
+  - Guid: a173d434-73df-4209-9cb8-0a5820d529c4
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
+    State: 2
+    Position: {x: 1724, y: 530}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
+    DialogueText: "Cher fr\xE8re,\r\nComme tu le sais, j\u2019ai eu 18 ans l\u2019\xE9t\xE9
+      dernier, et je viens de recevoir mon ordre de convocation.\r\nJe pourrais vous
+      \xEAtre utile \xE0 toi et \xE0 la patrie.\r\nJe vais donner le meilleur de
+      moi-m\xEAme et ferai la fiert\xE9 de notre p\xE8re.\r\nMaman a pleur\xE9 avant
+      que je ne parte, j\u2019ai d\xFB la rassurer avant de la quitter.\r\nEn partant,
+      j\u2019ai crois\xE9 le vieux champ ou l\u2019on s\u2019amusait quand on \xE9tait
+      petit, c\u2019est maintenant un champ de crat\xE8res, reflet de la guerre.\r\n\xC7a
+      va me manquer de plus pouvoir te voir, mais j\u2019ai \xE9t\xE9 affect\xE9
+      \xE0 un poste qui me permettra de garder contact avec toi.\r\nJe suis officiellement
+      charg\xE9 de la communication entre le 14e r\xE9giment d\u2019infanterie et
+      la capitale.\r\nTu pourras \xEAtre le premier \xE0 lire mes exploits, quant
+      \xE0 moi je serais le premier \xE0 recevoir et transmettre tes ordres.\r\nMaintenant
+      que la guerre a commenc\xE9 et que tu es mon sup\xE9rieur, notre relation va
+      \xEAtre diff\xE9rente, tu ne crois pas ?\r\nJe suis convaincu que tu sauras
+      prendre les bonnes d\xE9cisions.\r\nJe te dis \xE0 bient\xF4t et te souhaite
+      bonne chance.\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 2741, y: 529}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: f168d7810454f2e488cf000cb87ec7b0, type: 3}
+    cocoInt: 1
+    consequense: 0
+  - Guid: 0d81150f-0987-455d-862b-745610b495c5
+    DialogueText: "Salut camarade, t\u2019as de la vaine d\u2019avoir \xE9t\xE9 d\xE9sign\xE9
+      pour diriger mon escouade, tu ne te doutes pas du nombre de probl\xE8mes qu\u2019on
+      a eu jusqu\u2019ici.\r\nPlus s\xE9rieusement, actuellement nous sommes 5 et
+      en direction de Berlin. \r\nNous avons r\xE9ussi \xE0 voler des costumes de
+      soldats allemand, ils n\u2019ont m\xEAme pas assez de mati\xE8re grise pour
+      voir le subterfuge.\r\n\xC7a m'a fait penser il y a quelques ann\xE9es quand
+      on a infiltr\xE9 la propri\xE9t\xE9 de notre professeur de fran\xE7ais pour
+      lui jeter des \u0153ufs pourris.\r\nQu\u2019est-ce qu\u2019on s\u2019\xE9tait
+      marr\xE9 ce jour-l\xE0.\r\nAujourd\u2019hui, c\u2019est toi qui d\xE9cide,
+      et qui va \xEAtre mes yeux.\r\nDonc \xE7a sera de ta faute si je meurs d\u2019accord
+      ?\r\n\xC9videmment je plaisante.\r\nJ\u2019esp\xE8re qu\u2019on pourra rester
+      r\xE9guli\xE8rement en contact, \xE7a me manque d\xE9j\xE0 de prendre un verre
+      avec toi.\r\nBon courage mon ami, prends soin de to\r\n"
+    State: 2
+    Position: {x: 2772, y: -193}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 1b31f845-1a19-4860-b2df-a3989889b13a
+    DialogueText: "Soldat, le temps est venu.\r\nL\u2019escouade Berthe est en position
+      et le 14e r\xE9giment d'infanterie est en place.\r\nA partir de maintenant,
+      chacune de vos d\xE9cisions va \xEAtre cruciale.\r\nDe grandes responsabilit\xE9s
+      reposent sur vous, ne vous trompez pas.\r\nNous et vos fr\xE8res comptons sur
+      vous.\r\nVive la R\xE9publique.\r\nVive la France.\r\n\r\n\t\t\t\t\t\t\t\t\t\t    
+      G\xE9n\xE9ral Patain"
+    State: 1
+    Position: {x: 3821, y: 174}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 42b71a0ad146c734999f872aad9db89a, type: 3}
+    cocoInt: 10
+    consequense: 0
+  - Guid: 5cf92cb5-85ca-4829-9a9f-4199c935cb53
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r\n"
+    State: 3
+    Position: {x: 4678, y: -261}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
+    cocoInt: 3
+    consequense: 1
+  - Guid: 51a0f8ad-dcd1-4409-85fd-2ab54857ddad
+    DialogueText: "Mon ami,\r\n\r\nJe vois que t\u2019as pas perdu le nord.\r\nNe
+      t\u2019en fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nNous
+      allons bient\xF4t arriver \xE0 Stuttgart.\r\nJusqu\u2019\xE0 pr\xE9sent ils
+      n\u2019ont pas d\xE9tect\xE9 notre stratag\xE8me.\r\nMais au fur et \xE0 mesure
+      que l\u2019on se rapproche de la capitale, les soldats sont plus vigilants.
+      \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais
+      c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air de contr\xF4ler
+      tous ceux qui rentrent.\r\nSinon, on pourrait essayer de voir s'il y a un autre
+      chemin o\xF9 l\u2019on pourrait se faufiler, mais on risque de perdre un temps
+      pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
+      ?\r\n"
+    State: 2
+    Position: {x: 4742, y: 214}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
+    cocoInt: 2
+    consequense: 1
+  - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
+      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
+      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
+      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
+      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
+      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 3
+    Position: {x: 5764, y: -695}
+    gaugeValue: 1
+    audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: f00a1899-7336-44c5-8b05-65795e43b95c
+    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
+      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
+      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
+      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    State: 2
+    Position: {x: 5688, y: 453}
+    gaugeValue: -1
+    audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Stuttgart gr\xE2ce \xE0 toi.\r\nComme tu le sais, nous p\xE9n\xE9trons infiltr\xE9
+      en tant que simple soldat.\r\nOui je sais, c\u2019est rabaissant mais on y
+      peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
+      \r\nJe te tiens au jus.\r\n\r\nJP"
+    State: 2
+    Position: {x: 5703, y: 158}
+    gaugeValue: 1
+    audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et nous avons fait
+      face \xE0 l\u2019ennemi.\r\nNous avons r\xE9ussi \xE0 d\xE9fendre nos tranch\xE9es,
+      on a repouss\xE9 leur perc\xE9e.\r\nMalheureusement, nous avons subi de lourdes
+      pertes.\r\nJ\u2019ai \xE9t\xE9 gri\xE8vement bless\xE9 au visage, je ne sais
+      pas si m\xE8re me reconna\xEEtra.\r\nNos troupes se demandent si \xE7a en valait
+      vraiment la peine. \r\nNotre moral a chut\xE9 et la prochaine attaque va \xEAtre
+      plus dure. \r\nMais ne t'inqui\xE8te pas, nous continuerons de nous battre
+      pour la France.\r\nTon cher fr\xE8re \r\n\r\nCharles\r\n"
+    State: 3
+    Position: {x: 5764, y: -323}
+    gaugeValue: -1
+    audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 67e54db8-c241-420d-8579-8938e7c6310d
+    DialogueText: "Soldat vous avez \xE9t\xE9 assign\xE9 en tant qu\u2019officier
+      de transmission.\r\nVous serez en charge des communications avec le 14e r\xE9giment
+      d'infanterie mais aussi de celles de l\u2019escouade d\u2019espionnage Berthe.\r\nVotre
+      r\xF4le sera d\u2019assurer et de d\xE9crypter les \xE9changes que vous aurez
+      avec les forces sur les diff\xE9rents fronts afin d\u2019aider aux prises de
+      d\xE9cisions de l\u2019\xE9tat major, gr\xE2ce \xE0 l\u2019aide de notre d\xE9codeur.\r\nVous
+      serez bient\xF4t initi\xE9 \xE0 son fonctionnement.\r\nUne fois votre entra\xEEnement
+      termin\xE9, nous et vos fr\xE8res (d\u2019armes ?) compterons sur vous tout
+      au long du conflit.\r\nVive la R\xE9publique.\r\nVive la France."
+    State: 1
+    Position: {x: 427, y: 199}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 2d9f12c66358a4d45ac87fbfd2f11c5b, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 228eba31-5470-4245-ba79-054cf1b4ea87
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 entrer dans Stuttgart.\r\nOn
+      y a vu des tas d'atrocit\xE9s, je te passe les d\xE9tails, les allemands sont
+      fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter des informations, mais en tant
+      que simple soldat nous recevons uniquement des instructions sans importance.\r\nIl
+      faudrait que j\u2019obtienne une tenue de lieutenant SS pour r\xE9cup\xE9rer
+      de meilleures informations.\r\nJ\u2019en ai rep\xE9r\xE9 un, je vais essayer
+      de lui voler son costume mais je n\u2019ai aucune id\xE9e de quoi faire de
+      lui apr\xE8s.\r\nDis-moi quoi faire, tu es toujours de bons conseils.\r\n"
+    State: 2
+    Position: {x: 9683, y: -448}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
+    cocoInt: 4
+    consequense: 1
+  - Guid: 18ae4497-bab2-471c-8f54-8d3216af7dba
+    DialogueText: "Ch\xE8res fr\xE8re \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain
+      temps. \r\nIl pr\xE9pare quelque chose. Je pense qu\u2019il essaye de rassembler
+      des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
+      Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
+    State: 3
+    Position: {x: 9754, y: 8}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 8b51700ee3d0c5740ae97bf801b572e0, type: 3}
+    cocoInt: 5
+    consequense: 1
+  - Guid: a375300c-807f-4f9c-94e0-d89bbfbc37ab
+    DialogueText: "Salut l\u2019ami,\r\nGr\xE2ce \xE0 toi, j\u2019ai pu me faire
+      passer pour un lieutenant d\u2019une troupe de soldats nazi.\r\nIl faut \xE0
+      pr\xE9sent que je me comporte comme tel, c'est-\xE0-dire que je sois une ordure.\r\nTu
+      sais, \xE7a me rappelle le moment o\xF9 lorsqu\u2019on voulait boire dans un
+      bar quand on \xE9tait mineur, on essayait de se laisser pousser la moustache
+      mais on aurait juste dit deux gamins qui ne savaient pas encore comment se
+      raser.\r\nPlus s\xE9rieusement, je te r\xE9\xE9cris s' il se passe quelque
+      chose, je sens que c\u2019est bien parti.\r\n"
+    State: 2
+    Position: {x: 11213, y: -563}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 673eac62-db83-42b7-a403-854c1c353df0
+    DialogueText: "Mon ami,\r\nJ\u2019ai r\xE9ussi \xE0 obtenir l\u2019uniforme de
+      lieutenant mais nous nous sommes fait rep\xE9rer, nous n\u2019avons pas \xE9t\xE9
+      assez discrets.\r\nIls nous ont cherch\xE9 pendant des heures et ont r\xE9ussi
+      \xE0 en coincer certains.\r\nDeux des n\xF4tres ont \xE9t\xE9 tu\xE9s et j\u2019ai
+      personnellement \xE9t\xE9 touch\xE9.\r\nNe t\u2019inqui\xE8tes pas pour moi,
+      c\u2019est une blessure superficielle. \r\nEt tu sais qu\u2019il en faut plus
+      pour m'abattre.\r\nJe vais essayer de me fondre dans la masse.\r\n"
+    State: 2
+    Position: {x: 11213, y: -294}
+    gaugeValue: -2
+    audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 9b93fa68-6d4e-49db-b019-89c5b438c024
+    DialogueText: "Cher fr\xE8re,\r\nEn suivant tes indications, nous avons fui la
+      bataille.\r\nSur le chemin nous avons crois\xE9 des aviateurs alli\xE9s.\r\nJe
+      ne sais pas si c\u2019est toi qui les a envoy\xE9s mais gr\xE2ce \xE0 eux l\u2019ennemi
+      a d\xFB battre en retraite.\r\nJe suis quand m\xEAme d\xE9\xE7u d\u2019avoir
+      d\xFB fuir face \xE0 l\u2019ennemi, nous aurions pu contre-attaquer et les
+      repousser davantage.\r\nMaintenant l\u2019ennemi est pr\xE9par\xE9 et nous
+      ne pourrons plus les attaquer par les airs.\r\nMais au moins le moral des troupes
+      est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
+      pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 3
+    Position: {x: 10865, y: -39}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: 05282a83d3858804bbec6006e741b624, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: ce417275-dade-4c45-92ba-f45f527478a7
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 entrer dans Stuttgart.\r\nOn
+      y a vu des tas d'atrocit\xE9s, je te passe les d\xE9tails, les allemands sont
+      fous. \r\nJ\u2019ai essay\xE9 de r\xE9colter des informations, mais en tant
+      que simple soldat nous recevons uniquement des instructions sans importance.\r\nIl
+      faudrait que j\u2019obtienne une tenue de lieutenant SS pour r\xE9cup\xE9rer
+      de meilleures informations.\r\nJ\u2019en ai rep\xE9r\xE9 un, je vais essayer
+      de lui voler son costume mais je n\u2019ai aucune id\xE9e de quoi faire de
+      lui apr\xE8s.\r\nDis-moi quoi faire, tu es toujours de bons conseils.\r\n"
+    State: 2
+    Position: {x: 12137, y: 129}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
+    cocoInt: 4
+    consequense: 1
+  - Guid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
+    DialogueText: "Soldat, je vous f\xE9licite. \r\nGr\xE2ce \xE0 vous l\u2019arm\xE9e
+      a r\xE9ussi \xE0 tenir \xE0 distance l'ennemi. \r\nL'escouade Berthe quant
+      \xE0 elle, ne s\u2019est pas encore fait rep\xE9rer et continue vers son objectif.\r\nNe
+      vous rel\xE2chez pas, la situation risque de se corser.\r\nFinissons cette
+      guerre rapidement.\r\nVive la R\xE9publique. \r\nVive la France.\r\nG\xE9n\xE9ral
+      Patain\r\n"
+    State: 1
+    Position: {x: 8846, y: -179}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 1f422804360ace347a98a6c70abbf92b, type: 3}
+    cocoInt: 10
+    consequense: 0
+  - Guid: 8141ee87-cd67-4d61-b99d-fbf02e0f1ce3
+    DialogueText: "Cher fr\xE8re,\r\nNous avons attendu les renforts alli\xE9s avant
+      d\u2019attaquer, mais ce n\u2019\xE9tait pas suffisant. \r\nL\u2019ennemi \xE9tait
+      trop nombreux et nous avons battu en retraite.\r\nLes pertes furent lourdes
+      et le moral des troupes a baiss\xE9.\r\nMalgr\xE9 tout nous restons motiv\xE9s
+      et nous avons d\xE9j\xE0 reform\xE9 le camp.\r\nJ\u2019esp\xE8re que notre
+      prochaine bataille se passera mieux.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 3
+    Position: {x: 10850, y: 327}
+    gaugeValue: -2
+    audioSource: {fileID: 8300000, guid: 7b855264409dc054fa2b0863c0262adb, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 99cb8e92-5e8d-4653-98dc-6a8dcba203fb
+    DialogueText: "Salut camarade,\r\nNous avons r\xE9ussi \xE0 p\xE9n\xE9trer dans
+      Stuttgart gr\xE2ce \xE0 toi.\r\nComme tu le sais, nous p\xE9n\xE9trons infiltr\xE9
+      en tant que simple soldat.\r\nOui je sais, c\u2019est rabaissant mais on y
+      peut rien.\r\nJe vais essayer de voir si je peux r\xE9colter des informations.
+      \r\nJe te tiens au jus.\r\n\r\nJP"
+    State: 2
+    Position: {x: 7863, y: -690}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: d147a44e-41a3-4681-a76f-7b4aad736a1f
+    DialogueText: "Cher ami,\r\nJ\u2019ai r\xE9ussi \xE0 m\u2019en sortir sans trop
+      d'\xE9gratignure.\r\nMalheureusement plusieurs de mes co\xE9quipiers ont succomb\xE9.\r\nMalgr\xE9
+      \xE7a, on ne perd pas le nord et on sait qu\u2019on va s\u2019en sortir.\r\nJe
+      te dis d\xE8s que j\u2019ai du nouveau.\r\n"
+    State: 2
+    Position: {x: 7920, y: -232}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 23b903da-882f-4680-8fee-c7da9fcc90cc
+    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
+      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
+      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
+      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
+      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
+      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
+      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
+      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
+      fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 7935, y: 228}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: bbb7123e429b4164bac6285f4806672a, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: fa81640d-47db-4f13-bb6e-fd3db571f829
+    DialogueText: "Cher fr\xE8re,\r\nNous avons suivi tes ordres et avons pris l\u2019ennemi
+      par surprise.\r\nD\xFB \xE0 notre attaque inattendue, l\u2019ennemi a subi
+      de lourdes pertes et ils ont d\xFB battre en retraite.\r\nGr\xE2ce \xE0 cela,
+      le moral des troupes est au plus haut et la prochaine bataille sera plus simple.\r\nNous
+      continuerons de nous battre pour la France et je suis s\xFBr que nous allons
+      gagner.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 3
+    Position: {x: 7944, y: 649}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 39b3a4f2063b32d4d80d195270b67f86, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: ba2ec72c-4767-4a39-9c88-6767deb704d0
+    DialogueText: "Mon ami,\r\n\r\nJe vois que t\u2019as pas perdu le nord.\r\nNe
+      t\u2019en fais pas, avec moi toute cette histoire va \xEAtre vite r\xE9gl\xE9e.\r\nNous
+      allons bient\xF4t arriver \xE0 Stuttgart.\r\nJusqu\u2019\xE0 pr\xE9sent ils
+      n\u2019ont pas d\xE9tect\xE9 notre stratag\xE8me.\r\nMais au fur et \xE0 mesure
+      que l\u2019on se rapproche de la capitale, les soldats sont plus vigilants.
+      \r\nOn a rep\xE9r\xE9 une entr\xE9e o\xF9 il ne sont pas trop nombreux, mais
+      c\u2019est tout de m\xEAme risqu\xE9.\r\nIls ont l\u2019air de contr\xF4ler
+      tous ceux qui rentrent.\r\nSinon, on pourrait essayer de voir s'il y a un autre
+      chemin o\xF9 l\u2019on pourrait se faufiler, mais on risque de perdre un temps
+      pr\xE9cieux.\r\nQuand penses-tu ?\r\nQu\u2019est-ce que l\u2019on devrait faire
+      ?\r\n"
+    State: 2
+    Position: {x: 6706, y: -506}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
+    cocoInt: 2
+    consequense: 1
+  - Guid: 03cea8e8-828b-4580-beac-a1a4326d94e7
+    DialogueText: "Cher fr\xE8re,\r\nMerci de t\u2019inqui\xE9ter, mais ne t\u2019en
+      fait pas, je me suis pr\xE9par\xE9 \xE0 ce moment toute ma vie\r\nJe suis enfin
+      arriv\xE9 aux tranch\xE9es de Brumath. \r\nL'ennemi essaye des perc\xE9es mais
+      nous arrivons \xE0 les repousser. \r\nNous savons que l'ennemi pr\xE9voit d\u2019attaquer
+      ce soir, nous laissant une ouverture pour briser leur d\xE9fense.\r\nSi l\u2019on
+      attaque de jour, on se fera plus facilement rep\xE9rer, mais si on attaque
+      de nuit, il y aura moins de visibilit\xE9. \r\nEn attendant tes instructions.\r\nTon
+      cher fr\xE8re\r\nCharles \r\n"
+    State: 3
+    Position: {x: 6770, y: 354}
+    gaugeValue: 1
+    audioSource: {fileID: 8300000, guid: 13ff43e0d9097834aa83944eef5879f0, type: 3}
+    cocoInt: 3
+    consequense: 1
+  - Guid: bd8f74be-677b-43b3-9603-6e30847692e5
+    DialogueText: "Ch\xE8res fr\xE8re \r\nL'ennemi n'a pas attaqu\xE9 depuis un certain
+      temps. \r\nIl pr\xE9pare quelque chose. Je pense qu\u2019il essaye de rassembler
+      des troupes. \r\nLes soldats commencent \xE0 s'inqui\xE9ter de la situation.
+      Que devons nous faire ?\r\nR\xE9pond nous vites \r\nTon fr\xE8re \r\n"
+    State: 3
+    Position: {x: 12774, y: -530}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 8b51700ee3d0c5740ae97bf801b572e0, type: 3}
+    cocoInt: 5
+    consequense: 1
+  - Guid: 31e2a9f8-2e83-4b94-9c85-ae09fdb44719
+    DialogueText: "Cher fr\xE8re,\r\nEn suivant tes indications, nous avons fui la
+      bataille.\r\nSur le chemin nous avons crois\xE9 des aviateurs alli\xE9s.\r\nJe
+      ne sais pas si c\u2019est toi qui les a envoy\xE9s mais gr\xE2ce \xE0 eux l\u2019ennemi
+      a d\xFB battre en retraite.\r\nJe suis quand m\xEAme d\xE9\xE7u d\u2019avoir
+      d\xFB fuir face \xE0 l\u2019ennemi, nous aurions pu contre-attaquer et les
+      repousser davantage.\r\nMaintenant l\u2019ennemi est pr\xE9par\xE9 et nous
+      ne pourrons plus les attaquer par les airs.\r\nMais au moins le moral des troupes
+      est intact et les pertes sont moindres de notre c\xF4t\xE9.\r\nJ'esp\xE8re
+      pouvoir me battre la prochaine fois. \r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 0
+    Position: {x: 13755, y: -687}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: 05282a83d3858804bbec6006e741b624, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 09131549-14a8-485e-9e51-070fed6683fe
+    DialogueText: "Cher fr\xE8re,\r\nNous avons attendu les renforts alli\xE9s avant
+      d\u2019attaquer, mais ce n\u2019\xE9tait pas suffisant. \r\nL\u2019ennemi \xE9tait
+      trop nombreux et nous avons battu en retraite.\r\nLes pertes furent lourdes
+      et le moral des troupes a baiss\xE9.\r\nMalgr\xE9 tout nous restons motiv\xE9s
+      et nous avons d\xE9j\xE0 reform\xE9 le camp.\r\nJ\u2019esp\xE8re que notre
+      prochaine bataille se passera mieux.\r\nTon cher fr\xE8re \r\nCharles\r\n"
+    State: 0
+    Position: {x: 13882, y: -390}
+    gaugeValue: -2
+    audioSource: {fileID: 8300000, guid: 7b855264409dc054fa2b0863c0262adb, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 0a9f1c41-6518-4fb0-97c8-56ef32bdf3c7
+    DialogueText: "Salut l\u2019ami,\r\nGr\xE2ce \xE0 toi, j\u2019ai pu me faire
+      passer pour un lieutenant d\u2019une troupe de soldats nazi.\r\nIl faut \xE0
+      pr\xE9sent que je me comporte comme tel, c'est-\xE0-dire que je sois une ordure.\r\nTu
+      sais, \xE7a me rappelle le moment o\xF9 lorsqu\u2019on voulait boire dans un
+      bar quand on \xE9tait mineur, on essayait de se laisser pousser la moustache
+      mais on aurait juste dit deux gamins qui ne savaient pas encore comment se
+      raser.\r\nPlus s\xE9rieusement, je te r\xE9\xE9cris s' il se passe quelque
+      chose, je sens que c\u2019est bien parti.\r\n"
+    State: 0
+    Position: {x: 13354, y: -74}
+    gaugeValue: 2
+    audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 981b26cf-4cfd-4cf4-8a0f-ec059923ef6b
+    DialogueText: "Mon ami,\r\nJ\u2019ai r\xE9ussi \xE0 obtenir l\u2019uniforme de
+      lieutenant mais nous nous sommes fait rep\xE9rer, nous n\u2019avons pas \xE9t\xE9
+      assez discrets.\r\nIls nous ont cherch\xE9 pendant des heures et ont r\xE9ussi
+      \xE0 en coincer certains.\r\nDeux des n\xF4tres ont \xE9t\xE9 tu\xE9s et j\u2019ai
+      personnellement \xE9t\xE9 touch\xE9.\r\nNe t\u2019inqui\xE8tes pas pour moi,
+      c\u2019est une blessure superficielle. \r\nEt tu sais qu\u2019il en faut plus
+      pour m'abattre.\r\nJe vais essayer de me fondre dans la masse.\r\n"
+    State: 0
+    Position: {x: 13400, y: 173}
+    gaugeValue: -2
+    audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
+    DialogueText: "Soldat.\r\nContinuez comme \xE7a. Je vous en ferez part si nous
+      avons de nouvelles informations.\r\nEn attendant, je vous souhaite bon courage.
+      Prenez bien garde au d\xE9cision que vous faites.\r\nLe destin de tout un pays
+      est entre vos mains.\r\nVive la R\xE9publique. \r\nVive la France.\r\nG\xE9n\xE9ral
+      Patain \r\n"
+    State: 1
+    Position: {x: 15032, y: -245}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 10
+    consequense: 0
+  - Guid: aa4b2a69-9f07-4560-b805-3f19dadfcdda
+    DialogueText: "Ch\xE8re fr\xE8re \r\nJe commence \xE0 fatiguer. \r\nLes bruits
+      des bombes commencent \xE0 \xEAtre naturels pour moi. Le moral des troupes
+      est au plus bas. \r\nL\u2019ennemi nous attaque sans cesse et ne nous laisse
+      aucun moment de r\xE9pit. \r\nLes rations de nourritures commencent a diminu\xE9
+      et les soldats commencent \xE0 perdre patience et pour \xEAtre sinc\xE8re moi
+      aussi.\r\nApparemment, des soldats arrivent en renfort mais nous ne sommes
+      pas s\xFBrs de pouvoir tenir. \r\nJ\u2019ai aussi entendu dire qu\u2019un ultime
+      assaut allait avoir lieu non loin de l\xE0 et que cela pourrait mettre fin
+      \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
+      mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
+    State: 3
+    Position: {x: 18694, y: -338}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 90e5d64fc4a1ce84fa81eaee7b3e0afb, type: 3}
+    cocoInt: 6
+    consequense: 1
+  - Guid: 626b4cf0-1043-4d7e-a66a-aefa8e79d79d
+    DialogueText: "Salut camarade,\r\nJe vais bient\xF4t assister \xE0 un meeting
+      de SS haut plac\xE9, je vais pouvoir obtenir des informations qui vont nous
+      permettre de gagner cette guerre j\u2019en suis certain.\r\nComme quoi, les
+      cours d\u2019allemand de Monsieur Rudolf ne m'auront pas servi \xE0 rien.\r\nCependant,
+      j\u2019sais aussi qu\u2019il va bient\xF4t y avoir une ex\xE9cution publique
+      de plusieurs juifs qui ont \xE9t\xE9 d\xE9couverts.\r\nCe sont des camarades,
+      je ne peux pas les laisser comme \xE7a.\r\nTu sais ce que j\u2019ai v\xE9cu,
+      mes parents sont morts pour les m\xEAme raisons, peut-\xEAtre que ces personnes
+      ont aussi un enfant qui va \xEAtre laiss\xE9 \xE0 lui-m\xEAme s'ils se font
+      ex\xE9cuter.\r\nJe ne peux pas les laisser comme \xE7a, je sais que j\u2019ai
+      des chances d\u2019y rester mais c\u2019est mon devoir de les sauver.\r\nMais
+      en m\xEAme temps, il faut aussi que je continue mon travail pour sauver tout
+      mon pays.\r\nIl faut que je prenne une d\xE9cision.\r\nQue dois-je faire ?\r\n"
+    State: 2
+    Position: {x: 18525, y: 122}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
+    cocoInt: 7
+    consequense: 1
+  - Guid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
+    DialogueText: "Cher camarade,\r\nPendant que tous les Allemands dormaient, j\u2019ai
+      infiltr\xE9 les cellules de la ville.\r\n\xC7a nous a pris pas mal de temps
+      mais on les a trouv\xE9s. \r\nJ\u2019ai cr\xE9\xE9 une distraction pour que
+      les gardes s'\xE9loignent pendant qu\u2019un de mes camarades  lib\xE8re les
+      prisonniers; les nazi ne sont vraiment pas tr\xE8s fut\xE9s.\r\nEt je peux
+      te dire qu\u2019on a bien fait de les lib\xE9rer, car ils d\xE9tenaient des
+      informations pr\xE9cieuses sur les futures attaques des nazis.\r\nJ\u2019aimerais
+      d\xE9velopper mais je n\u2019ai plus le temps, il faut que je trouve un plan
+      pour m\u2019enfuir d\u2019ici.\r\nJe te tiens au courant mon ami.\r\n"
+    State: 2
+    Position: {x: 17452, y: -520}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: e4d6361b5244fe140bc661dc283677aa, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
+    DialogueText: "Mon ami,\r\nJe vais devoir \xEAtre tr\xE8s bref mais les SS allemands
+      m\u2019ont trouv\xE9 trop suspicieux. \r\nJe ne vais ni pouvoir sauver les
+      prisonniers ni participer \xE0 cette r\xE9union.\r\n\xC7a serait te mentir
+      si je te dis que je suis pas dans de s\xE9rieux ennuis actuellement.\r\nJe
+      te r\xE9\xE9cris le plus t\xF4t possible.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 17452, y: -280}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: ec43a5b7800113b4ab73c687030bf890, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
+    DialogueText: "Salut camarade,\r\nJe vais bient\xF4t assister \xE0 un meeting
+      de SS haut plac\xE9, je vais pouvoir obtenir des informations qui vont nous
+      permettre de gagner cette guerre j\u2019en suis certain.\r\nComme quoi, les
+      cours d\u2019allemand de Monsieur Rudolf ne m'auront pas servi \xE0 rien.\r\nCependant,
+      j\u2019sais aussi qu\u2019il va bient\xF4t y avoir une ex\xE9cution publique
+      de plusieurs juifs qui ont \xE9t\xE9 d\xE9couverts.\r\nCe sont des camarades,
+      je ne peux pas les laisser comme \xE7a.\r\nTu sais ce que j\u2019ai v\xE9cu,
+      mes parents sont morts pour les m\xEAme raisons, peut-\xEAtre que ces personnes
+      ont aussi un enfant qui va \xEAtre laiss\xE9 \xE0 lui-m\xEAme s'ils se font
+      ex\xE9cuter.\r\nJe ne peux pas les laisser comme \xE7a, je sais que j\u2019ai
+      des chances d\u2019y rester mais c\u2019est mon devoir de les sauver.\r\nMais
+      en m\xEAme temps, il faut aussi que je continue mon travail pour sauver tout
+      mon pays.\r\nIl faut que je prenne une d\xE9cision.\r\nQue dois-je faire ?\r\n"
+    State: 2
+    Position: {x: 15784, y: -491}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
+    cocoInt: 7
+    consequense: 1
+  - Guid: 1db7b169-75ef-4e5f-93be-38e272349e93
+    DialogueText: "Ch\xE8re fr\xE8re \r\nJe commence \xE0 fatiguer. \r\nLes bruits
+      des bombes commencent \xE0 \xEAtre naturels pour moi. Le moral des troupes
+      est au plus bas. \r\nL\u2019ennemi nous attaque sans cesse et ne nous laisse
+      aucun moment de r\xE9pit. \r\nLes rations de nourritures commencent a diminu\xE9
+      et les soldats commencent \xE0 perdre patience et pour \xEAtre sinc\xE8re moi
+      aussi.\r\nApparemment, des soldats arrivent en renfort mais nous ne sommes
+      pas s\xFBrs de pouvoir tenir. \r\nJ\u2019ai aussi entendu dire qu\u2019un ultime
+      assaut allait avoir lieu non loin de l\xE0 et que cela pourrait mettre fin
+      \xE0 cette guerre. \r\nS\u2019il te plait laisse moi y aller. \r\nJe veux servir
+      mon pays jusqu\u2019au bout.\r\nDe ton ch\xE8re fr\xE8re \r\nCharles    \r\n"
+    State: 3
+    Position: {x: 15761, y: -69}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 90e5d64fc4a1ce84fa81eaee7b3e0afb, type: 3}
+    cocoInt: 6
+    consequense: 1
+  - Guid: 30acdae4-3c75-47a9-8f84-bf7e99056d9a
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 tes instructions, mon r\xE9giment
+      et moi sommes en route pour pr\xEAter main-forte aux troupes de Stuttgart.\r\nJe
+      suis heureux d\u2019avoir pu assister mes compagnons \xE0 Brumath, mais on
+      a besoin de moi ailleurs. \r\nApr\xE8s une longue travers\xE9e nous atteindrons
+      le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
+      te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 17300, y: -51}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: e4404c4876e8e7448a5ef0f95bbb1f11, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 5d7262ea-63ee-4ed1-a5ef-69d2b237f03c
+    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
+      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
+      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
+      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
+      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
+      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
+      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
+      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
+      fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 17300, y: 193}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: 2b31b64f7d999ee4d81b0a662b7e4b59, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: d3623af2-9004-4354-a8c8-57920fda7ea5
+    DialogueText: "Soldat. \r\nUne bataille hautement strat\xE9gique est sur le point
+      d\u2019avoir lieu. \r\nL'escouade Berthe va bient\xF4t atteindre son objectif
+      \xE0 Stuttgart.\r\nCependant nous n\u2019avons plus assez de temps, il nous
+      faut faire des choix difficiles.\r\nJ\u2019ai confiance en vous.\r\nVive la
+      R\xE9publique. \r\nVive la France."
+    State: 1
+    Position: {x: 21337, y: -51}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: bde9bfe70b2f15c40922dda4fe1848dd, type: 3}
+    cocoInt: 10
+    consequense: 0
+  - Guid: af539145-fc11-41b7-9645-31d77ebd7fe7
+    DialogueText: "Cher camarade,\r\nPendant que tous les Allemands dormaient, j\u2019ai
+      infiltr\xE9 les cellules de la ville.\r\n\xC7a nous a pris pas mal de temps
+      mais on les a trouv\xE9s. \r\nJ\u2019ai cr\xE9\xE9 une distraction pour que
+      les gardes s'\xE9loignent pendant qu\u2019un de mes camarades  lib\xE8re les
+      prisonniers; les nazi ne sont vraiment pas tr\xE8s fut\xE9s.\r\nEt je peux
+      te dire qu\u2019on a bien fait de les lib\xE9rer, car ils d\xE9tenaient des
+      informations pr\xE9cieuses sur les futures attaques des nazis.\r\nJ\u2019aimerais
+      d\xE9velopper mais je n\u2019ai plus le temps, il faut que je trouve un plan
+      pour m\u2019enfuir d\u2019ici.\r\nJe te tiens au courant mon ami.\r\n"
+    State: 2
+    Position: {x: 20008, y: 58}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: e4d6361b5244fe140bc661dc283677aa, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: ea71d76a-3985-432f-9931-faa1c5472a53
+    DialogueText: "Cher fr\xE8re,\r\nVu l'avanc\xE9e de l\u2019ennemi, nous avons
+      battu en retraite pour aller rejoindre les renforts. \r\nMais l\u2019ennemi
+      avait vu clair dans notre jeu et en a profit\xE9 pour nous attaquer par surprise.\r\nTous
+      ceux qui ont r\xE9ussi \xE0 s'en sortir on \xE9t\xE9 envoy\xE9s vers un autre
+      front. \r\nLes autres et moi avons \xE9t\xE9 transf\xE9r\xE9s au bataillon
+      de Stuttgart.\r\nIl faut croire que c\u2019est le destin.\r\nApr\xE8s une longue
+      travers\xE9e nous atteindrons le camp alli\xE9 et nous nous pr\xE9parons pour
+      la future bataille. \r\nJe te ferai un compte rendu bient\xF4t\r\nTon cher
+      fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 20131, y: -258}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: 2b31b64f7d999ee4d81b0a662b7e4b59, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: c2df19db-b73a-481d-8e14-2fba09afd772
+    DialogueText: "Mon ami,\r\nJe vais devoir \xEAtre tr\xE8s bref mais les SS allemands
+      m\u2019ont trouv\xE9 trop suspicieux. \r\nJe ne vais ni pouvoir sauver les
+      prisonniers ni participer \xE0 cette r\xE9union.\r\n\xC7a serait te mentir
+      si je te dis que je suis pas dans de s\xE9rieux ennuis actuellement.\r\nJe
+      te r\xE9\xE9cris le plus t\xF4t possible.\r\n\r\n\t\t\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 20025, y: 381}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: ec43a5b7800113b4ab73c687030bf890, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: e95386ec-6280-4436-a816-d0865c5eb5e1
+    DialogueText: "Cher fr\xE8re,\r\nGr\xE2ce \xE0 tes instructions, mon r\xE9giment
+      et moi sommes en route pour pr\xEAter main-forte aux troupes de Stuttgart.\r\nJe
+      suis heureux d\u2019avoir pu assister mes compagnons \xE0 Brumath, mais on
+      a besoin de moi ailleurs. \r\nApr\xE8s une longue travers\xE9e nous atteindrons
+      le camp alli\xE9 et nous nous pr\xE9parons pour la future bataille. \r\nJe
+      te ferai un compte rendu bient\xF4t\r\nTon cher fr\xE8re\r\nCharles\r\n"
+    State: 3
+    Position: {x: 20129, y: -569}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: e4404c4876e8e7448a5ef0f95bbb1f11, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: f689bf93-788b-4ced-bc5a-4f23a8e59a85
+    DialogueText: "Cher fr\xE8re,\r\nEn attaquant les ennemis par le champ nous avons
+      r\xE9ussi \xE0 les prendre par surprise.\r\nL\u2019ennemi a battu en retraite
+      et nous avons tous surv\xE9cu \xE0 cet assaut.\r\nUne fois revenu au camp,
+      un bataillon de renforts est venu et nous avons eu l\u2019autorisation de rentrer
+      chez nous.\r\nJe n\u2019ai pas pu mettre fin \xE0 la guerre mais j\u2019ai
+      au moins servi ma patrie avec honneur.\r\nUne fois rentr\xE9, je t'attendrai
+      \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles "
+    State: 3
+    Position: {x: 22584, y: -1726}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: b96012cf3c28abb47965e4b99cc4f716, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 252f7e38-a123-47f6-8dbf-bec28eaa16c0
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nEn attaquant les ennemis nous nous sommes
+      fait prendre en embuscade.\r\nL\u2019ennemi nous attendait dans la for\xEAt
+      et nous on prit par surprise.\r\nA cause de cela, la moiti\xE9 du bataillon
+      a \xE9t\xE9 tu\xE9e.\r\nDe plus, j\u2019ai perdu mon bras gauche. J\u2019ai
+      d\xFB dicter cette lettre \xE0 un ami.\r\nLa douleur est trop grande pour que
+      je tienne de quoi noter.\r\nOn m'a dit que c\u2019\xE9tait fini pour moi, que
+      j\u2019avais accompli mon r\xF4le dans l\u2019arm\xE9e. \r\nJe vais maintenant
+      rentrer sachant que cette guerre continue encore.\r\nC\u2019est frustrant.\r\nJe
+      t'attendrai \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher
+      fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
+    State: 3
+    Position: {x: 22602, y: -1381}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: ae2a1259ebb320240893a242f38d2743, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 7e7787c6-0d1f-4e7e-b229-608dc4db79e0
+    DialogueText: "Jacques, \r\nJe ne veux pas t\u2019inqui\xE9ter mais je suis mal
+      barr\xE9.\r\nIls ont compris que mon uniforme \xE9tait bidon.\r\nActuellement
+      ils sont toute une troupe \xE0 me rechercher.\r\nHeureusement, j\u2019ai pu
+      trouver un coin o\xF9 je peux me cacher mais je ne vais pas pouvoir y hiberner
+      toute ma vie.\r\nTu sais comment je suis, je me suis sortie de pleins de situations
+      de merde. Mais je dois avouer que celle-la c\u2019est la pire de tous.\r\nSi
+      tu veux un jour qu\u2019on se revoit, il va falloir que tu appelles du renfort,
+      on a plus le choix.\r\nR\xE9fl\xE9chis bien et prends la bonne d\xE9cision.
+      \r\nSaches que quoi qu\u2019il arrive, Jacques, tu seras toujours dans mon
+      c\u0153ur.\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 23511, y: -1529}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 5febefbd4ebc0eb4888cd030d2346df5, type: 3}
+    cocoInt: 8
+    consequense: 1
+  - Guid: b4ff0a12-7280-4ed9-9d40-be1ed38c7ca4
+    DialogueText: "Cher fr\xE8re,\r\nEn attaquant les ennemis par le champ nous avons
+      r\xE9ussi \xE0 les prendre par surprise.\r\nL\u2019ennemi a battu en retraite
+      et nous avons tous surv\xE9cu \xE0 cet assaut.\r\nUne fois revenu au camp,
+      un bataillon de renforts est venu et nous avons eu l\u2019autorisation de rentrer
+      chez nous.\r\nJe n\u2019ai pas pu mettre fin \xE0 la guerre mais j\u2019ai
+      au moins servi ma patrie avec honneur.\r\nUne fois rentr\xE9, je t'attendrai
+      \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher fr\xE8re\r\n\t\t\tCharles "
+    State: 3
+    Position: {x: 24437, y: 211}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: b96012cf3c28abb47965e4b99cc4f716, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: f70c0855-2f39-4098-a08a-b2dd8c7af74a
+    DialogueText: "Ch\xE8re fr\xE8re,\r\nEn attaquant les ennemis nous nous sommes
+      fait prendre en embuscade.\r\nL\u2019ennemi nous attendait dans la for\xEAt
+      et nous on prit par surprise.\r\nA cause de cela, la moiti\xE9 du bataillon
+      a \xE9t\xE9 tu\xE9e.\r\nDe plus, j\u2019ai perdu mon bras gauche. J\u2019ai
+      d\xFB dicter cette lettre \xE0 un ami.\r\nLa douleur est trop grande pour que
+      je tienne de quoi noter.\r\nOn m'a dit que c\u2019\xE9tait fini pour moi, que
+      j\u2019avais accompli mon r\xF4le dans l\u2019arm\xE9e. \r\nJe vais maintenant
+      rentrer sachant que cette guerre continue encore.\r\nC\u2019est frustrant.\r\nJe
+      t'attendrai \xE0 la maison aupr\xE8s de m\xE8re.\r\nAu revoir \r\nTon cher
+      fr\xE8re\r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
+    State: 3
+    Position: {x: 24443, y: -192}
+    gaugeValue: -3
+    audioSource: {fileID: 8300000, guid: ae2a1259ebb320240893a242f38d2743, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 4dd3d798-e9bc-4ab8-b9e0-fa638d8c79ef
+    DialogueText: "Mon ami,\r\nMerci beaucoup, gr\xE2ce \xE0 toi j\u2019ai pu \xEAtre
+      sauv\xE9 par les troupes que tu m\u2019as envoy\xE9.\r\n\xC7a va prendre quelques
+      jours avant que je revienne \xE0 la base mais je te promet qu\u2019on va se
+      la boire cette bi\xE8re\r\nEn plus \xE7a sera ma tourn\xE9e car j\u2019ai r\xE9cup\xE9r\xE9
+      des informations cruciales pour gagner la guerre, je vais enfin recevoir une
+      promotion \xE0 un poste plus calme.\r\nMais tu sais, j\u2019en serais pas l\xE0
+      si tu n\u2019avais pas \xE9t\xE9 pr\xE9sent pour me guider \xE0 chaque \xE9tape.\r\nDonc
+      je voulais juste te remercier mon ami d\u2019avoir toujours cru en moi jusqu\u2019\xE0
+      maintenant.\r\nJ\u2019ai h\xE2te de te revoir.\r\n"
+    State: 3
+    Position: {x: 22761, y: -250}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 3eb98e79-0174-4d35-9d87-442c4e993c42
+    DialogueText: "Mon ami,\r\nMerci beaucoup, gr\xE2ce \xE0 toi j\u2019ai pu \xEAtre
+      sauv\xE9 par les troupes que tu m\u2019as envoy\xE9.\r\n\xC7a va prendre quelques
+      jours avant que je revienne \xE0 la base mais je te promet qu\u2019on va se
+      la boire cette bi\xE8re\r\nM\xEAme si je n\u2019ai pas pu obtenir d'informations,
+      je suis quand m\xEAme rassur\xE9 d\u2019\xEAtre rest\xE9 en vie.\r\nMais tu
+      sais, j\u2019en serais pas l\xE0 si tu n\u2019avais pas \xE9t\xE9 pr\xE9sent
+      pour me guider pour chaque d\xE9cision. \r\nJe sais que d\u2019habitude c\u2019est
+      moi qui dirige les choses et qui prend tout en main donc \xE7a a d\xFB te faire
+      bizarre pour toi.\r\nDonc je voulais juste te remercier mon ami d\u2019avoir
+      toujours cru en moi jusqu\u2019\xE0 maintenant.\r\nJ\u2019ai h\xE2te de te
+      revoir.\r\n"
+    State: 2
+    Position: {x: 22777, y: 226}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: c7c1bdb8-0699-4d4e-b409-3c3fc3245f46
+    DialogueText: "Monsieur Martin,\r\n\r\nJ\u2019ai le regret de vous annoncer le
+      d\xE9c\xE8s de votre fr\xE8re Charles Martin, ce lundi 18 janvier 1942 \xE0
+      Stuttgart.\r\n\r\nIl s\u2019est courageusement battu pour son pays et nous
+      lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
+      ministre de la d\xE9fense\r\n"
+    State: 0
+    Position: {x: 22585, y: -923}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: c26eee26-cad9-4d76-9cae-1a3ce5cafbbb
+    DialogueText: "Mon ami,\r\nMerci beaucoup, gr\xE2ce \xE0 toi j\u2019ai pu \xEAtre
+      sauv\xE9 par les troupes que tu m\u2019as envoy\xE9.\r\n\xC7a va prendre quelques
+      jours avant que je revienne \xE0 la base mais je te promet qu\u2019on va se
+      la boire cette bi\xE8re\r\nM\xEAme si je n\u2019ai pas pu obtenir d'informations,
+      je suis quand m\xEAme rassur\xE9 d\u2019\xEAtre rest\xE9 en vie.\r\nMais tu
+      sais, j\u2019en serais pas l\xE0 si tu n\u2019avais pas \xE9t\xE9 pr\xE9sent
+      pour me guider pour chaque d\xE9cision. \r\nJe sais que d\u2019habitude c\u2019est
+      moi qui dirige les choses et qui prend tout en main donc \xE7a a d\xFB te faire
+      bizarre pour toi.\r\nDonc je voulais juste te remercier mon ami d\u2019avoir
+      toujours cru en moi jusqu\u2019\xE0 maintenant.\r\nJ\u2019ai h\xE2te de te
+      revoir.\r\n"
+    State: 2
+    Position: {x: 24487, y: -1453}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: c5a44846-aeb6-4d6d-884c-ec91bf8fc7f0
+    DialogueText: "Monsieur Martin,\r\n\r\nJ\u2019ai le regret de vous annoncer le
+      d\xE9c\xE8s de votre proche Jean Pierre Bernot, ce lundi 18 janvier 1942 \xE0
+      Stuttgart.\r\n\r\nIl s\u2019est courageusement battu pour son pays et nous
+      lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
+      ministre de la d\xE9fense\r\n"
+    State: 0
+    Position: {x: 24472, y: -1091}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: 5c1df75f-b729-46a8-b16f-9765d4977853
+    DialogueText: "Monsieur Martin,\r\n\r\nJ\u2019ai le regret de vous annoncer le
+      d\xE9c\xE8s de votre proche Jean Pierre Bernot, ce lundi 18 janvier 1942 \xE0
+      Stuttgart.\r\n\r\nIl s\u2019est courageusement battu pour son pays et nous
+      lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
+      ministre de la d\xE9fense\r\n"
+    State: 0
+    Position: {x: 22779, y: 633}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: d357b497-e2fa-4f4a-ac9b-155bacfbbd85
+    DialogueText: "Cher fr\xE8re \r\nNous sommes enfin arriv\xE9s au front de Stuttgart.\r\nL\u2019ennemi
+      se fait bombarder et n'as pas le temps de respirer.\r\nLe chef des troupes
+      alli\xE9s compte faire une offensive ce soir\r\n\xC7a serait le moment id\xE9al
+      pour contourner l\u2019ennemi et lui mettre le coup de gr\xE2ce.\r\nIl y a
+      une for\xEAt sur la droite et un champ sur la gauche; id\xE9al pour rester
+      discret.\r\nIl est temps de mettre fin \xE0 cette bataille.\r\nJ'ai h\xE2te
+      de pouvoir en finir pour pouvoir rentrer.\r\nTon bataillon attend tes ordres.\r\nTon
+      cher fr\xE8re \r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
+    State: 3
+    Position: {x: 23749, y: 0}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 644403ff680f21b4497cd6d4073dc34e, type: 3}
+    cocoInt: 9
+    consequense: 1
+  - Guid: df68edad-921d-4370-b102-3c4630d8bab3
+    DialogueText: "Monsieur Martin,\r\n\r\nJ\u2019ai le regret de vous annoncer le
+      d\xE9c\xE8s de votre fr\xE8re Charles Martin, ce lundi 18 janvier 1942 \xE0
+      Stuttgart.\r\n\r\nIl s\u2019est courageusement battu pour son pays et nous
+      lui serons pour toujours reconnaissant.\r\n\r\nCordialement \r\nMonsieur le
+      ministre de la d\xE9fense\r\n"
+    State: 0
+    Position: {x: 24438, y: 671}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 0
+    consequense: 0
+  - Guid: e811fd46-ce0f-46e5-bae2-bda04be2c1da
+    DialogueText: "Mon ami,\r\nMerci beaucoup, gr\xE2ce \xE0 toi j\u2019ai pu \xEAtre
+      sauv\xE9 par les troupes que tu m\u2019as envoy\xE9.\r\n\xC7a va prendre quelques
+      jours avant que je revienne \xE0 la base mais je te promet qu\u2019on va se
+      la boire cette bi\xE8re\r\nEn plus \xE7a sera ma tourn\xE9e car j\u2019ai r\xE9cup\xE9r\xE9
+      des informations cruciales pour gagner la guerre, je vais enfin recevoir une
+      promotion \xE0 un poste plus calme.\r\nMais tu sais, j\u2019en serais pas l\xE0
+      si tu n\u2019avais pas \xE9t\xE9 pr\xE9sent pour me guider \xE0 chaque \xE9tape.\r\nDonc
+      je voulais juste te remercier mon ami d\u2019avoir toujours cru en moi jusqu\u2019\xE0
+      maintenant.\r\nJ\u2019ai h\xE2te de te revoir.\r\n"
+    State: 2
+    Position: {x: 24480, y: -1861}
+    gaugeValue: 3
+    audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
+    cocoInt: 0
+    consequense: 0
+  - Guid: cf74a83d-9ce1-4700-9680-78845f33411d
+    DialogueText: "Votre role est fini \nMeric d'avoir jouer au jeu."
+    State: 0
+    Position: {x: 25687, y: -513}
+    gaugeValue: 0
+    audioSource: {fileID: 0}
+    cocoInt: 11
+    consequense: 0
+  - Guid: 4be3fc17-e6bf-4ca4-8c6a-f34857f1cc3c
+    DialogueText: "Jacques, \r\nJe ne veux pas t\u2019inqui\xE9ter mais je suis mal
+      barr\xE9.\r\nIls ont compris que mon uniforme \xE9tait bidon.\r\nActuellement
+      ils sont toute une troupe \xE0 me rechercher.\r\nHeureusement, j\u2019ai pu
+      trouver un coin o\xF9 je peux me cacher mais je ne vais pas pouvoir y hiberner
+      toute ma vie.\r\nTu sais comment je suis, je me suis sortie de pleins de situations
+      de merde. Mais je dois avouer que celle-la c\u2019est la pire de tous.\r\nSi
+      tu veux un jour qu\u2019on se revoit, il va falloir que tu appelles du renfort,
+      on a plus le choix.\r\nR\xE9fl\xE9chis bien et prends la bonne d\xE9cision.
+      \r\nSaches que quoi qu\u2019il arrive, Jacques, tu seras toujours dans mon
+      c\u0153ur.\r\n\r\n\t\t\t\t\t\t\t\t\t\tJP"
+    State: 2
+    Position: {x: 21781, y: 392}
+    gaugeValue: 5
+    audioSource: {fileID: 8300000, guid: 5febefbd4ebc0eb4888cd030d2346df5, type: 3}
+    cocoInt: 8
+    consequense: 1
+  - Guid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
+    DialogueText: "Cher fr\xE8re \r\nNous sommes enfin arriv\xE9s au front de Stuttgart.\r\nL\u2019ennemi
+      se fait bombarder et n'as pas le temps de respirer.\r\nLe chef des troupes
+      alli\xE9s compte faire une offensive ce soir\r\n\xC7a serait le moment id\xE9al
+      pour contourner l\u2019ennemi et lui mettre le coup de gr\xE2ce.\r\nIl y a
+      une for\xEAt sur la droite et un champ sur la gauche; id\xE9al pour rester
+      discret.\r\nIl est temps de mettre fin \xE0 cette bataille.\r\nJ'ai h\xE2te
+      de pouvoir en finir pour pouvoir rentrer.\r\nTon bataillon attend tes ordres.\r\nTon
+      cher fr\xE8re \r\n\t\t\t\t\t\t\t\t\t\t\tCharles"
+    State: 3
+    Position: {x: 21827, y: -1596}
+    gaugeValue: 0
+    audioSource: {fileID: 8300000, guid: 644403ff680f21b4497cd6d4073dc34e, type: 3}
+    cocoInt: 9
+    consequense: 1

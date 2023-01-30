@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -557,6 +557,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 117635210}
+        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
+        m_MethodName: CancelAnimations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1411742733}
         m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
         m_MethodName: GoToNextDialogue
@@ -1526,12 +1538,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 117635210}
+        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
+        m_MethodName: CancelAnimations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1411742733}
         m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
         m_MethodName: GoToNextDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 349356110}
+          m_ObjectArgument: {fileID: 899080580}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2921,7 +2945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 026d9d807f7dad44bab6b48d44ae7952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueContainer: {fileID: 11400000, guid: 32d73a5096d3c95479cba6024d1dfbe9, type: 2}
+  dialogueContainer: {fileID: 11400000, guid: e00803d4eca9f18409cea2aaf1b9bfd6, type: 2}
   textmanager: {fileID: 7600562593144598647}
   decoder: {fileID: 2055449724}
   consequences: {fileID: 1959370285}
@@ -3483,12 +3507,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 117635210}
+        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
+        m_MethodName: CancelAnimations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1411742733}
         m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
         m_MethodName: GoToNextDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 235809997}
+          m_ObjectArgument: {fileID: 899080580}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -3831,12 +3867,24 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 117635210}
+        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
+        m_MethodName: CancelAnimations
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1411742733}
         m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
         m_MethodName: GoToNextDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1759507156}
+          m_ObjectArgument: {fileID: 899080580}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4038,9 +4086,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1411742733}
-        m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
-        m_MethodName: ReadCurrentNode
+      - m_Target: {fileID: 117635210}
+        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
+        m_MethodName: CancelAnimations
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4050,9 +4098,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 117635210}
-        m_TargetAssemblyTypeName: TextTweening, Assembly-CSharp
-        m_MethodName: CancelAnimations
+      - m_Target: {fileID: 1411742733}
+        m_TargetAssemblyTypeName: ParserDialogueGraph, Assembly-CSharp
+        m_MethodName: ReadCurrentNode
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
