@@ -405,7 +405,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 1724, y: 530}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
+    audioSource: {fileID: 8300000, guid: d0ab6132614c1034aa1738f11630f8ba, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 32245435-4b9c-477b-916a-d58eff1b6b8b
@@ -448,7 +448,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 2772, y: -193}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 97460cef3edf64d4c919e240f0d94443, type: 3}
+    audioSource: {fileID: 8300000, guid: d0ab6132614c1034aa1738f11630f8ba, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 1b31f845-1a19-4860-b2df-a3989889b13a
@@ -494,7 +494,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 4742, y: 214}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
+    audioSource: {fileID: 8300000, guid: 05ce51bee494d44408585c37e3560990, type: 3}
     cocoInt: 2
     consequense: 1
   - Guid: ebd4c2ae-4b2f-4624-beb7-b82ffa54e93a
@@ -518,7 +518,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 5688, y: 453}
     gaugeValue: -1
-    audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
+    audioSource: {fileID: 8300000, guid: a3aeb089a67194240a69a1e9a7b684ea, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 063ff60a-67ca-4677-bbcd-45195d4b55c0
@@ -530,7 +530,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 5703, y: 158}
     gaugeValue: 1
-    audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
+    audioSource: {fileID: 8300000, guid: 334c4c6f7d6760145b7c0499528db6d0, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 342a5fa1-bd02-41ec-9666-c359d43fa176
@@ -576,7 +576,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 9683, y: -448}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
+    audioSource: {fileID: 8300000, guid: 028815a41faaa6e4ba9eb6dc2e7f0c0c, type: 3}
     cocoInt: 4
     consequense: 1
   - Guid: 18ae4497-bab2-471c-8f54-8d3216af7dba
@@ -602,7 +602,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 11213, y: -563}
     gaugeValue: 2
-    audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
+    audioSource: {fileID: 8300000, guid: 5d160f424481c9646a386130da701489, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 673eac62-db83-42b7-a403-854c1c353df0
@@ -616,7 +616,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 11213, y: -294}
     gaugeValue: -2
-    audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
+    audioSource: {fileID: 8300000, guid: 41596d8d7c30b3240801e3ae205717da, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 9b93fa68-6d4e-49db-b019-89c5b438c024
@@ -647,7 +647,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 12137, y: 129}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: b09464bdd9df5ff41b7ade86366cfcc8, type: 3}
+    audioSource: {fileID: 8300000, guid: 028815a41faaa6e4ba9eb6dc2e7f0c0c, type: 3}
     cocoInt: 4
     consequense: 1
   - Guid: bf4c908a-9c13-4ac9-8b9c-be43caefbede
@@ -685,7 +685,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 7863, y: -690}
     gaugeValue: 2
-    audioSource: {fileID: 8300000, guid: 6b60cd6dbac204a47ae065dcef0553af, type: 3}
+    audioSource: {fileID: 8300000, guid: 334c4c6f7d6760145b7c0499528db6d0, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: d147a44e-41a3-4681-a76f-7b4aad736a1f
@@ -696,7 +696,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 7920, y: -232}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: b64593fafd160d348ace3ee491d2c24d, type: 3}
+    audioSource: {fileID: 8300000, guid: a3aeb089a67194240a69a1e9a7b684ea, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 23b903da-882f-4680-8fee-c7da9fcc90cc
@@ -743,7 +743,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 6706, y: -506}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 1bff6a6ea1f743d4b86cb8139b5a551d, type: 3}
+    audioSource: {fileID: 8300000, guid: 05ce51bee494d44408585c37e3560990, type: 3}
     cocoInt: 2
     consequense: 1
   - Guid: 03cea8e8-828b-4580-beac-a1a4326d94e7
@@ -813,7 +813,7 @@ MonoBehaviour:
     State: 0
     Position: {x: 13354, y: -74}
     gaugeValue: 2
-    audioSource: {fileID: 8300000, guid: f23e69a884cefd546a8cb6f87cd49d12, type: 3}
+    audioSource: {fileID: 8300000, guid: 5d160f424481c9646a386130da701489, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 981b26cf-4cfd-4cf4-8a0f-ec059923ef6b
@@ -827,7 +827,7 @@ MonoBehaviour:
     State: 0
     Position: {x: 13400, y: 173}
     gaugeValue: -2
-    audioSource: {fileID: 8300000, guid: 99a1392388308394c8faa47ecc6ad3a9, type: 3}
+    audioSource: {fileID: 8300000, guid: 6400a984a13d72d47957e976c2c97e73, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: a6268f3e-99b8-4a31-83c8-beb2841e2eca
@@ -876,7 +876,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 18525, y: 122}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
+    audioSource: {fileID: 8300000, guid: edd8e01186f8e8f4784c82a94dc91dd2, type: 3}
     cocoInt: 7
     consequense: 1
   - Guid: 08cfa7e7-5bb8-4195-adb2-281fbe9658fd
@@ -892,7 +892,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 17452, y: -520}
     gaugeValue: 3
-    audioSource: {fileID: 8300000, guid: e4d6361b5244fe140bc661dc283677aa, type: 3}
+    audioSource: {fileID: 8300000, guid: 41596d8d7c30b3240801e3ae205717da, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: bdb3a35b-12ae-44dc-b858-86d4285ec41e
@@ -904,7 +904,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 17452, y: -280}
     gaugeValue: -3
-    audioSource: {fileID: 8300000, guid: ec43a5b7800113b4ab73c687030bf890, type: 3}
+    audioSource: {fileID: 8300000, guid: c368374a97a06514e9dc2a0af9204884, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 7b455950-0ce3-4d77-8337-2f2fc9095ced
@@ -924,7 +924,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 15784, y: -491}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 7263a1b2454709b41bef9060f2b65ba2, type: 3}
+    audioSource: {fileID: 8300000, guid: edd8e01186f8e8f4784c82a94dc91dd2, type: 3}
     cocoInt: 7
     consequense: 1
   - Guid: 1db7b169-75ef-4e5f-93be-38e272349e93
@@ -998,7 +998,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 20008, y: 58}
     gaugeValue: 3
-    audioSource: {fileID: 8300000, guid: e4d6361b5244fe140bc661dc283677aa, type: 3}
+    audioSource: {fileID: 8300000, guid: 41596d8d7c30b3240801e3ae205717da, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: ea71d76a-3985-432f-9931-faa1c5472a53
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 20025, y: 381}
     gaugeValue: -3
-    audioSource: {fileID: 8300000, guid: ec43a5b7800113b4ab73c687030bf890, type: 3}
+    audioSource: {fileID: 8300000, guid: c368374a97a06514e9dc2a0af9204884, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: e95386ec-6280-4436-a816-d0865c5eb5e1
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 23511, y: -1529}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 5febefbd4ebc0eb4888cd030d2346df5, type: 3}
+    audioSource: {fileID: 8300000, guid: 590045817680ced47a3d64d1f59433e9, type: 3}
     cocoInt: 8
     consequense: 1
   - Guid: b4ff0a12-7280-4ed9-9d40-be1ed38c7ca4
@@ -1134,7 +1134,7 @@ MonoBehaviour:
     State: 3
     Position: {x: 22761, y: -250}
     gaugeValue: 3
-    audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
+    audioSource: {fileID: 8300000, guid: 663d0b294b0538642a9c6871d585a3d9, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: 3eb98e79-0174-4d35-9d87-442c4e993c42
@@ -1152,7 +1152,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 22777, y: 226}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
+    audioSource: {fileID: 8300000, guid: 11eac8259cd62b04c84d3afecc3ef6d8, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: c7c1bdb8-0699-4d4e-b409-3c3fc3245f46
@@ -1182,7 +1182,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 24487, y: -1453}
     gaugeValue: 0
-    audioSource: {fileID: 8300000, guid: 8642717f1428b814bb0826e71de50a27, type: 3}
+    audioSource: {fileID: 8300000, guid: 11eac8259cd62b04c84d3afecc3ef6d8, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: c5a44846-aeb6-4d6d-884c-ec91bf8fc7f0
@@ -1249,7 +1249,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 24480, y: -1861}
     gaugeValue: 3
-    audioSource: {fileID: 8300000, guid: adf60b5d1dc05d04c8a5c066f9f07429, type: 3}
+    audioSource: {fileID: 8300000, guid: 663d0b294b0538642a9c6871d585a3d9, type: 3}
     cocoInt: 0
     consequense: 0
   - Guid: cf74a83d-9ce1-4700-9680-78845f33411d
@@ -1274,7 +1274,7 @@ MonoBehaviour:
     State: 2
     Position: {x: 21781, y: 392}
     gaugeValue: 5
-    audioSource: {fileID: 8300000, guid: 5febefbd4ebc0eb4888cd030d2346df5, type: 3}
+    audioSource: {fileID: 8300000, guid: 590045817680ced47a3d64d1f59433e9, type: 3}
     cocoInt: 8
     consequense: 1
   - Guid: 2951c18e-4cd7-48df-8b7d-06d8e4f56b97
