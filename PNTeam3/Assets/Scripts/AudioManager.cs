@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Audio;
 using System;
 using DG.Tweening;
@@ -73,19 +74,43 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void ToggleMusic()
+    public void ToggleMusic(Image image)
     {
         musicSource.mute= !musicSource.mute;
+        if (musicSource.mute)
+        {
+            image.color = Color.grey;
+        }
+        else
+        {
+            image.color = Color.white;
+        }
     }
 
-    public void ToggleSFX()
+    public void ToggleSFX(Image image)
     {
         sfxSource.mute= !sfxSource.mute;
+        if (sfxSource.mute)
+        {
+            image.color = Color.grey;
+        }
+        else
+        {
+            image.color = Color.white;
+        }
     }
 
-    public void ToggleDubbing()
+    public void ToggleDubbing(Image image)
     {
         dubbingSource.mute= !dubbingSource.mute;
+        if (dubbingSource.mute)
+        {
+            image.color = Color.grey;
+        }
+        else
+        {
+            image.color = Color.white;
+        }
     }
 
     public void MusicVolume(float volume)
@@ -105,6 +130,7 @@ public class AudioManager : MonoBehaviour
         audioMixer.SetFloat("VolumeDubbing", ParseToDebit20(volume));
         //dubbingSource.volume = volume;
     }
+
     public static float ParseToDebit0(float value)
     {
         float parse = Mathf.Lerp(-80, 00, Mathf.Clamp01(value));

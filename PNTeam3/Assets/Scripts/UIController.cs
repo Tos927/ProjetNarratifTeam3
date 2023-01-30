@@ -12,7 +12,7 @@ public class UIController : MonoBehaviour
         GameManager.instance.ShowUI();
     }
 
-    public void ToggleMusic()
+    /*public void ToggleMusic()
     {
         AudioManager.instance.ToggleMusic();
     }
@@ -24,7 +24,7 @@ public class UIController : MonoBehaviour
     public void ToggleDubbing()
     {
         AudioManager.instance.ToggleDubbing();
-    }
+    }*/
 
     public void MusicVolume()
     {
