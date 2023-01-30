@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a839af2106595b4fbf08c7a8030bf12, type: 3}
-  m_Name: Lettre2BFF
+  m_Name: lettrefinal
   m_EditorClassIdentifier: 
-  lettersFirstSentence: 560052004d0054004b0048005800
-  lettersSecondSentence: 4b0043005a0054005a00
-  firstSentence: Le chien
-  secondSentence: Aboie
+  lettersFirstSentence: 50004b00580056004400
+  lettersSecondSentence: 570047005a004a004c00
+  firstSentence: Merci
+  secondSentence: Soldat
