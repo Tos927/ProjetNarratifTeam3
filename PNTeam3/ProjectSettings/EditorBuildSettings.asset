@@ -12,5 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/DialogueTest.unity
     guid: 8546e21a18b9245479eb4145f559f63f
   m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: ed930721a7d348a418f7d16c0e82df1a,
+      type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 62244b4a19c1c594fbf76fb7956e4143, type: 2}
