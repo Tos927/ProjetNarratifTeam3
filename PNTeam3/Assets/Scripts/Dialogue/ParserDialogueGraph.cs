@@ -1,11 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
 using T3;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 using TMPro;
 
@@ -60,7 +55,7 @@ public class ParserDialogueGraph : MonoBehaviour
 
     }
 
-    public void GoToNextDialogue(Text port)
+    public void GoToNextDialogue(TextMeshProUGUI port)
     {
         if (audioSource.isPlaying)
         {
@@ -217,7 +212,7 @@ public class ParserDialogueGraph : MonoBehaviour
 
         for (int i = 0; i < currentTextsChoices.Count; i++)
         {
-            buttonList[i].transform.GetChild(0).GetComponent<Text>().text = currentTextsChoices[i];
+            buttonList[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = currentTextsChoices[i];
         }
     }
 
