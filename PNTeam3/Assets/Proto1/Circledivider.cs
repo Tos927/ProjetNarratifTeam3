@@ -33,7 +33,7 @@ namespace T3
                 GameObject line = Instantiate(linePrefab, linePosition, Quaternion.identity);
                 RectTransform lineRect = line.GetComponent<RectTransform>();
                 lineRect.transform.Rotate(new Vector3(0,0,-angle));
-                lineRect.sizeDelta = new Vector2(lineRect.rect.width, GetComponent<RectTransform>().rect.height);
+                lineRect.sizeDelta = new Vector2(lineRect.rect.width *.95f, GetComponent<RectTransform>().rect.height);
                 line.transform.SetParent(transform);
                 line.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
                 lineList.Add(line);
@@ -41,7 +41,7 @@ namespace T3
                 GameObject textPosition = Instantiate(textPrefab, transform.position, Quaternion.identity);
                 textPosition.transform.SetParent(transform);
                 RectTransform textRect = textPosition.GetComponent<RectTransform>();
-                textRect.sizeDelta = new Vector2(lineRect.rect.width * 5, GetComponent<RectTransform>().rect.height * .85f);
+                textRect.sizeDelta = new Vector2(lineRect.rect.width * 5, GetComponent<RectTransform>().rect.height * .90f);
                 textRect.transform.Rotate(new Vector3(0, 0, -angle - angleStep / 2));
                 textRect.localScale = new Vector3(.5f, .5f, .5f);
                 textPosition.GetComponent<TextMeshProUGUI>().text = letters[i].ToString();
